@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from shahzadidevje.com, 2026-10-26, test recipe 3",
+  "recipes": [
+    {
+      "title": "Peri-Peri Marinade",
+      "source": "Shahzadi Devje",
+      "sourceUrl": "https://shahzadidevje.com/how-to-make-authentic-peri-peri-chicken/",
+      "servings": 5,
+      "prepMinutes": 15,
+      "cookMinutes": 10,
+      "effort": "medium",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": true,
+      "keepsDays": 5,
+      "tags": ["component", "marinade", "sauce", "spicy"],
+      "ingredients": [
+        { "id": "i1", "original": "1 red bell pepper, cut into medium chunks", "quantity": 1, "unit": "piece", "canonical": "red bell pepper", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "prep": "cut into chunks" },
+        { "id": "i2", "original": "1/4 cup (60 ml) extra virgin olive oil, divided", "quantity": 60, "unit": "ml", "canonical": "olive oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i3", "original": "2 shallots, peeled", "quantity": 2, "unit": "piece", "canonical": "shallot", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "red onion", "amountRule": "flexible" },
+        { "id": "i4", "original": "5 large garlic cloves, peeled", "quantity": 5, "unit": "clove", "canonical": "garlic", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i5", "original": "2 medium habanero peppers, with seeds", "quantity": 2, "unit": "piece", "canonical": "habanero", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "red chili", "amountRule": "flexible" },
+        { "id": "i6", "original": "1/2 cup cilantro, with stems", "quantity": 0.5, "unit": "cup", "canonical": "cilantro", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i7", "original": "1 1/2 tsp sea salt", "quantity": 1.5, "unit": "tsp", "canonical": "salt", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i8", "original": "1 1/2 tsp smoked paprika", "quantity": 1.5, "unit": "tsp", "canonical": "smoked paprika", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "swappable", "swap": "paprika", "amountRule": "flexible" },
+        { "id": "i9", "original": "1 tsp cayenne pepper", "quantity": 1, "unit": "tsp", "canonical": "cayenne pepper", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i10", "original": "1 1/2 tsp dried oregano", "quantity": 1.5, "unit": "tsp", "canonical": "oregano, dried", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i11", "original": "1 lemon, juice only", "quantity": 1, "unit": "piece", "canonical": "lemon", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "lime", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Toss the pepper chunks with 1 tsp of the olive oil and broil on the top-middle shelf until charred and tender but not mushy.", "uses": ["i1", "i2"], "timerMinutes": 8 },
+        { "id": "s2", "text": "Blend the roasted pepper with the remaining oil, shallots, garlic, habaneros, cilantro, salt, paprika, cayenne, oregano and lemon juice until smooth, keeping a little texture.", "uses": ["i1", "i2", "i3", "i4", "i5", "i6", "i7", "i8", "i9", "i10", "i11"], "makeAhead": { "maxDaysAhead": 5, "store": "fridge", "note": "freezes well in portions" } }
+      ],
+      "reviewNotes": ["Broil time not given; 8 minutes is a guess, watch it.", "Makes enough for 1.65 kg chicken; servings set to match."]
+    },
+    {
+      "title": "Peri-Peri Chicken",
+      "source": "Shahzadi Devje",
+      "sourceUrl": "https://shahzadidevje.com/how-to-make-authentic-peri-peri-chicken/",
+      "servings": 5,
+      "prepMinutes": 20,
+      "cookMinutes": 30,
+      "effort": "high",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": true,
+      "keepsDays": 4,
+      "tags": ["chicken", "grill", "spicy", "make ahead"],
+      "ingredients": [
+        { "id": "i1", "original": "1.65 kg chicken leg quarters, skin off, fat removed", "quantity": 1.65, "unit": "kg", "canonical": "chicken leg quarter", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "chicken thigh", "amountRule": "flexible", "floor": 0.75, "prep": "skin off, fat removed" },
+        { "id": "i2", "original": "1 batch peri-peri marinade", "quantity": 1, "unit": "piece", "canonical": "Peri-Peri Marinade", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "store-bought peri-peri sauce", "amountRule": "exact", "recipeRef": "Peri-Peri Marinade" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Massage two-thirds of the marinade into the chicken, working into every crevice. Keep the remaining third for basting. Refrigerate in an airtight container at least 24 hours.", "uses": ["i1", "i2"], "leadTimeHours": 24, "makeAhead": { "maxDaysAhead": 2, "store": "fridge", "note": "or freeze the marinated chicken on shopping day" } },
+        { "id": "s2", "text": "Heat an outdoor grill to medium-high and oil the grates. Grill the chicken, turning to prevent burning, basting once per side with the reserved marinade, until it reaches 77C (170F) inside, about 30 minutes.", "uses": ["i1", "i2"], "timerMinutes": 30 },
+        { "id": "s3", "text": "Rest 5 minutes before serving.", "uses": [], "timerMinutes": 5 }
+      ],
+      "reviewNotes": ["Source grills outdoors; an oven at 220C or a grill pan works, time will differ.", "Marinade split out as its own recipe (recipeRef)."]
+    }
+  ]
+}

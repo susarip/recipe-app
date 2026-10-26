@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from bakerita.com, 2026-10-26, test recipe 4",
+  "recipes": [
+    {
+      "title": "Miso Sesame Dressing",
+      "source": "Bakerita",
+      "sourceUrl": "https://www.bakerita.com/miso-sesame-dense-bean-salad/",
+      "servings": 4,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "effort": "low",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": false,
+      "keepsDays": 7,
+      "tags": ["component", "dressing", "vegan"],
+      "ingredients": [
+        { "id": "i1", "original": "3 tablespoons white or chickpea miso", "quantity": 3, "unit": "tbsp", "canonical": "white miso", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i2", "original": "2 tablespoons tamari", "quantity": 2, "unit": "tbsp", "canonical": "tamari", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "swappable", "swap": "soy sauce", "amountRule": "flexible" },
+        { "id": "i3", "original": "2 tablespoons rice vinegar", "quantity": 2, "unit": "tbsp", "canonical": "rice vinegar", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i4", "original": "2 tablespoons roasted sesame seeds", "quantity": 2, "unit": "tbsp", "canonical": "sesame seed", "boughtAs": "dried", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i5", "original": "1 tablespoon lime juice", "quantity": 1, "unit": "tbsp", "canonical": "lime", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "lemon", "amountRule": "flexible" },
+        { "id": "i6", "original": "1 teaspoon toasted sesame oil", "quantity": 1, "unit": "tsp", "canonical": "toasted sesame oil", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i7", "original": "1 teaspoon sweetener (honey, maple syrup, or coconut sugar)", "quantity": 1, "unit": "tsp", "canonical": "maple syrup", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "swappable", "swap": "honey", "amountRule": "flexible" },
+        { "id": "i8", "original": "1 teaspoon chili crisp or chili flakes", "quantity": 1, "unit": "tsp", "canonical": "chili crisp", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Whisk everything together in a small bowl.", "uses": ["i1", "i2", "i3", "i4", "i5", "i6", "i7", "i8"], "makeAhead": { "maxDaysAhead": 7, "store": "fridge" } }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "title": "Miso Sesame Dense Bean Salad",
+      "source": "Bakerita (via Pinterest)",
+      "sourceUrl": "https://www.bakerita.com/miso-sesame-dense-bean-salad/",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "effort": "low",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": false,
+      "keepsDays": 3,
+      "tags": ["salad", "meal prep", "vegan", "no cook"],
+      "ingredients": [
+        { "id": "i1", "original": "1 can chickpeas, drained and rinsed", "quantity": 1, "unit": "can", "canonical": "chickpea", "boughtAs": "canned", "servedAs": "raw", "swapMark": "swappable", "swap": "white bean", "amountRule": "flexible", "prep": "drained and rinsed" },
+        { "id": "i2", "original": "1 cup shelled edamame", "quantity": 1, "unit": "cup", "canonical": "edamame", "boughtAs": "frozen", "servedAs": "raw", "swapMark": "swappable", "swap": "green pea", "amountRule": "flexible" },
+        { "id": "i3", "original": "1 cup snap peas (optional)", "quantity": 1, "unit": "cup", "canonical": "snap pea", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i4", "original": "2 cups shredded cabbage", "quantity": 2, "unit": "cup", "canonical": "cabbage", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible", "prep": "shredded" },
+        { "id": "i5", "original": "1 cup shredded carrots", "quantity": 1, "unit": "cup", "canonical": "carrot", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "red bell pepper", "amountRule": "flexible", "prep": "shredded" },
+        { "id": "i6", "original": "4 green onions, thinly sliced", "quantity": 4, "unit": "piece", "canonical": "scallion", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "thinly sliced" },
+        { "id": "i7", "original": "roasted peanuts or almonds, chopped (optional)", "quantity": null, "unit": "handful", "canonical": "peanut", "boughtAs": "dried", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i8", "original": "1 batch miso sesame dressing", "quantity": 1, "unit": "piece", "canonical": "Miso Sesame Dressing", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible", "recipeRef": "Miso Sesame Dressing" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Combine the chickpeas, edamame, snap peas, cabbage, carrots and green onions in a large bowl.", "uses": ["i1", "i2", "i3", "i4", "i5", "i6"], "makeAhead": { "maxDaysAhead": 3, "store": "fridge", "note": "undressed vegetables keep 3 days" } },
+        { "id": "s2", "text": "Pour the dressing over and toss gently to coat.", "uses": ["i8"] },
+        { "id": "s3", "text": "Top with chopped nuts if using. Serve, or refrigerate 30 minutes so the flavours blend.", "uses": ["i7"] }
+      ],
+      "reviewNotes": ["Dressing split out as its own recipe (recipeRef). Dressed salad keeps 3 days; the dressing alone a week.", "Edamame assumed frozen (most common); thaw first."]
+    }
+  ]
+}

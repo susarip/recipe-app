@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from cafehailee.com, 2026-10-26, test recipe 7",
+  "recipes": [
+    {
+      "title": "Marinated Roasted Peppers",
+      "source": "Cafe Hailee",
+      "sourceUrl": "https://cafehailee.com/recipes/marinated-pepper-and-egg-sandwich/",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "effort": "medium",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": false,
+      "keepsDays": 3,
+      "tags": ["component", "condiment", "make ahead"],
+      "ingredients": [
+        { "id": "i1", "original": "2 red bell peppers, halved and seeded", "quantity": 2, "unit": "piece", "canonical": "red bell pepper", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "prep": "halved and seeded" },
+        { "id": "i2", "original": "olive oil, for drizzling, plus 1/4 cup extra virgin olive oil", "quantity": 0.25, "unit": "cup", "canonical": "olive oil", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i3", "original": "kosher salt and black pepper, to taste", "quantity": null, "unit": "to_taste", "canonical": "salt", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i4", "original": "1/4 cup finely chopped fresh parsley", "quantity": 0.25, "unit": "cup", "canonical": "parsley", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "finely chopped" },
+        { "id": "i5", "original": "2 anchovies, minced", "quantity": 2, "unit": "piece", "canonical": "anchovy", "boughtAs": "canned", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "minced" },
+        { "id": "i6", "original": "2 tablespoons red wine vinegar", "quantity": 2, "unit": "tbsp", "canonical": "red wine vinegar", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "swappable", "swap": "sherry vinegar", "amountRule": "flexible" },
+        { "id": "i7", "original": "1 heaping tablespoon capers, chopped", "quantity": 1, "unit": "tbsp", "canonical": "caper", "boughtAs": "canned", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i8", "original": "1 small clove garlic, finely grated", "quantity": 1, "unit": "clove", "canonical": "garlic", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "finely grated" },
+        { "id": "i9", "original": "1/2 teaspoon red pepper flakes", "quantity": 0.5, "unit": "tsp", "canonical": "red pepper flakes", "boughtAs": "dried", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Heat the oven to 220C (425F). Put the pepper halves cut side down on a tray, drizzle with oil, salt, and roast 30 minutes until very tender.", "uses": ["i1", "i2", "i3"], "timerMinutes": 30 },
+        { "id": "s2", "text": "Switch to the broiler on high and broil 3 to 5 minutes until the skins are deeply charred.", "uses": ["i1"], "timerMinutes": 3 },
+        { "id": "s3", "text": "Cover the peppers tightly in a bowl for 30 minutes, then peel and cut into large strips.", "uses": ["i1"], "timerMinutes": 30 },
+        { "id": "s4", "text": "Whisk the 1/4 cup olive oil with the parsley, anchovies, vinegar, capers, garlic and pepper flakes. Season. Toss the pepper strips in it.", "uses": ["i2", "i4", "i5", "i6", "i7", "i8", "i9", "i1", "i3"], "makeAhead": { "maxDaysAhead": 3, "store": "fridge", "note": "airtight container" } }
+      ],
+      "reviewNotes": ["Servings set to 4 sandwiches' worth; the source makes one sandwich but the peppers keep 3 days."]
+    },
+    {
+      "title": "Marinated Pepper and Egg Sandwich",
+      "source": "Cafe Hailee",
+      "sourceUrl": "https://cafehailee.com/recipes/marinated-pepper-and-egg-sandwich/",
+      "servings": 1,
+      "prepMinutes": 5,
+      "cookMinutes": 5,
+      "effort": "low",
+      "bestFresh": true,
+      "keepsWell": false,
+      "freezesWell": false,
+      "keepsDays": 1,
+      "tags": ["sandwich", "eggs", "lunch", "quick"],
+      "ingredients": [
+        { "id": "i1", "original": "4 eggs", "quantity": 4, "unit": "piece", "canonical": "egg", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "floor": 0.75 },
+        { "id": "i2", "original": "kosher salt and black pepper, to taste", "quantity": null, "unit": "to_taste", "canonical": "salt", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i3", "original": "2 tablespoons unsalted butter", "quantity": 2, "unit": "tbsp", "canonical": "butter", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "olive oil", "amountRule": "flexible" },
+        { "id": "i4", "original": "1 tablespoon olive oil", "quantity": 1, "unit": "tbsp", "canonical": "olive oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i5", "original": "3 ounces fontina cheese, grated", "quantity": 3, "unit": "oz", "canonical": "fontina", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "mozzarella", "swapGroup": "melting cheese", "amountRule": "flexible", "prep": "grated" },
+        { "id": "i6", "original": "1 (10-inch) semolina sub roll, split", "quantity": 1, "unit": "piece", "canonical": "sub roll", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "swappable", "swap": "ciabatta", "swapGroup": "sandwich bread", "amountRule": "exact" },
+        { "id": "i7", "original": "baby arugula", "quantity": null, "unit": "handful", "canonical": "arugula", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i8", "original": "parmesan cheese, for topping", "quantity": null, "unit": "to_taste", "canonical": "parmesan", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "grated" },
+        { "id": "i9", "original": "a few marinated roasted peppers", "quantity": 0.25, "unit": "piece", "canonical": "Marinated Roasted Peppers", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "jarred roasted red pepper", "amountRule": "flexible", "recipeRef": "Marinated Roasted Peppers" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Whisk the eggs with a little salt until homogeneous.", "uses": ["i1", "i2"] },
+        { "id": "s2", "text": "Heat a medium skillet over medium. Add the butter and oil; once melted, add the eggs and scramble to just under done.", "uses": ["i3", "i4", "i1"] },
+        { "id": "s3", "text": "Off the heat, stir in the fontina until melted.", "uses": ["i5"] },
+        { "id": "s4", "text": "Fill the split roll with the eggs, a handful of arugula and a few marinated peppers. Top with grated parmesan and black pepper.", "uses": ["i6", "i7", "i9", "i8", "i2"] }
+      ],
+      "reviewNotes": [
+        "Peppers split out as their own make-ahead recipe (recipeRef); a quarter batch per sandwich.",
+        "Bread uses swapGroup 'sandwich bread': croissant, ciabatta, pita, focaccia all fine here."
+      ]
+    }
+  ]
+}

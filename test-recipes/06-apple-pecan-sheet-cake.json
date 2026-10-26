@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from cafehailee.com, 2026-10-26, test recipe 6",
+  "recipes": [
+    {
+      "title": "Brown Butter Pecan Glaze",
+      "source": "Cafe Hailee",
+      "sourceUrl": "https://cafehailee.com/recipes/grated-apple-pecan-sheet-cake/",
+      "servings": 12,
+      "prepMinutes": 5,
+      "cookMinutes": 5,
+      "effort": "low",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": false,
+      "keepsDays": 5,
+      "tags": ["component", "glaze", "baking"],
+      "ingredients": [
+        { "id": "i1", "original": "5 tablespoons unsalted butter", "quantity": 5, "unit": "tbsp", "canonical": "butter", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "exact", "prep": "unsalted" },
+        { "id": "i2", "original": "1 1/4 cups (150 g) powdered sugar", "quantity": 150, "unit": "g", "canonical": "powdered sugar", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "exact" },
+        { "id": "i3", "original": "1 1/2 teaspoons vanilla extract", "quantity": 1.5, "unit": "tsp", "canonical": "vanilla extract", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i4", "original": "2 1/2 to 4 tablespoons milk (any milk works)", "quantity": 2.5, "unit": "tbsp", "canonical": "milk", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "oat milk", "amountRule": "stretchable", "stretchWith": "any milk" },
+        { "id": "i5", "original": "1/2 cup (60 g) finely chopped toasted pecans", "quantity": 60, "unit": "g", "canonical": "pecan", "boughtAs": "dried", "servedAs": "raw", "swapMark": "swappable", "swap": "walnut", "amountRule": "flexible", "prep": "toasted, finely chopped" },
+        { "id": "i6", "original": "flaky salt, to finish", "quantity": null, "unit": "to_taste", "canonical": "flaky salt", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Melt the butter in a small pan over medium heat and cook, stirring, 3 to 5 minutes until browned and fragrant. Transfer at once to a heatproof bowl.", "uses": ["i1"], "timerMinutes": 3 },
+        { "id": "s2", "text": "Whisk in the powdered sugar, vanilla and 2 1/2 tablespoons milk until smooth, adding a teaspoon more milk at a time for a thick but pourable glaze. Stir in the pecans.", "uses": ["i2", "i3", "i4", "i5"] },
+        { "id": "s3", "text": "Pour over the warm cake, spread gently, and finish with flaky salt.", "uses": ["i6"] }
+      ],
+      "reviewNotes": ["Milk amount is a range; took the lower number."]
+    },
+    {
+      "title": "Grated Apple Pecan Sheet Cake",
+      "source": "Cafe Hailee",
+      "sourceUrl": "https://cafehailee.com/recipes/grated-apple-pecan-sheet-cake/",
+      "servings": 12,
+      "prepMinutes": 20,
+      "cookMinutes": 20,
+      "effort": "medium",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": true,
+      "keepsDays": 3,
+      "tags": ["baking", "cake", "dessert", "fall"],
+      "ingredients": [
+        { "id": "i1", "original": "1 1/2 cups (195 g) all-purpose flour", "quantity": 195, "unit": "g", "canonical": "all-purpose flour", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "exact" },
+        { "id": "i2", "original": "2 teaspoons baking powder", "quantity": 2, "unit": "tsp", "canonical": "baking powder", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "exact" },
+        { "id": "i3", "original": "1 teaspoon ground cinnamon", "quantity": 1, "unit": "tsp", "canonical": "cinnamon", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "swappable", "swap": "pumpkin pie spice", "amountRule": "flexible" },
+        { "id": "i4", "original": "1 teaspoon kosher salt", "quantity": 1, "unit": "tsp", "canonical": "kosher salt", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "exact" },
+        { "id": "i5", "original": "1/2 teaspoon ground ginger", "quantity": 0.5, "unit": "tsp", "canonical": "ground ginger", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i6", "original": "1/4 teaspoon grated nutmeg", "quantity": 0.25, "unit": "tsp", "canonical": "nutmeg", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i7", "original": "2 eggs, room temperature", "quantity": 2, "unit": "piece", "canonical": "egg", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "exact", "prep": "room temperature" },
+        { "id": "i8", "original": "3/4 cup (150 g) granulated sugar", "quantity": 150, "unit": "g", "canonical": "granulated sugar", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "exact" },
+        { "id": "i9", "original": "1/4 cup (50 g) dark brown sugar", "quantity": 50, "unit": "g", "canonical": "brown sugar", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "granulated sugar", "amountRule": "exact" },
+        { "id": "i10", "original": "1/4 cup (60 g) unsweetened applesauce, room temperature", "quantity": 60, "unit": "g", "canonical": "applesauce", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "plain yogurt", "amountRule": "exact" },
+        { "id": "i11", "original": "1/2 cup canola oil", "quantity": 0.5, "unit": "cup", "canonical": "canola oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "vegetable oil", "amountRule": "exact" },
+        { "id": "i12", "original": "2 teaspoons vanilla bean paste", "quantity": 2, "unit": "tsp", "canonical": "vanilla bean paste", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "vanilla extract", "amountRule": "flexible" },
+        { "id": "i13", "original": "2 Gala apples, peeled and grated (about 200 g grated)", "quantity": 2, "unit": "piece", "canonical": "apple", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "floor": 0.75, "prep": "peeled and grated" },
+        { "id": "i14", "original": "1 batch brown butter pecan glaze", "quantity": 1, "unit": "piece", "canonical": "Brown Butter Pecan Glaze", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "recipeRef": "Brown Butter Pecan Glaze" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Heat the oven to 190C (375F). Grease a 9x13 inch quarter sheet tray and line the bottom with parchment.", "uses": [] },
+        { "id": "s2", "text": "Whisk the flour, baking powder, cinnamon, salt, ginger and nutmeg in a large bowl.", "uses": ["i1", "i2", "i3", "i4", "i5", "i6"] },
+        { "id": "s3", "text": "In a medium bowl whisk the eggs, both sugars, applesauce, oil and vanilla. Stir in the grated apples.", "uses": ["i7", "i8", "i9", "i10", "i11", "i12", "i13"] },
+        { "id": "s4", "text": "Pour the wet into the dry and mix until just moistened. Spread evenly in the pan.", "uses": ["i1", "i7"] },
+        { "id": "s5", "text": "Bake 18 to 20 minutes until lightly golden and a toothpick comes out with a few moist crumbs.", "uses": [], "timerMinutes": 18 },
+        { "id": "s6", "text": "Make the glaze while the cake is warm, pour it over, and cool at least 1 hour before serving.", "uses": ["i14"], "timerMinutes": 60 }
+      ],
+      "reviewNotes": ["No servings listed; 12 squares from a 9x13 pan.", "No storage notes; cakes like this keep 3 days covered.", "Glaze split out as its own recipe (recipeRef)."]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from cookingforkeeps.com, 2026-10-26, test recipe 2",
+  "recipes": [
+    {
+      "title": "Copycat Starbucks Spinach Feta Wraps",
+      "source": "Cooking for Keeps (via Pinterest)",
+      "sourceUrl": "https://www.cookingforkeeps.com/copycat-starbucks-spinach-feta-wrap/",
+      "servings": 8,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "effort": "medium",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": true,
+      "keepsDays": 7,
+      "tags": ["breakfast", "meal prep", "freezer", "vegetarian"],
+      "ingredients": [
+        { "id": "i1", "original": "16 large egg whites", "quantity": 16, "unit": "piece", "canonical": "egg white", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "egg", "amountRule": "flexible", "floor": 0.75 },
+        { "id": "i2", "original": "8 cups baby spinach", "quantity": 8, "unit": "cup", "canonical": "spinach", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i3", "original": "1 cup crumbled feta cheese", "quantity": 1, "unit": "cup", "canonical": "feta", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "prep": "crumbled" },
+        { "id": "i4", "original": "1/2 cup sun-dried tomato pesto", "quantity": 0.5, "unit": "cup", "canonical": "sun-dried tomato pesto", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "basil pesto", "amountRule": "flexible" },
+        { "id": "i5", "original": "8 large whole-wheat tortillas", "quantity": 8, "unit": "piece", "canonical": "whole-wheat tortilla", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "flour tortilla", "amountRule": "exact" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Heat a non-stick skillet over medium-high and spray lightly. Add the egg whites, let them set about a minute, then lift the edges and tilt so the uncooked egg runs underneath. Flip for a crisp top if you like. Slide onto a board and cut into eight pieces.", "uses": ["i1"], "timerMinutes": 1 },
+        { "id": "s2", "text": "Wilt the spinach in the same pan over medium heat. Turn off the heat, add the feta and stir; it should soften but not melt.", "uses": ["i2", "i3"] },
+        { "id": "s3", "text": "Spread pesto on each tortilla, top with a piece of egg and the spinach-feta mixture, and roll up burrito-style.", "uses": ["i4", "i5", "i1", "i2", "i3"], "makeAhead": { "maxDaysAhead": 7, "store": "fridge", "note": "assembled wraps keep 1 week in the fridge or 1 month frozen; brown before eating" } },
+        { "id": "s4", "text": "Reheat the skillet over medium and brown the wraps 1 to 2 minutes per side until crispy.", "uses": ["i5"], "timerMinutes": 1 }
+      ],
+      "reviewNotes": [
+        "Source cuts the omelette into four pieces for eight wraps; cut into eight so each wrap gets one piece.",
+        "From frozen: microwave 2 minutes wrapped in paper towel, then brown in a skillet."
+      ]
+    }
+  ]
+}

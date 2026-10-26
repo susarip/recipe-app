@@ -81,6 +81,13 @@ export const IngredientLine = z.object({
   swapMark: SwapMark,
   /** Required when swapMark is "swappable": the suggested replacement, canonical name. */
   swap: z.string().optional(),
+  /**
+   * A group from the canonical "contains" table whose members all work here, beyond the single `swap`.
+   * "sandwich bread" lets a sub roll become a croissant, ciabatta or pita; "flatbread" keeps shawarma
+   * off focaccia. Any stock item in the group satisfies the line. Set only when the recipe is truly
+   * indifferent within the group.
+   */
+  swapGroup: z.string().optional(),
   amountRule: AmountRule.default("exact"),
   /** For "flexible": the fraction of the amount that is still fine. Default 0.5. */
   floor: z.number().min(0).max(1).optional(),

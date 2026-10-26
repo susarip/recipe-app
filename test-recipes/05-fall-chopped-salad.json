@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from cafehailee.com, 2026-10-26, test recipe 5",
+  "recipes": [
+    {
+      "title": "Seeded Sourdough Crumb Topping",
+      "source": "Cafe Hailee",
+      "sourceUrl": "https://cafehailee.com/recipes/fall-chopped-salad-with-maple-tahini-dressing/",
+      "servings": 6,
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "effort": "low",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": false,
+      "keepsDays": 7,
+      "tags": ["component", "topping"],
+      "ingredients": [
+        { "id": "i1", "original": "2 thick slices sourdough, torn", "quantity": 2, "unit": "slice", "canonical": "sourdough bread", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "any bread", "amountRule": "flexible", "prep": "torn" },
+        { "id": "i2", "original": "1 tsp fennel seeds", "quantity": 1, "unit": "tsp", "canonical": "fennel seed", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i3", "original": "1 tsp coriander seeds", "quantity": 1, "unit": "tsp", "canonical": "coriander seed", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i4", "original": "1/4 cup pumpkin seeds", "quantity": 0.25, "unit": "cup", "canonical": "pumpkin seed", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "swappable", "swap": "sunflower seed", "amountRule": "flexible" },
+        { "id": "i5", "original": "2 Tbsp sunflower seeds", "quantity": 2, "unit": "tbsp", "canonical": "sunflower seed", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i6", "original": "1 Tbsp sesame seeds", "quantity": 1, "unit": "tbsp", "canonical": "sesame seed", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i7", "original": "2 Tbsp maple syrup", "quantity": 2, "unit": "tbsp", "canonical": "maple syrup", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "honey", "amountRule": "flexible" },
+        { "id": "i8", "original": "olive oil, enough to coat", "quantity": null, "unit": "to_taste", "canonical": "olive oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i9", "original": "kosher salt and pepper", "quantity": null, "unit": "to_taste", "canonical": "salt", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Heat the oven to 220C (425F). Pulse the torn bread with the fennel and coriander seeds in a food processor to large crumbs.", "uses": ["i1", "i2", "i3"] },
+        { "id": "s2", "text": "Spread on a lined tray with the pumpkin, sunflower and sesame seeds. Add the maple syrup, enough olive oil to coat, salt and pepper.", "uses": ["i4", "i5", "i6", "i7", "i8", "i9"] },
+        { "id": "s3", "text": "Bake 15 to 25 minutes, tossing now and then, until golden. Cool completely; it crisps as it cools.", "uses": ["i1"], "timerMinutes": 15, "makeAhead": { "maxDaysAhead": 7, "store": "pantry", "note": "airtight container" } }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "title": "Maple Tahini Dressing",
+      "source": "Cafe Hailee",
+      "sourceUrl": "https://cafehailee.com/recipes/fall-chopped-salad-with-maple-tahini-dressing/",
+      "servings": 6,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "effort": "low",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": false,
+      "keepsDays": 7,
+      "tags": ["component", "dressing"],
+      "ingredients": [
+        { "id": "i1", "original": "1/3 cup apple cider vinegar", "quantity": 0.333, "unit": "cup", "canonical": "apple cider vinegar", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "swappable", "swap": "white wine vinegar", "amountRule": "flexible" },
+        { "id": "i2", "original": "1/2 cup extra virgin olive oil", "quantity": 0.5, "unit": "cup", "canonical": "olive oil", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i3", "original": "2 Tbsp maple syrup", "quantity": 2, "unit": "tbsp", "canonical": "maple syrup", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "swappable", "swap": "honey", "amountRule": "flexible" },
+        { "id": "i4", "original": "2 Tbsp tahini", "quantity": 2, "unit": "tbsp", "canonical": "tahini", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i5", "original": "2 tsp Dijon mustard", "quantity": 2, "unit": "tsp", "canonical": "dijon mustard", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i6", "original": "1 1/2 tsp kosher salt", "quantity": 1.5, "unit": "tsp", "canonical": "kosher salt", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i7", "original": "1/2 tsp black pepper", "quantity": 0.5, "unit": "tsp", "canonical": "black pepper", "boughtAs": "dried", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Shake everything together in a jar.", "uses": ["i1", "i2", "i3", "i4", "i5", "i6", "i7"], "makeAhead": { "maxDaysAhead": 7, "store": "fridge" } }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "title": "Fall Chopped Salad with Maple Tahini Dressing",
+      "source": "Cafe Hailee",
+      "sourceUrl": "https://cafehailee.com/recipes/fall-chopped-salad-with-maple-tahini-dressing/",
+      "servings": 6,
+      "prepMinutes": 30,
+      "cookMinutes": 25,
+      "effort": "high",
+      "bestFresh": true,
+      "keepsWell": false,
+      "freezesWell": false,
+      "keepsDays": 2,
+      "tags": ["salad", "fall", "vegetarian"],
+      "ingredients": [
+        { "id": "i1", "original": "1 bunch Tuscan kale, chopped", "quantity": 1, "unit": "bunch", "canonical": "kale", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i2", "original": "1/2 medium butternut squash, peeled, diced small, and roasted", "quantity": 0.5, "unit": "piece", "canonical": "butternut squash", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "sweet potato", "amountRule": "flexible", "prep": "peeled, diced small" },
+        { "id": "i3", "original": "4 large Brussels sprouts, thinly sliced", "quantity": 4, "unit": "piece", "canonical": "brussels sprout", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "thinly sliced" },
+        { "id": "i4", "original": "3 large radishes, thinly sliced", "quantity": 3, "unit": "piece", "canonical": "radish", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "thinly sliced" },
+        { "id": "i5", "original": "1 medium fennel bulb, thinly sliced", "quantity": 1, "unit": "piece", "canonical": "fennel", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "thinly sliced" },
+        { "id": "i6", "original": "1 crisp apple, diced small", "quantity": 1, "unit": "piece", "canonical": "apple", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "diced small" },
+        { "id": "i7", "original": "1/4 red onion, thinly sliced and rinsed", "quantity": 0.25, "unit": "piece", "canonical": "red onion", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "thinly sliced, rinsed" },
+        { "id": "i8", "original": "3 Tbsp chopped fresh dill", "quantity": 3, "unit": "tbsp", "canonical": "dill", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i9", "original": "1/4 cup chopped fresh parsley", "quantity": 0.25, "unit": "cup", "canonical": "parsley", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i10", "original": "3 oz manchego cheese, diced small", "quantity": 3, "unit": "oz", "canonical": "manchego", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "parmesan", "amountRule": "flexible", "prep": "diced small" },
+        { "id": "i11", "original": "olive oil and salt for massaging the kale", "quantity": null, "unit": "to_taste", "canonical": "olive oil", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i12", "original": "1 batch maple tahini dressing", "quantity": 1, "unit": "piece", "canonical": "Maple Tahini Dressing", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible", "recipeRef": "Maple Tahini Dressing" },
+        { "id": "i13", "original": "1 batch seeded sourdough crumb topping", "quantity": 1, "unit": "piece", "canonical": "Seeded Sourdough Crumb Topping", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible", "recipeRef": "Seeded Sourdough Crumb Topping" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Roast the diced squash at 220C (425F) until tender and browned, about 25 minutes. Cool.", "uses": ["i2"], "timerMinutes": 25, "makeAhead": { "maxDaysAhead": 3, "store": "fridge" } },
+        { "id": "s2", "text": "Put the chopped kale in a large bowl, drizzle with a little olive oil, sprinkle with salt, and massage to soften.", "uses": ["i1", "i11"] },
+        { "id": "s3", "text": "Add the squash, Brussels sprouts, radishes, fennel, apple, onion, dill, parsley and manchego. Add about half the dressing, toss, and add more to taste.", "uses": ["i2", "i3", "i4", "i5", "i6", "i7", "i8", "i9", "i10", "i12"] },
+        { "id": "s4", "text": "Top with the crumb topping and serve.", "uses": ["i13"] }
+      ],
+      "reviewNotes": [
+        "Source gives no roasting time or temperature for the squash; 25 minutes at 220C is a guess.",
+        "Prep time not listed; 30 minutes estimated from the amount of slicing.",
+        "Leftovers keep 2 days undressed; dress only what you eat.",
+        "Dressing and topping split out as their own recipes (recipeRef)."
+      ]
+    }
+  ]
+}

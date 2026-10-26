@@ -46,6 +46,7 @@ One line per ingredient as listed in the source. If the same ingredient is liste
   - `essential`: the dish is not that dish without it (short rib in a braise, flour in bread, chickpeas in hummus).
   - `swappable`: a sensible replacement exists; put it in `swap` as a canonical name (ground pork → `ground turkey`; chickpeas in a curry → `white bean`; lemon juice → `red wine vinegar`).
   - `optional`: can be left out (fruit in a salad, nuts on top, garnishes).
+- `swapGroup`: when any member of a whole group would do, name the group as well as the single `swap`: a sub roll → `swapGroup: "sandwich bread"` (croissant, ciabatta, pita all fine); fontina in scrambled eggs → `"melting cheese"`. Leave it off when the recipe cares: shawarma stays `swapGroup: "flatbread"`, not "sandwich bread"; the bread in a bread pudding has no group.
 - `amountRule`:
   - `exact`: baking ingredients, eggs, leavening, anything where ratios matter.
   - `flexible`: vegetables, greens, herbs, cheese on top, most proteins in mixed dishes. Default `floor` 0.5; set `floor` 0.75 when half would clearly be too little.
