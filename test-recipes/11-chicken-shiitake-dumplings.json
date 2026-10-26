@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from thewoksoflife.com, 2026-10-26, test recipe 11",
+  "recipes": [
+    {
+      "title": "Homemade Dumpling Wrappers",
+      "source": "The Woks of Life",
+      "sourceUrl": "https://thewoksoflife.com/chicken-dumplings-shiitake-mushrooms/",
+      "servings": 48,
+      "prepMinutes": 90,
+      "cookMinutes": 0,
+      "effort": "high",
+      "bestFresh": true,
+      "keepsWell": false,
+      "freezesWell": false,
+      "keepsDays": 1,
+      "tags": ["component", "dough", "dumplings"],
+      "ingredients": [
+        { "id": "i1", "original": "3 1/3 cups all-purpose flour", "quantity": 3.333, "unit": "cup", "canonical": "all-purpose flour", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "exact" },
+        { "id": "i2", "original": "1 cup water", "quantity": 1, "unit": "cup", "canonical": "water", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "exact" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Gradually add the water to the flour and knead about 10 minutes to a smooth dough. Cover with a damp cloth and rest 1 hour.", "uses": ["i1", "i2"], "timerMinutes": 60 },
+        { "id": "s2", "text": "Divide into 48 pieces and roll each into a 9 cm (3 1/2 inch) circle. Keep covered as you work.", "uses": ["i1"] }
+      ],
+      "reviewNotes": ["48 wrappers; one serving = one wrapper so the dumpling recipe can reference 48.", "No salt in the dough per source."]
+    },
+    {
+      "title": "Chicken and Shiitake Dumplings",
+      "source": "The Woks of Life",
+      "sourceUrl": "https://thewoksoflife.com/chicken-dumplings-shiitake-mushrooms/",
+      "servings": 8,
+      "prepMinutes": 90,
+      "cookMinutes": 30,
+      "effort": "high",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": true,
+      "keepsDays": 2,
+      "tags": ["component", "dumplings", "chicken", "freezer", "batch"],
+      "ingredients": [
+        { "id": "i1", "original": "48 homemade dumpling wrappers (or store-bought)", "quantity": 48, "unit": "piece", "canonical": "Homemade Dumpling Wrappers", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "dumpling wrapper", "amountRule": "flexible", "floor": 0.8, "recipeRef": "Homemade Dumpling Wrappers" },
+        { "id": "i2", "original": "1 small onion, finely chopped", "quantity": 1, "unit": "piece", "canonical": "onion", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "prep": "finely chopped" },
+        { "id": "i3", "original": "4 oz fresh shiitake mushrooms, chopped", "quantity": 4, "unit": "oz", "canonical": "shiitake mushroom", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "cremini mushroom", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i4", "original": "6 dried shiitake mushrooms, reconstituted and chopped", "quantity": 6, "unit": "piece", "canonical": "dried shiitake mushroom", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible", "prep": "soaked, stems trimmed, chopped" },
+        { "id": "i5", "original": "1 lb ground chicken (dark meat preferred)", "quantity": 1, "unit": "lb", "canonical": "ground chicken", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "ground pork", "amountRule": "flexible", "floor": 0.75 },
+        { "id": "i6", "original": "2 tsp sesame oil", "quantity": 2, "unit": "tsp", "canonical": "sesame oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i7", "original": "3 tbsp soy sauce", "quantity": 3, "unit": "tbsp", "canonical": "soy sauce", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i8", "original": "1 tsp sugar", "quantity": 1, "unit": "tsp", "canonical": "granulated sugar", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i9", "original": "2 tbsp Shaoxing wine (or dry cooking sherry)", "quantity": 2, "unit": "tbsp", "canonical": "shaoxing wine", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "dry sherry", "amountRule": "flexible" },
+        { "id": "i10", "original": "2 tbsp vegetable oil (aromatics) + 3 tbsp (filling) + 1 tbsp (pan-frying)", "quantity": 6, "unit": "tbsp", "canonical": "vegetable oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i11", "original": "green onion, for garnish", "quantity": null, "unit": "to_taste", "canonical": "scallion", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "sliced" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Soak the dried shiitake in cold water overnight, or in hot water about 2 hours weighted with a small plate. Squeeze, trim stems, chop. Keep the liquid for stock.", "uses": ["i4"], "leadTimeHours": 2, "timerMinutes": 120 },
+        { "id": "s2", "text": "Heat 2 tbsp oil over medium and cook the onion until translucent. Add the fresh and soaked mushrooms and cook 8 to 10 minutes.", "uses": ["i10", "i2", "i3", "i4"], "timerMinutes": 8 },
+        { "id": "s3", "text": "Transfer to a bowl with the ground chicken, sesame oil, soy sauce, sugar, Shaoxing wine and 3 tbsp oil. Stir in one direction about 5 minutes until paste-like.", "uses": ["i5", "i6", "i7", "i8", "i9", "i10"], "makeAhead": { "maxDaysAhead": 1, "store": "fridge", "note": "filling can be made the day before" } },
+        { "id": "s4", "text": "Put about 1 heaping tablespoon of filling on each wrapper, pleat and seal (dab water on the edge for store-bought wrappers). Line up on a parchment-lined tray.", "uses": ["i1", "i5"], "makeAhead": { "maxDaysAhead": 90, "store": "freezer", "note": "freeze spaced on the tray until solid, then bag; cook from frozen" } },
+        { "id": "s5", "text": "Pan-fry: heat 1 tbsp oil in a non-stick skillet over medium-high, fry until the bottoms are lightly golden, add water 1/4 inch deep, cover until it evaporates, then uncover and fry until golden brown. Or boil 7 to 8 minutes.", "uses": ["i10", "i1"], "timerMinutes": 8 },
+        { "id": "s6", "text": "Garnish with green onion and serve with chili oil, vinegar or dumpling sauce.", "uses": ["i11"] }
+      ],
+      "reviewNotes": [
+        "Yield about 48; source says 8 servings.",
+        "Source card says 3 hours prep, which includes the dough rest and may not cover the 2-hour mushroom soak. Set 90 min active prep; the soak is a lead-time step.",
+        "Filling per dumpling: article says 1 heaping tbsp, card says 2 tbsp. Used 1 heaping.",
+        "Pan-frying oil was in the steps but not the list; merged into the oil line.",
+        "No freezer shelf life given; 3 months per the FoodKeeper default for frozen dumplings.",
+        "Tagged component so a dumpling soup can reference it; store-bought frozen dumplings satisfy the same line."
+      ]
+    }
+  ]
+}
