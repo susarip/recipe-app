@@ -1,0 +1,547 @@
+# canonical | aliases (; separated) | category | store_section | foodkeeper_id | grams_per_piece | groups (; separated)
+# Shelf life is pulled from data/foodkeeper-shelf-life.csv by foodkeeper_id at build time (python3 data/src/build_canonical.py).
+
+## produce: vegetables
+onion | yellow onion; brown onion; white onion; cooking onion | produce | produce | 294 | 150 | allium
+red onion | purple onion | produce | produce | 294 | 150 | allium
+shallot | | produce | produce | 294 | 30 | allium
+scallion | green onion; spring onion; scallions | produce | produce | 295 | 15 | allium
+green garlic | | produce | produce | 295 | 20 | allium
+garlic | garlic clove; clove garlic | produce | produce | 285 | 5 | allium
+leek | | produce | produce | 294 | 200 | allium
+ginger | fresh ginger; ginger root | produce | produce | 286 | 60 |
+carrot | carrots | produce | produce | 279 | 70 | root vegetable
+parsnip | | produce | produce | 279 | 100 | root vegetable
+celery | celery stalk | produce | produce | 282 | 40 |
+bell pepper | sweet pepper; capsicum | produce | produce | 296 | 160 | bell pepper
+red bell pepper | red pepper | produce | produce | 296 | 160 | bell pepper
+green bell pepper | green pepper | produce | produce | 296 | 160 | bell pepper
+yellow bell pepper | orange bell pepper | produce | produce | 296 | 160 | bell pepper
+jalapeno | jalapeño; jalapenos | produce | produce | 296 | 15 | fresh chili
+serrano chili | serrano pepper | produce | produce | 296 | 8 | fresh chili
+habanero | habanero pepper | produce | produce | 296 | 10 | fresh chili
+thai chili | bird's eye chili; birds eye chili | produce | produce | 296 | 3 | fresh chili
+poblano | poblano pepper | produce | produce | 296 | 120 | fresh chili
+tomato | tomatoes; roma tomato; vine tomato | produce | produce | 306 | 120 |
+cherry tomato | grape tomato; cherry tomatoes | produce | produce | 306 | 15 |
+cucumber | english cucumber; persian cucumber | produce | produce | 283 | 300 |
+zucchini | courgette; summer squash | produce | produce | 304 | 200 |
+eggplant | aubergine | produce | produce | 284 | 450 |
+butternut squash | | produce | produce | 304 | 1000 | winter squash
+pumpkin | sugar pumpkin | produce | produce | 304 | 1500 | winter squash
+sweet potato | yam | produce | produce | 298 | 200 | root vegetable
+potato | russet potato; yukon gold potato; potatoes | produce | produce | 297 | 170 | root vegetable
+beet | beetroot; beets | produce | produce | 279 | 100 | root vegetable
+radish | radishes | produce | produce | 300 | 15 |
+turnip | | produce | produce | 279 | 150 | root vegetable
+fennel | fennel bulb | produce | produce | 282 | 250 |
+asparagus | | produce | produce | 274 | 20 |
+broccoli | broccoli florets | produce | produce | 276 | 300 | brassica
+cauliflower | | produce | produce | 277 | 600 | brassica
+brussels sprout | brussels sprouts | produce | produce | 276 | 15 | brassica
+cabbage | green cabbage | produce | produce | 278 | 900 | cabbage; brassica
+napa cabbage | chinese cabbage; wombok | produce | produce | 278 | 1000 | cabbage; brassica
+red cabbage | purple cabbage | produce | produce | 278 | 900 | cabbage; brassica
+bok choy | pak choi | produce | produce | 278 | 150 | brassica; leafy green
+kale | tuscan kale; lacinato kale; curly kale | produce | produce | 291 | 200 | leafy green
+spinach | baby spinach; fresh spinach | produce | produce | 415 | 30 | leafy green
+arugula | rocket; baby arugula | produce | produce | 415 | 20 | salad green; leafy green
+lettuce | romaine; iceberg; butter lettuce; little gem | produce | produce | 291 | 300 | salad green
+mixed greens | spring mix; salad mix | produce | produce | 415 | 100 | salad green
+swiss chard | chard; rainbow chard | produce | produce | 291 | 250 | leafy green
+mushroom | mushrooms; button mushroom; white mushroom | produce | produce | 292 | 20 | mushroom
+cremini mushroom | baby bella; cremini; portobello | produce | produce | 292 | 25 | mushroom
+shiitake mushroom | fresh shiitake | produce | produce | 292 | 20 | mushroom
+oyster mushroom | | produce | produce | 292 | 15 | mushroom
+corn | corn kernels; sweet corn; corn on the cob | produce | produce | 273 | 150 |
+green bean | green beans; string beans; haricots verts | produce | produce | 273 | 6 |
+snap pea | sugar snap peas; snap peas | produce | produce | 273 | 5 |
+snow pea | snow peas | produce | produce | 273 | 4 |
+pea | peas; green peas | produce | frozen | 273 | 1 |
+edamame | shelled edamame | produce | frozen | 273 | 1 |
+avocado | | produce | produce | 249 | 170 |
+artichoke | | produce | produce | 282 | 300 |
+okra | | produce | produce | 282 | 10 |
+sprouts | bean sprouts; mung bean sprouts | produce | produce | 415 | 5 |
+plantain | | produce | produce | 250 | 200 |
+
+## produce: fruit
+apple | apples; gala apple; honeycrisp; granny smith | produce | produce | 248 | 180 | fruit
+pear | | produce | produce | 248 | 180 | fruit
+banana | bananas | produce | produce | 250 | 120 | fruit
+lemon | lemons | produce | produce | 256 | 90 | citrus
+lime | limes | produce | produce | 256 | 65 | citrus
+orange | navel orange; oranges | produce | produce | 256 | 180 | citrus
+grapefruit | | produce | produce | 256 | 300 | citrus
+mango | | produce | produce | 262 | 300 | fruit
+pineapple | | produce | produce | 267 | 1000 | fruit
+berries | mixed berries | produce | produce | 252 | 5 | fruit; berry
+strawberry | strawberries | produce | produce | 252 | 15 | fruit; berry
+blueberry | blueberries | produce | produce | 252 | 1 | fruit; berry
+raspberry | raspberries | produce | produce | 252 | 4 | fruit; berry
+grape | grapes | produce | produce | 260 | 5 | fruit
+peach | peaches | produce | produce | 265 | 150 | fruit; stone fruit
+plum | plums | produce | produce | 265 | 70 | fruit; stone fruit
+cherry | cherries | produce | produce | 255 | 8 | fruit; stone fruit
+pomegranate | pomegranate seeds; pomegranate arils | produce | produce | 265 | 300 | fruit
+date | dates; medjool dates | produce | pantry | 259 | 24 | dried fruit
+watermelon | | produce | produce | 263 | 4000 | fruit; melon
+cantaloupe | | produce | produce | 263 | 1500 | fruit; melon
+coconut | fresh coconut | produce | produce | 258 | 700 |
+kiwi | | produce | produce | 265 | 75 | fruit
+
+## herbs (fresh)
+parsley | flat-leaf parsley; italian parsley; curly parsley | herb | produce | 288 | 60 | fresh herb
+cilantro | coriander leaves; fresh coriander | herb | produce | 288 | 60 | fresh herb
+basil | fresh basil; thai basil | herb | produce | 288 | 30 | fresh herb
+mint | fresh mint | herb | produce | 288 | 30 | fresh herb
+dill | fresh dill | herb | produce | 288 | 30 | fresh herb
+chive | chives | herb | produce | 288 | 20 | fresh herb
+rosemary | fresh rosemary | herb | produce | 288 | 15 | fresh herb; woody herb
+thyme | fresh thyme | herb | produce | 288 | 15 | fresh herb; woody herb
+oregano | fresh oregano | herb | produce | 288 | 15 | fresh herb; woody herb
+sage | fresh sage | herb | produce | 288 | 15 | fresh herb; woody herb
+tarragon | | herb | produce | 288 | 15 | fresh herb
+lemongrass | | herb | produce | 288 | 20 |
+curry leaves | curry leaf | herb | international | 288 | 1 | fresh herb
+bay leaf | bay leaves | spice | spices | 236 | 0.2 |
+
+## spices and dried herbs
+salt | table salt; sea salt; fine salt | spice | pantry | 468 | | salt
+kosher salt | diamond crystal; morton kosher salt | spice | pantry | 468 | | salt
+flaky salt | maldon; finishing salt | spice | pantry | 468 | | salt
+black pepper | ground black pepper; black peppercorns; peppercorns | spice | spices | 469 | |
+white pepper | ground white pepper | spice | spices | 238 | |
+red pepper flakes | chili flakes; crushed red pepper | spice | spices | 238 | | dried chili
+cayenne | cayenne pepper; ground cayenne | spice | spices | 238 | | dried chili
+chili powder | | spice | spices | 238 | | dried chili
+kashmiri chili powder | kashmiri red chili powder; deggi mirch | spice | international | 238 | | dried chili
+paprika | sweet paprika | spice | spices | 238 | |
+smoked paprika | pimenton | spice | spices | 238 | |
+cumin | ground cumin | spice | spices | 238 | |
+cumin seed | whole cumin; jeera | spice | spices | 237 | |
+coriander | ground coriander | spice | spices | 238 | |
+coriander seed | whole coriander | spice | spices | 237 | |
+turmeric | ground turmeric; haldi | spice | spices | 238 | |
+garam masala | | spice | international | 238 | | spice blend
+curry powder | | spice | spices | 238 | | spice blend
+taco seasoning | taco spice mix | spice | spices | 238 | | spice blend
+italian seasoning | | spice | spices | 236 | | spice blend
+za'atar | zaatar | spice | international | 236 | | spice blend
+everything bagel seasoning | | spice | spices | 237 | | spice blend
+old bay | | spice | spices | 238 | | spice blend
+chinese five spice | five spice powder | spice | international | 238 | | spice blend
+pumpkin pie spice | | spice | spices | 238 | | spice blend
+cinnamon | ground cinnamon | spice | spices | 238 | | warm spice
+cinnamon stick | cinnamon sticks; whole cinnamon | spice | spices | 237 | 3 | warm spice
+nutmeg | ground nutmeg; grated nutmeg | spice | spices | 238 | | warm spice
+allspice | ground allspice | spice | spices | 238 | | warm spice
+clove | cloves; ground cloves; whole cloves | spice | spices | 237 | | warm spice
+cardamom | ground cardamom; cardamom pods; green cardamom | spice | spices | 237 | | warm spice
+star anise | | spice | international | 237 | 1 | warm spice
+ground ginger | dried ginger; ginger powder | spice | spices | 238 | | warm spice
+fennel seed | fennel seeds | spice | spices | 237 | |
+mustard seed | mustard seeds; black mustard seeds | spice | spices | 237 | |
+fenugreek | methi; fenugreek seeds | spice | international | 237 | |
+caraway seed | caraway | spice | spices | 237 | |
+celery seed | | spice | spices | 237 | |
+sumac | | spice | international | 238 | |
+saffron | | spice | spices | 237 | |
+sesame seed | sesame seeds; toasted sesame seeds; white sesame | seed | spices | 237 | | seed
+nigella seed | kalonji; black onion seed | spice | international | 237 | |
+dried oregano | oregano, dried | spice | spices | 236 | | dried herb
+dried thyme | | spice | spices | 236 | | dried herb
+dried basil | | spice | spices | 236 | | dried herb
+dried rosemary | | spice | spices | 236 | | dried herb
+dried dill | | spice | spices | 236 | | dried herb
+dried parsley | | spice | spices | 236 | | dried herb
+herbes de provence | | spice | spices | 236 | | spice blend
+onion powder | | spice | spices | 238 | |
+garlic powder | granulated garlic | spice | spices | 238 | |
+mushroom powder | porcini powder; mushroom seasoning | spice | international | 238 | |
+msg | monosodium glutamate; ajinomoto | spice | international | 238 | |
+dried chili | dried red chili; whole dried chilies; chile de arbol | spice | international | 237 | 1 | dried chili
+chipotle powder | ground chipotle | spice | spices | 238 | | dried chili
+ancho chili powder | | spice | spices | 238 | | dried chili
+gochugaru | korean chili flakes | spice | international | 238 | | dried chili
+dried shiitake mushroom | dried shiitake; dried mushrooms | pantry | international | 385 | 4 | mushroom
+nutritional yeast | nooch | pantry | pantry | 236 | |
+vanilla extract | vanilla; pure vanilla extract | baking | baking | 527 | |
+vanilla bean paste | vanilla paste | baking | baking | 527 | |
+almond extract | | baking | baking | 527 | |
+
+## dairy and eggs
+egg | eggs; large egg; large eggs | egg | dairy | 21 | 50 |
+egg white | egg whites; liquid egg whites | egg | dairy | 22 | 33 |
+egg yolk | egg yolks | egg | dairy | 22 | 18 |
+butter | unsalted butter; salted butter | dairy | dairy | 1 | 113 |
+ghee | clarified butter | dairy | international | 1 | |
+milk | whole milk; full fat milk; 2% milk; skim milk; dairy milk | dairy | dairy | 27 | | any milk
+buttermilk | | dairy | dairy | 2 | |
+heavy cream | heavy whipping cream; double cream | dairy | dairy | 14 | |
+half and half | | dairy | dairy | 13 | |
+sour cream | | dairy | dairy | 29 | |
+yogurt | plain yogurt; whole milk yogurt | dairy | dairy | 33 | | yogurt
+greek yogurt | 2% greek yogurt; nonfat greek yogurt; skyr | dairy | dairy | 33 | | yogurt
+cream cheese | | dairy | dairy | 10 | 226 |
+laughing cow cheese | laughing cow wedges; laughing cow | dairy | dairy | 6 | 16 |
+cottage cheese | | dairy | dairy | 9 | |
+ricotta | ricotta cheese | dairy | dairy | 7 | |
+mascarpone | | dairy | dairy | 7 | |
+mozzarella | low-moisture mozzarella; shredded mozzarella | dairy | dairy | 5 | | melting cheese
+fresh mozzarella | mozzarella ball | dairy | dairy | 7 | 225 | melting cheese
+cheddar | cheddar cheese; sharp cheddar | dairy | dairy | 3 | | melting cheese; hard cheese
+pepper jack | pepper jack cheese | dairy | dairy | 3 | | melting cheese
+monterey jack | jack cheese | dairy | dairy | 3 | | melting cheese
+fontina | fontina cheese | dairy | dairy | 3 | | melting cheese
+gruyere | gruyère; comté | dairy | dairy | 3 | | melting cheese; hard cheese
+provolone | | dairy | dairy | 6 | | melting cheese
+swiss cheese | emmental | dairy | dairy | 3 | | melting cheese; hard cheese
+gouda | | dairy | dairy | 3 | | melting cheese; hard cheese
+parmesan | parmigiano reggiano; parmesan cheese; grana padano | dairy | dairy | 4 | | hard cheese; grating cheese
+pecorino | pecorino romano | dairy | dairy | 4 | | hard cheese; grating cheese
+manchego | | dairy | dairy | 3 | | hard cheese
+feta | feta cheese | dairy | dairy | 7 | | brined cheese
+goat cheese | chevre | dairy | dairy | 7 | | soft cheese
+brie | camembert | dairy | dairy | 7 | | soft cheese
+blue cheese | gorgonzola; roquefort | dairy | dairy | 7 | |
+halloumi | | dairy | dairy | 7 | 225 |
+paneer | | dairy | international | 7 | 200 |
+queso fresco | cotija | dairy | dairy | 7 | |
+burrata | | dairy | dairy | 7 | 125 |
+string cheese | cheese sticks | dairy | dairy | 5 | 28 | melting cheese
+american cheese | processed cheese slices | dairy | dairy | 6 | 20 | melting cheese
+sweetened condensed milk | condensed milk | dairy | pantry | 383 | 397 |
+evaporated milk | | dairy | pantry | 383 | 354 |
+milk powder | dry milk powder; nonfat milk powder | dairy | baking | 465 | |
+ice cream | | dairy | frozen | 317 | |
+whipped cream | | dairy | dairy | 30 | |
+
+## plant milks
+oat milk | | dairy alternative | dairy | 408 | | any milk; plant milk
+almond milk | | dairy alternative | dairy | 427 | | any milk; plant milk
+soy milk | | dairy alternative | dairy | 421 | | any milk; plant milk
+coconut milk | canned coconut milk; full-fat coconut milk | canned | international | 429 | 400 |
+coconut cream | | canned | international | 429 | 400 |
+
+## meat and poultry
+chicken breast | boneless skinless chicken breast; chicken breasts | poultry | meat | 117 | 200 | chicken
+chicken thigh | boneless skinless chicken thighs; chicken thighs; bone-in chicken thighs | poultry | meat | 118 | 150 | chicken
+chicken drumstick | drumsticks; chicken legs | poultry | meat | 118 | 120 | chicken
+chicken leg quarter | chicken leg quarters | poultry | meat | 118 | 350 | chicken
+chicken wing | chicken wings; wings | poultry | meat | 118 | 90 | chicken
+whole chicken | | poultry | meat | 113 | 1800 | chicken
+ground chicken | minced chicken | poultry | meat | 115 | | ground poultry
+ground turkey | minced turkey; 93% lean ground turkey | poultry | meat | 115 | | ground poultry
+turkey breast | | poultry | meat | 120 | | turkey
+cooked chicken | leftover chicken; pulled chicken; shredded chicken | prepared | deli | 173 | |
+rotisserie chicken | | prepared | deli | 141 | 1000 |
+ground beef | minced beef; 80/20 ground beef; lean ground beef | meat | meat | 42 | | ground meat
+beef chuck | chuck roast; stew meat; stewing beef | meat | meat | 36 | |
+steak | ribeye; sirloin; strip steak; flank steak; skirt steak | meat | meat | 38 | 250 |
+beef short rib | short ribs | meat | meat | 36 | |
+ground pork | minced pork | meat | meat | 42 | | ground meat
+pork shoulder | pork butt; boston butt | meat | meat | 36 | |
+pork chop | pork chops | meat | meat | 38 | 200 |
+pork tenderloin | pork loin | meat | meat | 38 | |
+pork belly | | meat | meat | 36 | |
+bacon | streaky bacon | meat | meat | 73 | 15 |
+turkey bacon | | meat | meat | 431 | 12 |
+sausage | italian sausage; pork sausage; sausages | meat | meat | 103 | 100 |
+chicken sausage | | poultry | meat | 103 | 85 |
+chorizo | fresh chorizo | meat | meat | 103 | 100 |
+cured chorizo | spanish chorizo | meat | deli | 104 | |
+pepperoni | | meat | deli | 104 | |
+salami | | meat | deli | 104 | |
+prosciutto | | meat | deli | 104 | 15 |
+ham | deli ham; sliced ham | meat | deli | 89 | 28 |
+deli turkey | sliced turkey | meat | deli | 93 | 28 |
+lamb | ground lamb; lamb shoulder; lamb chops | meat | meat | 36 | |
+hot dog | hot dogs; frankfurters | meat | meat | 85 | 45 |
+
+## seafood
+salmon | salmon fillet; salmon fillets | seafood | seafood | 148 | 170 | fish
+white fish | cod; haddock; tilapia; halibut; pollock | seafood | seafood | 148 | 170 | fish
+tuna steak | fresh tuna; ahi | seafood | seafood | 148 | 170 | fish
+shrimp | prawns; raw shrimp | seafood | seafood | 158 | 12 | shellfish
+scallop | scallops | seafood | seafood | 158 | 25 | shellfish
+mussel | mussels | seafood | seafood | 160 | 20 | shellfish
+clam | clams | seafood | seafood | 160 | 20 | shellfish
+crab | crab meat; lump crab | seafood | seafood | 158 | | shellfish
+squid | calamari | seafood | seafood | 158 | | shellfish
+anchovy | anchovies; anchovy fillets | canned | pantry | 164 | 4 |
+canned tuna | tinned tuna; tuna in oil; tuna in water | canned | pantry | 164 | 142 |
+canned salmon | | canned | pantry | 164 | 170 |
+sardine | sardines; tinned sardines | canned | pantry | 164 | 100 |
+smoked salmon | lox | seafood | deli | 162 | |
+fish sauce | nam pla; nuoc mam | condiment | international | 360 | |
+
+## eggs, tofu, plant proteins
+tofu | firm tofu; extra-firm tofu; silken tofu | vegetarian protein | produce | 167 | 400 |
+tempeh | | vegetarian protein | produce | 167 | 225 |
+seitan | | vegetarian protein | produce | 327 | |
+veggie burger | plant-based burger; beyond burger; impossible burger | vegetarian protein | frozen | 327 | 113 |
+soy crumbles | plant-based ground; impossible ground | vegetarian protein | frozen | 326 | |
+
+## grains, rice, pasta, noodles
+white rice | long-grain white rice; jasmine rice; basmati rice | grain | pantry | 338 | | rice; any rice
+short-grain rice | sushi rice; calrose; arborio | grain | pantry | 338 | | rice; any rice
+brown rice | | grain | pantry | 339 | | rice; any rice
+wild rice | | grain | pantry | 338 | | rice
+cooked rice | leftover rice | prepared | fridge | 178 | | cooked rice
+quinoa | | grain | pantry | 338 | |
+farro | | grain | pantry | 338 | | whole grain
+barley | pearl barley | grain | pantry | 338 | | whole grain
+bulgur | | grain | pantry | 338 | | whole grain
+couscous | pearl couscous; israeli couscous | grain | pantry | 335 | |
+oats | rolled oats; old-fashioned oats; quick oats; oatmeal | grain | pantry | 338 | |
+steel-cut oats | | grain | pantry | 338 | |
+cornmeal | polenta; grits | grain | pantry | 224 | |
+pasta | dried pasta; spaghetti; penne; rigatoni; fusilli; linguine | pasta | pantry | 335 | | pasta
+pappardelle | | pasta | pantry | 335 | | pasta
+orzo | | pasta | pantry | 335 | | pasta
+lasagna sheets | lasagna noodles | pasta | pantry | 335 | 20 | pasta
+fresh pasta | | pasta | fridge | 332 | | pasta
+egg noodles | | pasta | pantry | 336 | | noodle
+ramen noodles | instant ramen; dried ramen | pasta | international | 335 | 85 | noodle
+rice noodles | pad thai noodles; rice sticks; rice vermicelli | pasta | international | 335 | | noodle
+mung bean vermicelli | glass noodles; bean thread noodles; cellophane noodles; vermicelli noodles | pasta | international | 335 | | noodle
+soba | soba noodles; buckwheat noodles | pasta | international | 335 | | noodle
+udon | udon noodles | pasta | international | 335 | | noodle
+gnocchi | | pasta | fridge | 332 | |
+cooked pasta | leftover pasta | prepared | fridge | 177 | |
+
+## beans and legumes
+chickpea | chickpeas; garbanzo beans; canned chickpeas | legume | pantry | 372 | | bean; canned bean
+black beans | black bean; canned black beans | legume | pantry | 372 | | bean; canned bean
+kidney beans | red kidney beans | legume | pantry | 372 | | bean; canned bean
+cannellini beans | white beans; great northern beans; navy beans | legume | pantry | 372 | | bean; canned bean
+pinto beans | | legume | pantry | 372 | | bean; canned bean
+butter beans | lima beans; gigante beans | legume | pantry | 372 | | bean; canned bean
+dried beans | dried chickpeas; dried black beans | legume | pantry | 333 | | bean
+lentils | brown lentils; green lentils | legume | pantry | 333 | | lentil
+red lentils | masoor dal; split red lentils | legume | pantry | 333 | | lentil
+black lentils | beluga lentils; urad dal | legume | pantry | 333 | | lentil
+split peas | yellow split peas; green split peas | legume | pantry | 333 | | lentil
+toor dal | split pigeon peas; arhar dal | legume | international | 333 | | lentil
+moong dal | split mung beans | legume | international | 333 | | lentil
+refried beans | | canned | pantry | 372 | 454 |
+hummus | | prepared | deli | 190 | |
+
+## flours, baking, sweeteners
+all-purpose flour | ap flour; plain flour; flour; white flour | baking | baking | 222 | | flour
+bread flour | strong flour | baking | baking | 222 | | flour
+whole-wheat flour | whole wheat flour; atta | baking | baking | 459 | | flour
+rye flour | | baking | baking | 223 | | flour
+cake flour | | baking | baking | 222 | | flour
+almond flour | almond meal | baking | baking | 386 | | flour
+oat flour | | baking | baking | 338 | | flour
+chickpea flour | besan; gram flour | baking | international | 222 | | flour
+rice flour | glutinous rice flour; sweet rice flour; mochiko | baking | international | 222 | | flour
+cornstarch | corn starch; cornflour | baking | baking | 224 | | starch
+potato starch | | baking | baking | 224 | | starch
+tapioca starch | tapioca flour | baking | baking | 224 | | starch
+baking powder | | baking | baking | 212 | |
+baking soda | bicarbonate of soda | baking | baking | 213 | |
+yeast | instant yeast; active dry yeast; dried yeast | baking | baking | 211 | 7 |
+granulated sugar | white sugar; sugar; caster sugar | sweetener | baking | 240 | | sugar
+brown sugar | light brown sugar; dark brown sugar | sweetener | baking | 239 | | sugar
+powdered sugar | confectioners sugar; icing sugar | sweetener | baking | 241 | | sugar
+coconut sugar | | sweetener | baking | 239 | | sugar
+jaggery | gur | sweetener | international | 239 | | sugar
+honey | | sweetener | pantry | 345 | | liquid sweetener
+maple syrup | pure maple syrup | sweetener | pantry | 398 | | liquid sweetener
+agave | agave nectar; agave syrup | sweetener | pantry | 398 | | liquid sweetener
+molasses | | sweetener | baking | 398 | |
+corn syrup | | sweetener | baking | 398 | |
+dark chocolate | bittersweet chocolate; 70% chocolate; semi-sweet chocolate | baking | baking | 216 | | chocolate
+chocolate chips | semi-sweet chocolate chips | baking | baking | 216 | | chocolate
+milk chocolate | | baking | baking | 216 | | chocolate
+white chocolate | | baking | baking | 216 | | chocolate
+cocoa powder | unsweetened cocoa; dutch-process cocoa | baking | baking | 216 | |
+espresso powder | instant espresso; instant coffee | baking | baking | 400 | |
+gelatin | unflavored gelatin | baking | baking | 230 | |
+sprinkles | | baking | baking | 240 | |
+food coloring | | baking | baking | 240 | |
+shredded coconut | desiccated coconut; coconut flakes | baking | baking | 258 | |
+graham crackers | digestive biscuits | baking | pantry | 218 | 14 |
+panko | panko breadcrumbs; japanese breadcrumbs | baking | pantry | 219 | | breadcrumb
+breadcrumbs | bread crumbs; italian breadcrumbs | baking | pantry | 219 | | breadcrumb
+matzo meal | | baking | pantry | 219 | | breadcrumb
+puff pastry | | baking | frozen | 309 | 250 |
+pie crust | pie dough | baking | fridge | 309 | 230 |
+pizza dough | | baking | fridge | 309 | 450 |
+phyllo | filo pastry | baking | frozen | 309 | |
+dumpling wrapper | dumpling wrappers; gyoza wrappers; wonton wrappers | pasta | international | 332 | 8 |
+frozen dumplings | frozen potstickers; frozen gyoza; frozen wontons | frozen | frozen | 320 | 20 | dumplings
+pumpkin puree | canned pumpkin | canned | baking | 372 | 425 |
+applesauce | unsweetened applesauce | canned | pantry | 370 | |
+
+## oils, vinegars
+olive oil | extra virgin olive oil; evoo | oil | pantry | 227 | | oil; cooking oil
+vegetable oil | rapeseed oil; sunflower oil; neutral oil | oil | pantry | 227 | | oil; cooking oil; neutral oil
+canola oil | | oil | pantry | 227 | | oil; cooking oil; neutral oil
+avocado oil | | oil | pantry | 227 | | oil; cooking oil; neutral oil
+coconut oil | | oil | pantry | 454 | | oil
+sesame oil | toasted sesame oil | oil | international | 228 | | finishing oil
+peanut oil | | oil | pantry | 228 | | oil; cooking oil
+cooking spray | oil spray | oil | pantry | 229 | |
+vinegar | white vinegar; distilled vinegar | vinegar | pantry | 361 | | vinegar
+apple cider vinegar | cider vinegar | vinegar | pantry | 361 | | vinegar
+red wine vinegar | | vinegar | pantry | 361 | | vinegar
+white wine vinegar | | vinegar | pantry | 361 | | vinegar
+sherry vinegar | | vinegar | pantry | 361 | | vinegar
+balsamic vinegar | balsamic | vinegar | pantry | 361 | | vinegar
+rice vinegar | rice wine vinegar | vinegar | international | 361 | | vinegar
+black vinegar | chinkiang vinegar | vinegar | international | 361 | | vinegar
+
+## condiments and sauces
+soy sauce | light soy sauce; shoyu | condiment | international | 360 | | soy sauce
+tamari | gluten-free soy sauce | condiment | international | 360 | | soy sauce
+dark soy sauce | | condiment | international | 360 | | soy sauce
+oyster sauce | | condiment | international | 360 | |
+vegetarian oyster sauce | mushroom stir-fry sauce; vegan oyster sauce | condiment | international | 360 | |
+hoisin sauce | hoisin | condiment | international | 360 | |
+shaoxing wine | chinese cooking wine; shaoxing | condiment | international | 360 | |
+mirin | | condiment | international | 360 | |
+white miso | miso; miso paste; shiro miso | condiment | international | 360 | | miso
+red miso | | condiment | international | 360 | | miso
+gochujang | | condiment | international | 360 | |
+doenjang | | condiment | international | 360 | |
+chili crisp | chili crunch; lao gan ma; chili oil | condiment | international | 360 | |
+sriracha | | condiment | pantry | 357 | | hot sauce
+hot sauce | tabasco; frank's red hot; cholula | condiment | pantry | 357 | | hot sauce
+sambal oelek | sambal | condiment | international | 357 | | hot sauce
+harissa | harissa paste | condiment | international | 357 | |
+chipotle in adobo | chipotles in adobo; adobo sauce | canned | international | 357 | |
+salsa | jarred salsa | condiment | pantry | 357 | |
+pico de gallo | fresh salsa | prepared | produce | 357 | |
+tomato paste | | canned | pantry | 374 | |
+tomato sauce | passata; strained tomatoes | canned | pantry | 372 | | canned tomato
+crushed tomatoes | canned crushed tomatoes | canned | pantry | 372 | 794 | canned tomato
+diced tomatoes | canned diced tomatoes; chopped tomatoes | canned | pantry | 372 | 411 | canned tomato
+whole peeled tomatoes | san marzano tomatoes | canned | pantry | 372 | 794 | canned tomato
+marinara | pasta sauce; jarred tomato sauce | condiment | pantry | 372 | 680 |
+pesto | basil pesto | condiment | fridge | 342 | |
+sun-dried tomato pesto | red pesto | condiment | pantry | 397 | |
+sun-dried tomatoes | sundried tomatoes | canned | pantry | 397 | 3 |
+roasted red pepper | jarred roasted red peppers; jarred roasted red pepper | canned | pantry | 458 | 60 |
+caper | capers | condiment | pantry | 373 | |
+olives | kalamata olives; green olives; castelvetrano | condiment | pantry | 373 | 4 |
+pickle | pickles; dill pickles; gherkins | condiment | pantry | 373 | 30 |
+pickled jalapeno | pickled jalapenos | condiment | pantry | 373 | 3 |
+kimchi | | condiment | international | 373 | |
+sauerkraut | | condiment | fridge | 373 | |
+artichoke hearts | canned artichokes; marinated artichokes | canned | pantry | 373 | |
+ketchup | | condiment | pantry | 356 | |
+mustard | yellow mustard | condiment | pantry | 353 | | mustard
+dijon mustard | dijon | condiment | pantry | 353 | | mustard
+whole grain mustard | | condiment | pantry | 353 | | mustard
+mayonnaise | mayo; kewpie | condiment | pantry | 352 | |
+worcestershire sauce | worcestershire | condiment | pantry | 360 | |
+bbq sauce | barbecue sauce | condiment | pantry | 356 | |
+teriyaki sauce | | condiment | international | 360 | |
+buffalo sauce | | condiment | pantry | 357 | | hot sauce
+ranch dressing | ranch | condiment | fridge | 350 | |
+tahini | sesame paste | condiment | international | 387 | | nut butter
+peanut butter | | condiment | pantry | 387 | | nut butter
+almond butter | | condiment | pantry | 466 | | nut butter
+nutella | chocolate hazelnut spread | condiment | pantry | 387 | |
+jam | jelly; preserves; fruit preserves | condiment | pantry | 349 | |
+coconut aminos | | condiment | international | 360 | | soy sauce
+liquid smoke | | condiment | pantry | 360 | |
+curry paste | thai red curry paste; thai green curry paste | condiment | international | 360 | |
+tamarind paste | tamarind concentrate | condiment | international | 360 | |
+ginger garlic paste | | condiment | international | 235 | |
+chutney | mango chutney; tamarind chutney | condiment | international | 349 | |
+
+## stocks, broths, canned
+chicken stock | chicken broth; chicken bone broth; stock | pantry | pantry | 372 | | stock
+vegetable stock | vegetable broth; veggie broth | pantry | pantry | 372 | | stock
+beef stock | beef broth; beef bone broth | pantry | pantry | 372 | | stock
+bouillon | bouillon cube; stock cube; better than bouillon | pantry | pantry | 372 | 10 | stock
+dashi | dashi powder; hondashi | pantry | international | 372 | | stock
+canned corn | | canned | pantry | 372 | 425 |
+water | | pantry | | | |
+ice | ice cubes | pantry | | | |
+
+## nuts and seeds
+almond | almonds; sliced almonds; slivered almonds | nut | pantry | 386 | 1.2 | nut
+walnut | walnuts | nut | pantry | 446 | 4 | nut
+pecan | pecans | nut | pantry | 444 | 1.5 | nut
+cashew | cashews; raw cashews | nut | pantry | 386 | 1.5 | nut
+peanut | peanuts; roasted peanuts | nut | pantry | 442 | 1 | nut
+pistachio | pistachios | nut | pantry | 386 | 0.7 | nut
+hazelnut | hazelnuts | nut | pantry | 386 | 1.2 | nut
+pine nut | pine nuts | nut | pantry | 386 | 0.2 | nut
+macadamia | macadamia nuts | nut | pantry | 386 | 2 | nut
+pumpkin seed | pumpkin seeds; pepitas | seed | pantry | 386 | 0.15 | seed
+sunflower seed | sunflower seeds | seed | pantry | 386 | 0.05 | seed
+chia seed | chia seeds | seed | pantry | 386 | | seed
+flaxseed | flax seeds; ground flaxseed | seed | pantry | 386 | | seed
+hemp seed | hemp hearts | seed | pantry | 386 | | seed
+poppy seed | poppy seeds | seed | spices | 237 | | seed
+raisin | raisins; golden raisins | dried fruit | pantry | 259 | 0.5 | dried fruit
+dried cranberry | dried cranberries; craisins | dried fruit | pantry | 259 | 0.3 | dried fruit
+dried apricot | dried apricots | dried fruit | pantry | 259 | 8 | dried fruit
+
+## bread and tortillas
+bread | sandwich bread; sliced bread; white bread | bread | bakery | 195 | 30 | sandwich bread; any bread
+whole wheat bread | wholemeal bread | bread | bakery | 461 | 35 | sandwich bread; any bread
+sourdough bread | sourdough | bread | bakery | 195 | 40 | sandwich bread; any bread
+baguette | french bread | bread | bakery | 195 | 250 | any bread
+ciabatta | ciabatta roll | bread | bakery | 195 | 90 | sandwich bread; any bread
+sub roll | hoagie roll; hero roll; semolina roll | bread | bakery | 195 | 120 | sandwich bread; any bread
+burger bun | hamburger buns; brioche bun | bread | bakery | 195 | 60 | sandwich bread
+hot dog bun | | bread | bakery | 195 | 45 |
+croissant | croissants | bread | bakery | 195 | 60 | sandwich bread
+bagel | bagels | bread | bakery | 194 | 100 | sandwich bread
+english muffin | | bread | bakery | 195 | 60 | sandwich bread
+focaccia | | bread | bakery | 195 | 100 | sandwich bread; any bread
+pita | pita bread; pitta | bread | bakery | 195 | 60 | flatbread; sandwich bread; any bread
+naan | | bread | bakery | 195 | 90 | flatbread; any bread
+lavash | | bread | bakery | 195 | 50 | flatbread; wrap
+flour tortilla | tortillas; burrito tortilla; large flour tortilla | bread | bakery | 196 | 50 | wrap; tortilla
+whole-wheat tortilla | whole wheat tortilla; whole wheat wrap | bread | bakery | 196 | 50 | wrap; tortilla
+corn tortilla | corn tortillas | bread | bakery | 196 | 25 | tortilla
+roti | chapati; phulka | bread | international | 196 | 40 | flatbread
+tortilla chips | | snack | pantry | 220 | |
+crackers | | snack | pantry | 218 | |
+croutons | | bread | pantry | 219 | |
+
+## frozen
+frozen peas | | frozen | frozen | 320 | |
+frozen corn | | frozen | frozen | 320 | |
+frozen spinach | | frozen | frozen | 320 | 283 |
+frozen berries | frozen mixed berries | frozen | frozen | 320 | | berry
+frozen mango | | frozen | frozen | 320 | |
+frozen fries | french fries; frozen french fries | frozen | frozen | 320 | |
+frozen vegetables | mixed vegetables; stir-fry vegetables | frozen | frozen | 320 | |
+frozen shrimp | | frozen | frozen | 158 | 12 | shellfish
+frozen pizza | | frozen | frozen | 320 | |
+
+## beverages and alcohol for cooking
+white wine | dry white wine | beverage | alcohol | 405 | | cooking wine
+red wine | dry red wine | beverage | alcohol | 405 | | cooking wine
+dry sherry | cooking sherry | beverage | alcohol | 405 | | cooking wine
+sake | | beverage | alcohol | 405 | | cooking wine
+beer | lager | beverage | alcohol | 405 | 355 |
+coffee | brewed coffee; cold brew | beverage | pantry | 400 | |
+coffee beans | ground coffee | beverage | pantry | 400 | |
+tea | black tea; green tea; tea bags | beverage | pantry | 404 | |
+orange juice | | beverage | fridge | 373 | |
+lemon juice | bottled lemon juice | condiment | pantry | 448 | |
+lime juice | bottled lime juice | condiment | pantry | 447 | |
+sparkling water | seltzer; club soda | beverage | pantry | 408 | |
+coconut water | | beverage | pantry | 408 | |
+
+## prepared and deli
+cooked bacon | | prepared | fridge | 173 | |
+leftovers | | prepared | fridge | 173 | |
+deli meat | cold cuts | meat | deli | 93 | |
+guacamole | | prepared | produce | 190 | |
+tzatziki | | prepared | deli | 16 | |
+protein powder | whey protein | pantry | pantry | 465 | |
+granola | | grain | pantry | 338 | |
+cereal | | grain | pantry | 338 | |
+popcorn | popcorn kernels | snack | pantry | 338 | |

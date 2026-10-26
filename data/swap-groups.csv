@@ -1,0 +1,355 @@
+group,member
+allium,onion
+allium,red onion
+allium,shallot
+allium,scallion
+allium,green garlic
+allium,garlic
+allium,leek
+any bread,bread
+any bread,whole wheat bread
+any bread,sourdough bread
+any bread,baguette
+any bread,ciabatta
+any bread,sub roll
+any bread,focaccia
+any bread,pita
+any bread,naan
+any milk,milk
+any milk,oat milk
+any milk,almond milk
+any milk,soy milk
+any rice,white rice
+any rice,short-grain rice
+any rice,brown rice
+bean,chickpea
+bean,black beans
+bean,kidney beans
+bean,cannellini beans
+bean,pinto beans
+bean,butter beans
+bean,dried beans
+bell pepper,bell pepper
+bell pepper,red bell pepper
+bell pepper,green bell pepper
+bell pepper,yellow bell pepper
+berry,berries
+berry,strawberry
+berry,blueberry
+berry,raspberry
+berry,frozen berries
+brassica,broccoli
+brassica,cauliflower
+brassica,brussels sprout
+brassica,cabbage
+brassica,napa cabbage
+brassica,red cabbage
+brassica,bok choy
+breadcrumb,panko
+breadcrumb,breadcrumbs
+breadcrumb,matzo meal
+brined cheese,feta
+cabbage,cabbage
+cabbage,napa cabbage
+cabbage,red cabbage
+canned bean,chickpea
+canned bean,black beans
+canned bean,kidney beans
+canned bean,cannellini beans
+canned bean,pinto beans
+canned bean,butter beans
+canned tomato,tomato sauce
+canned tomato,crushed tomatoes
+canned tomato,diced tomatoes
+canned tomato,whole peeled tomatoes
+chicken,chicken breast
+chicken,chicken thigh
+chicken,chicken drumstick
+chicken,chicken leg quarter
+chicken,chicken wing
+chicken,whole chicken
+chocolate,dark chocolate
+chocolate,chocolate chips
+chocolate,milk chocolate
+chocolate,white chocolate
+citrus,lemon
+citrus,lime
+citrus,orange
+citrus,grapefruit
+cooked rice,cooked rice
+cooking oil,olive oil
+cooking oil,vegetable oil
+cooking oil,canola oil
+cooking oil,avocado oil
+cooking oil,peanut oil
+cooking wine,white wine
+cooking wine,red wine
+cooking wine,dry sherry
+cooking wine,sake
+dried chili,red pepper flakes
+dried chili,cayenne
+dried chili,chili powder
+dried chili,kashmiri chili powder
+dried chili,dried chili
+dried chili,chipotle powder
+dried chili,ancho chili powder
+dried chili,gochugaru
+dried fruit,date
+dried fruit,raisin
+dried fruit,dried cranberry
+dried fruit,dried apricot
+dried herb,dried oregano
+dried herb,dried thyme
+dried herb,dried basil
+dried herb,dried rosemary
+dried herb,dried dill
+dried herb,dried parsley
+dumplings,frozen dumplings
+finishing oil,sesame oil
+fish,salmon
+fish,white fish
+fish,tuna steak
+flatbread,pita
+flatbread,naan
+flatbread,lavash
+flatbread,roti
+flour,all-purpose flour
+flour,bread flour
+flour,whole-wheat flour
+flour,rye flour
+flour,cake flour
+flour,almond flour
+flour,oat flour
+flour,chickpea flour
+flour,rice flour
+fresh chili,jalapeno
+fresh chili,serrano chili
+fresh chili,habanero
+fresh chili,thai chili
+fresh chili,poblano
+fresh herb,parsley
+fresh herb,cilantro
+fresh herb,basil
+fresh herb,mint
+fresh herb,dill
+fresh herb,chive
+fresh herb,rosemary
+fresh herb,thyme
+fresh herb,oregano
+fresh herb,sage
+fresh herb,tarragon
+fresh herb,curry leaves
+fruit,apple
+fruit,pear
+fruit,banana
+fruit,mango
+fruit,pineapple
+fruit,berries
+fruit,strawberry
+fruit,blueberry
+fruit,raspberry
+fruit,grape
+fruit,peach
+fruit,plum
+fruit,cherry
+fruit,pomegranate
+fruit,watermelon
+fruit,cantaloupe
+fruit,kiwi
+grating cheese,parmesan
+grating cheese,pecorino
+ground meat,ground beef
+ground meat,ground pork
+ground poultry,ground chicken
+ground poultry,ground turkey
+hard cheese,cheddar
+hard cheese,gruyere
+hard cheese,swiss cheese
+hard cheese,gouda
+hard cheese,parmesan
+hard cheese,pecorino
+hard cheese,manchego
+hot sauce,sriracha
+hot sauce,hot sauce
+hot sauce,sambal oelek
+hot sauce,buffalo sauce
+leafy green,bok choy
+leafy green,kale
+leafy green,spinach
+leafy green,arugula
+leafy green,swiss chard
+lentil,lentils
+lentil,red lentils
+lentil,black lentils
+lentil,split peas
+lentil,toor dal
+lentil,moong dal
+liquid sweetener,honey
+liquid sweetener,maple syrup
+liquid sweetener,agave
+melon,watermelon
+melon,cantaloupe
+melting cheese,mozzarella
+melting cheese,fresh mozzarella
+melting cheese,cheddar
+melting cheese,pepper jack
+melting cheese,monterey jack
+melting cheese,fontina
+melting cheese,gruyere
+melting cheese,provolone
+melting cheese,swiss cheese
+melting cheese,gouda
+melting cheese,string cheese
+melting cheese,american cheese
+miso,white miso
+miso,red miso
+mushroom,mushroom
+mushroom,cremini mushroom
+mushroom,shiitake mushroom
+mushroom,oyster mushroom
+mushroom,dried shiitake mushroom
+mustard,mustard
+mustard,dijon mustard
+mustard,whole grain mustard
+neutral oil,vegetable oil
+neutral oil,canola oil
+neutral oil,avocado oil
+noodle,egg noodles
+noodle,ramen noodles
+noodle,rice noodles
+noodle,mung bean vermicelli
+noodle,soba
+noodle,udon
+nut,almond
+nut,walnut
+nut,pecan
+nut,cashew
+nut,peanut
+nut,pistachio
+nut,hazelnut
+nut,pine nut
+nut,macadamia
+nut butter,tahini
+nut butter,peanut butter
+nut butter,almond butter
+oil,olive oil
+oil,vegetable oil
+oil,canola oil
+oil,avocado oil
+oil,coconut oil
+oil,peanut oil
+pasta,pasta
+pasta,pappardelle
+pasta,orzo
+pasta,lasagna sheets
+pasta,fresh pasta
+plant milk,oat milk
+plant milk,almond milk
+plant milk,soy milk
+rice,white rice
+rice,short-grain rice
+rice,brown rice
+rice,wild rice
+root vegetable,carrot
+root vegetable,parsnip
+root vegetable,sweet potato
+root vegetable,potato
+root vegetable,beet
+root vegetable,turnip
+salad green,arugula
+salad green,lettuce
+salad green,mixed greens
+salt,salt
+salt,kosher salt
+salt,flaky salt
+sandwich bread,bread
+sandwich bread,whole wheat bread
+sandwich bread,sourdough bread
+sandwich bread,ciabatta
+sandwich bread,sub roll
+sandwich bread,burger bun
+sandwich bread,croissant
+sandwich bread,bagel
+sandwich bread,english muffin
+sandwich bread,focaccia
+sandwich bread,pita
+seed,sesame seed
+seed,pumpkin seed
+seed,sunflower seed
+seed,chia seed
+seed,flaxseed
+seed,hemp seed
+seed,poppy seed
+shellfish,shrimp
+shellfish,scallop
+shellfish,mussel
+shellfish,clam
+shellfish,crab
+shellfish,squid
+shellfish,frozen shrimp
+soft cheese,goat cheese
+soft cheese,brie
+soy sauce,soy sauce
+soy sauce,tamari
+soy sauce,dark soy sauce
+soy sauce,coconut aminos
+spice blend,garam masala
+spice blend,curry powder
+spice blend,taco seasoning
+spice blend,italian seasoning
+spice blend,za'atar
+spice blend,everything bagel seasoning
+spice blend,old bay
+spice blend,chinese five spice
+spice blend,pumpkin pie spice
+spice blend,herbes de provence
+starch,cornstarch
+starch,potato starch
+starch,tapioca starch
+stock,chicken stock
+stock,vegetable stock
+stock,beef stock
+stock,bouillon
+stock,dashi
+stone fruit,peach
+stone fruit,plum
+stone fruit,cherry
+sugar,granulated sugar
+sugar,brown sugar
+sugar,powdered sugar
+sugar,coconut sugar
+sugar,jaggery
+tortilla,flour tortilla
+tortilla,whole-wheat tortilla
+tortilla,corn tortilla
+turkey,turkey breast
+vinegar,vinegar
+vinegar,apple cider vinegar
+vinegar,red wine vinegar
+vinegar,white wine vinegar
+vinegar,sherry vinegar
+vinegar,balsamic vinegar
+vinegar,rice vinegar
+vinegar,black vinegar
+warm spice,cinnamon
+warm spice,cinnamon stick
+warm spice,nutmeg
+warm spice,allspice
+warm spice,clove
+warm spice,cardamom
+warm spice,star anise
+warm spice,ground ginger
+whole grain,farro
+whole grain,barley
+whole grain,bulgur
+winter squash,butternut squash
+winter squash,pumpkin
+woody herb,rosemary
+woody herb,thyme
+woody herb,oregano
+woody herb,sage
+wrap,lavash
+wrap,flour tortilla
+wrap,whole-wheat tortilla
+yogurt,yogurt
+yogurt,greek yogurt
