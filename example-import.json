@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Susmitha with Claude, 2026-10-26",
+  "recipes": [
+    {
+      "title": "Chickpea and roasted pepper bean salad",
+      "source": "Instagram @somecook",
+      "servings": 6,
+      "prepMinutes": 25,
+      "cookMinutes": 20,
+      "effort": "high",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": false,
+      "keepsDays": 4,
+      "tags": ["salad", "vegetarian", "meal prep"],
+      "ingredients": [
+        { "id": "i1", "original": "2 cans chickpeas, drained and rinsed", "quantity": 2, "unit": "can", "canonical": "chickpea", "boughtAs": "canned", "servedAs": "raw", "swapMark": "swappable", "swap": "white bean", "amountRule": "flexible", "floor": 0.75, "prep": "drained and rinsed" },
+        { "id": "i2", "original": "2 red bell peppers", "quantity": 2, "unit": "piece", "canonical": "red bell pepper", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "yellow bell pepper", "amountRule": "flexible" },
+        { "id": "i3", "original": "1 English cucumber, diced", "quantity": 1, "unit": "piece", "canonical": "cucumber", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "diced" },
+        { "id": "i4", "original": "1/2 red onion, finely sliced", "quantity": 0.5, "unit": "piece", "canonical": "red onion", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "shallot", "amountRule": "flexible", "prep": "finely sliced" },
+        { "id": "i5", "original": "1 cup chopped parsley", "quantity": 1, "unit": "cup", "canonical": "parsley", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "cilantro", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i6", "original": "1 apple, diced", "quantity": 1, "unit": "piece", "canonical": "apple", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "diced" },
+        { "id": "i7", "original": "3 tbsp olive oil", "quantity": 3, "unit": "tbsp", "canonical": "olive oil", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i8", "original": "juice of 1 lemon", "quantity": 1, "unit": "piece", "canonical": "lemon", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "red wine vinegar", "amountRule": "flexible" },
+        { "id": "i9", "original": "salt and pepper to taste", "quantity": null, "unit": "to_taste", "canonical": "salt", "boughtAs": "unspecified", "servedAs": "unspecified", "swapMark": "essential", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Roast the peppers at 220C until blistered, about 20 minutes. Cool, peel and slice.", "uses": ["i2"], "timerMinutes": 20, "makeAhead": { "maxDaysAhead": 3, "store": "fridge", "note": "keep sliced peppers in a covered container" } },
+        { "id": "s2", "text": "Dice the cucumber and apple, slice the onion, chop the parsley.", "uses": ["i3", "i4", "i5", "i6"], "makeAhead": { "maxDaysAhead": 1, "store": "fridge", "note": "apple browns; cut it on the day if you can" } },
+        { "id": "s3", "text": "Whisk the olive oil, lemon juice, salt and pepper.", "uses": ["i7", "i8", "i9"], "makeAhead": { "maxDaysAhead": 4, "store": "fridge" } },
+        { "id": "s4", "text": "Toss the chickpeas with everything and the dressing. Keeps 4 days; it gets better on day two.", "uses": ["i1", "i2", "i3", "i4", "i5", "i6", "i7"] }
+      ],
+      "reviewNotes": ["Source says 'serves 4-6'; took 6 as meal-prep portions."]
+    }
+  ]
+}
