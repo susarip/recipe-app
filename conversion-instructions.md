@@ -51,6 +51,7 @@ One line per ingredient as listed in the source. If the same ingredient is liste
   - `flexible`: vegetables, greens, herbs, cheese on top, most proteins in mixed dishes. Default `floor` 0.5; set `floor` 0.75 when half would clearly be too little.
   - `stretchable`: liquids that can be topped up: broth and stock (`stretchWith: "water"`), milks (`stretchWith: "any milk"`), wine in a sauce (`stretchWith: "broth"`).
 - `prep`: the preparation words from the source, if any ("diced", "minced", "zested", "room temperature").
+- `recipeRef`: when the ingredient is itself a recipe in the source (a dressing, sauce, spice mix, dough, tangzhong), convert that part as its own recipe in the same file, tagged `component`, and reference it here by title. The line's `quantity` and `unit` say how much of it is used; `canonical` repeats the title.
 
 ### Steps
 

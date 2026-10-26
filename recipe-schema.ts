@@ -88,6 +88,13 @@ export const IngredientLine = z.object({
   stretchWith: z.string().optional(),
   /** Preparation words that matter for prep: "diced", "minced", "zested". */
   prep: z.string().max(100).optional(),
+  /**
+   * This line is another recipe (a dressing, a sauce, a spice mix, a dough), referenced by its title
+   * as it appears in the same import file or already in the library. The sub-recipe is a full recipe
+   * of its own, tagged "component", and searchable on its own. Cook mode and the shopping list expand
+   * it inline. `quantity` + `unit` say how much of it this recipe uses; `canonical` repeats the title.
+   */
+  recipeRef: z.string().min(1).optional(),
 }).superRefine((line, ctx) => {
   if (line.swapMark === "swappable" && !line.swap) {
     ctx.addIssue({ code: "custom", message: `${line.id}: swappable lines need a swap` });
