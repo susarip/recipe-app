@@ -1,0 +1,655 @@
+canonical,aliases,category,subcategory,store_section,fresh_fridge_days,pantry_days,frozen_days,after_opening_fridge_days,grams_per_piece,contains,default_amount_rule,storage_note,foodkeeper_id
+almond extract,,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,527
+"amaranth, flour, meal",amaranth; flour; meal,Baked Goods,Baking and Cooking,bakery,,60,120,,,,,,576
+"bagel, commercially frozen",bagel; commercially frozen; frozen,Baked Goods,Bakery,bakery,,,90,,,,,,450
+"bagel, fresh baked",bagel; baked; fresh baked,Baked Goods,Bakery,bakery,,1,90,,,,,,449
+baking powder,baking; powder,Baked Goods,Baking and Cooking,bakery,,180,,,,,,,212
+baking soda,baking; soda,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,213
+"barley, flour, meal",barley; flour; meal,Baked Goods,Baking and Cooking,bakery,,90,180,,,,,,578
+biscuit or pancake mix,biscuit; cake; mix; pancake; pancake mix,Baked Goods,Baking and Cooking,bakery,,270,,,,,,,214
+"biscuits, refrigerated",biscuits; refrigerated,Baked Goods,Refrigerated Dough,bakery,,,,,,,,,552
+"bread, homemade",bread; breads; homemade,Baked Goods,Bakery,bakery,60,3,,,,,,,574
+"buckwheat, flour, meal",buckwheat; flour; meal,Baked Goods,Baking and Cooking,bakery,,30,60,,,,,,580
+butter flavor,butter,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,531
+"cake, brownie, bread mixes",bread; bread mixes; brownie; cake; mix; mixes,Baked Goods,Baking and Cooking,bakery,,360,,,,,,,215
+cheesecake,cake; cheese,Baked Goods,Bakery,bakery,,,90,5,,,,,198
+"chiffon pies, chocolate, lemon",chiffon; chocolate; chocolate pie; lemon; lemon pie; pie; pies,Baked Goods,Bakery,bakery,,,,1,,,,,206
+chili powder,chili; powder,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,232
+"chocolate, unsweetened and semi-sweet, solid",chocolate; semi sweet; solid; sweet; unsweetened,Baked Goods,Baking and Cooking,bakery,,365,,,,,,,216
+cinnamon extract,,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,528
+"cinnamon rolls, baked",cinnamon; cinnamon roll; cinnamon rolls; roll; rolls,Baked Goods,Baking and Cooking,bakery,,1,90,,,,,,635
+"cinnamon rolls, unbaked, tube",cinnamon; cinnamon roll; cinnamon rolls; roll; rolls,Baked Goods,Refrigerated Dough,bakery,,,,,,,,,634
+cocoa and cocoa mixes,cocoa; cocoa mixes; mix; mixes,Baked Goods,Baking and Cooking,bakery,,,,,,,,,217
+coconut flavor,coconut,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,532
+coconut flour,coconut; flour,Baked Goods,Baking and Cooking,bakery,270,,270,,,,,,654
+"commercial bread products, including pan breads, flat breads, rolls, and buns",bread; bread products; breads; bun; buns; commercial bread products; flat; flat breads; pan; pan breads; product; products; roll; rolls,Baked Goods,Bakery,bakery,,14,90,14,,,,,195
+commercial cakes and muffins,cake; commercial cakes; muffin; muffins,Baked Goods,Bakery,bakery,,3,180,7,,,,,197
+cookie dough,cookie; dough,Baked Goods,Refrigerated Dough,bakery,,,60,,,,,,247
+"cookies, crispy",cookie; cookies; crispy,Baked Goods,Bakery,bakery,,120,240,,,,,,200
+"cookies, soft",cookie; cookies; soft,Baked Goods,Bakery,bakery,,60,240,,,,,,199
+"cornmeal, regular, degerminated",corn; cornmeal; degerminated; germinate; germinated; meal; regular,Baked Goods,Baking and Cooking,bakery,,180,,1,,,,,218
+"cornmeal, stone ground or blue",blue; corn; cornmeal; ground; meal; stone; stone ground,Baked Goods,Baking and Cooking,bakery,,30,,60,,,,,219
+cornstarch,corn; starch,Baked Goods,Baking and Cooking,bakery,,540,,,,,,,220
+"cream pies, banana cream, coconut cream, butterscotch",banana; banana cream; butterscotch; coconut; coconut cream; cream; pie; pies,Baked Goods,Bakery,bakery,,,,3,,,,,205
+dairy filled eclairs,dairy; dairy filled; eclairs; éclair,Baked Goods,Bakery,bakery,,,90,2,,,,,201
+doughnuts,dough; doughnut; nut,Baked Goods,Bakery,bakery,,1,,2,,,,,202
+"farro, flour, meal",farro; flour; meal,Baked Goods,Baking and Cooking,bakery,,90,180,,,,,,582
+flavored or herb mixes,flavor; flavored; herb; herb mixes; mix; mixes,Baked Goods,Baking and Cooking,bakery,,180,,,,,,,234
+"flour, white",flour; white,Baked Goods,Baking and Cooking,bakery,,180,,1,,,,,222
+"flour, whole wheat",flour; wheat; whole wheat,Baked Goods,Baking and Cooking,bakery,,90,,180,,,,,223
+frosting or icing,frost; frosting; ice; icing,Baked Goods,Baking and Cooking,bakery,,300,,14,,,,,224
+fruit cake,cake; fruit,Baked Goods,Bakery,bakery,,180,360,360,,,,,203
+"fruit pies, apple, peach, blueberry, apricot, cherry, blackberry",apple; apple pie; apricot; apricot pie; blackberry; blackberry pie; blueberry; blueberry pie; cherry; cherry pie; fruit; peach; peach pie; pie; pies,Baked Goods,Bakery,bakery,,1,240,7,,,,,207
+garam masala,,Baked Goods,Baking and Cooking,bakery,,365,,,,,,,598
+"garlic, chopped, commercial jars",chopped; commercial jars; garlic; jar; jars,Baked Goods,Baking and Cooking,bakery,,240,,,,,,,235
+"gelatin, flavored",flavor; flavored; gelatin,Baked Goods,Baking and Cooking,bakery,,300,,,,,,,225
+"gelatin, unflavored",gelatin; unflavor; unflavored,Baked Goods,Baking and Cooking,bakery,,1095,,,,,,,226
+"herbs, dried",dried; herb; herbs,Baked Goods,Baking and Cooking,bakery,,365,,,,,,,236
+lemon extract,lemon,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,529
+"macaroons, french",french; macaroon; macaroons,Baked Goods,Bakery,bakery,,1,90,,,,,,542
+"millet, flour, meal",flour; meal; millet,Baked Goods,Baking and Cooking,bakery,,30,60,,,,,,584
+"muffin, commercially packaged",commercially packaged; muffin; packaged,Baked Goods,Bakery,bakery,,3,90,,,,,,452
+"muffin, homemade - including bran, blueberry, banana, corn, chocolate chip",banana; blueberry; bran; chip; chocolate; chocolate chip; corn; homemade; homemade including bran; including bran; muffin,Baked Goods,Bakery,bakery,,3,60,,,,,,451
+"muffin, mix, dry, commercially packaged",commercial; commercially; commercially packaged; dry; mix; muffin; packaged,Baked Goods,Bakery,bakery,,270,,,,,,,453
+nut oils,nut; oil; oils,Baked Goods,Baking and Cooking,bakery,,180,,180,,,,,228
+"oats, flour, meal",flour; meal; oat; oats,Baked Goods,Baking and Cooking,bakery,,60,120,,,,,,586
+"oils, olive or vegetable",oil; oils; olive; vegetable,Baked Goods,Baking and Cooking,bakery,,180,,120,,,,,227
+"pastries, danish",danish; pastries; pastry,Baked Goods,Bakery,bakery,,5,,420,,,,,204
+"pie crust, refrigerated",crust; pie; pie crust; refrigerated,Baked Goods,Refrigerated Dough,bakery,,,60,,,,,,554
+"pies, mincemeat",meat; mince; mincemeat; pie; pies,Baked Goods,Bakery,bakery,,0,240,7,,,,,208
+"pies, pecan",pecan; pie; pies,Baked Goods,Bakery,bakery,,0,30,3,,,,,209
+"pies, pumpkin",pie; pies; pumpkin,Baked Goods,Bakery,bakery,,0,30,3,,,,,210
+puff pastry,pastries; pastry; puff,Baked Goods,Refrigerated Dough,bakery,,,360,,,,,,551
+pure vanilla extract,vanila extract; vanilla,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,530
+quiche,,Baked Goods,Bakery,bakery,,0,60,3,,,,,211
+ready-to-bake pie crust,bake; crust; pie; ready; ready to bake pie crust,Baked Goods,Refrigerated Dough,bakery,,,60,,,,,,246
+"rye, flour, meal",flour; meal; rye,Baked Goods,Baking and Cooking,bakery,,90,180,,,,,,588
+seasoning blends,blend; blends; seasoning,Baked Goods,Baking and Cooking,bakery,,365,,,,,,,233
+"shortening, solid",shortening; solid,Baked Goods,Baking and Cooking,bakery,,365,,,,,,,230
+"sorghum, flour, meal",flour; meal; sorghum,Baked Goods,Baking and Cooking,bakery,,60,120,,,,,,590
+"spelt, flour, meal",flour; meal; spelt,Baked Goods,Baking and Cooking,bakery,,90,180,,,,,,592
+"spice/spices, ground",ground; spice; spices,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,238
+"spice/spices, whole",spice; spices; whole,Baked Goods,Baking and Cooking,bakery,,1095,,,,,,,237
+sugar substitutes,substitute; substitutes; sugar,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,242
+"sugar, brown",brown; sugar,Baked Goods,Baking and Cooking,bakery,,,,,,,,,239
+"sugar, confectioners",confectioner; confectioners; sugar,Baked Goods,Baking and Cooking,bakery,,,,,,,,,241
+"sugar, granulated",granulated; sugar,Baked Goods,Baking and Cooking,bakery,,,,,,,,,240
+tamarind paste,paste; tamarind,Baked Goods,Baking and Cooking,bakery,,180,,60,,,,,231
+tapiocas,tapioca,Baked Goods,Baking and Cooking,bakery,,360,,,,,,,243
+"teff, flour, meal",flour; meal; teff,Baked Goods,Baking and Cooking,bakery,,60,120,,,,,,594
+"tube cans, of biscuits, rolls, pizza dough, etc.",biscuit; biscuits; can; dough; pizza; pizza dough; roll; rolls; tube; tube can; tube cans,Baked Goods,Refrigerated Dough,bakery,,,,,,,,,245
+vegetable oil sprays,oil; sprays; vegetable; vegetable oil,Baked Goods,Baking and Cooking,bakery,,730,,,,,,,229
+whole wheat flour,flour; wheat; wheat flour; whole; whole wheat,Baked Goods,Baking and Cooking,bakery,730,360,730,,,,,,459
+"yeast, packaged",packaged; yeast,Baked Goods,Baking and Cooking,bakery,,730,180,120,,,,,561
+"apple cider, fresh",apple; apple cider; cider,Beverages,,drinks,14,2,,,,,,,662
+"apple juice, fresh squeezed",apple; apple juice; fresh squeezed; juice; juices; squeezed,Beverages,,drinks,6,,360,,,,,,537
+"carrot juice, fresh squeezed",carrot juice; fresh squeezed; juice; juices; squeezed,Beverages,,drinks,6,,360,,,,,,538
+coconut water,coconut; water,Beverages,,drinks,,360,,1,,,,,660
+"coffee, commercial ground, non-vacuum",coffee; commercial ground; non-vacuum,Beverages,,drinks,,730,180,30,,,,,541
+"coffee, home ground, non-vacuum",coffee; ground; home; home ground; non vacuum; vacuum,Beverages,,drinks,,90,365,,,,,,401
+"coffee, instant",coffee; instant,Beverages,,drinks,,365,,,,,,,402
+"coffee, whole beans",bean; beans; coffee; whole; whole beans,Beverages,,drinks,,90,,90,,,,,400
+"cream liquors, unopened",cream liquors; liquor; liquors; unopened,Beverages,,drinks,,180,,,,,,,540
+diet powder mixes and drink mixes,diet powder; diet powder mixes; drink; drink mixes; mix; mixes; powder mixes,Beverages,,drinks,,540,,,,,,,403
+"fruit juice in cartons, fruit drinks, punch",carton; cartons; drink; drinks; fruit; fruit drinks; fruit juice; fruit juice in cartons; juice in cartons; punch,Beverages,,drinks,,21,,8,,,,,404
+hard liquors,liquor,Beverages,,drinks,,,,,,,,,539
+"juice, boxes",box; boxes; juice,Beverages,,drinks,,,,8,,,,,405
+lemon juice,juice; lemon,Beverages,,drinks,,360,,60,,,,,448
+"lemon juice, fresh squeezed",fresh squeezed; juice; juices; lemon juice; squeezed,Beverages,,drinks,6,,360,,,,,,536
+lime juice,juice; lime,Beverages,,drinks,,360,,60,,,,,447
+"nectar, papaya, mango, guava, or guavabana",guava; guavabana; mango; mangoes; nectar; papaya,Beverages,,drinks,,360,,,,,,,406
+"nutrition supplement drinks, canned",boost; canned; drinks; ensure; nutrition supplement drinks; supplement,Beverages,,drinks,,730,,2,,,,,558
+"orange juice, commercially frozen concentrate",commercially; commercially frozen; commercially frozen concentrate; concentrate; frozen; frozen concentrate; juice; orange; orange juice,Beverages,,drinks,,,360,,,,,,456
+"orange juice, commercially packaged carton",carton; commercial; commercially; commercially packaged; commercially packaged carton; juice; orange; orange juice; packaged; packaged carton,Beverages,,drinks,,,240,7,,,,,455
+"orange juice, freshly squeezed",fresh; freshly; freshly squeezed; juice; orange; orange juice; sqeeze; squeezed,Beverages,,drinks,2,,14,,,,,,457
+red wine,red; wine,Beverages,,drinks,,1095,,1,,,,,462
+"soda, carbonated cola drinks, mixers, diet sodas; bottles or cans",bottle; bottles; can; cans; carbonated; carbonated cola; carbonated cola drinks; cola; cola drinks; diet; diet sodas; drink; drinks; mixer; mixers; soda; sodas,Beverages,,drinks,,,,2,,,,,407
+soy or rice beverage,beverage; rice; rice beverage; soy,Beverages,,drinks,,,,7,,,,,408
+"tea, bags",bag; bags; tea,Beverages,,drinks,,540,,,,,,,410
+"tea, instant",instant; tea,Beverages,,drinks,,730,,,,,,,411
+"tea, loose",loose; tea,Beverages,,drinks,,730,,,,,,,412
+"vegetable juice, commercial, sold refrigerated",commercial; refrigerated; vegetable; vegetable juice,Beverages,,drinks,30,,,,,,,,568
+"vegetable juice, homemade",homemade; juices; vegetable; vegetable juice,Beverages,,drinks,,,,3,,,,,569
+"vegetable juice, shelf-stable",shelf; shelf-stable; stable; vegetable juice,Beverages,,drinks,,540,,,,,,,567
+"water, commercially bottled",bottle; bottled; commercial; commercially; commercially bottled; water,Beverages,,drinks,,,,,,,,,413
+white wine,white; wine,Beverages,,drinks,,365,,1,,,,,463
+yuzu juice,juice; yuzu,Beverages,,drinks,270,120,365,90,,,,,663
+"yuzu, fruit, fresh",yuzu; yuzu fruit,Beverages,,drinks,5,,,,,,,,664
+"aioli, homemade",aioli; garlic; garlic aioli; garlic mayo; garlic mayonnaise; mayo; mayonnaise,"Condiments, Sauces & Canned Goods",,canned and condiments,3,,,,,,,,670
+"anchovies, canned",anchovies; anchovy; canned anchovies,"Condiments, Sauces & Canned Goods",,canned and condiments,,1825,60,3,,,,,673
+apple cider vinegar,apple; apple cider; cider; vinegar,"Condiments, Sauces & Canned Goods",,canned and condiments,,,,,,,,,557
+bacon grease,bacon; grease,"Condiments, Sauces & Canned Goods",,canned and condiments,180,,360,,,,,,525
+balsamic vinegar,balsamic; vinegar,"Condiments, Sauces & Canned Goods",,canned and condiments,,1095,,540,,,,,669
+"barbecue sauce, bottled",barbecue; barbecue sauce; bottled; sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,365,,120,,,,,340
+"barbecue sauce, homemade, canned",barbecue sauce; bbq sauce; homemade barbecue sauce; homemade bbq sauce; homemade sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,270,,,,,,,648
+"beef broth/stock/consommé, commercially produced",beef broth; beef consommé; beef stock; commercially produced; consommé,"Condiments, Sauces & Canned Goods",,canned and condiments,7,,60,3,,,,,485
+black bean sauce,bean; bean sauce; black; black bean; sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,540,,90,,,,,433
+"broth, homemade",broth; homemade,"Condiments, Sauces & Canned Goods",,canned and condiments,3,,60,,,,,,484
+"chicken broth/stock/consommé, commercially produced",chicken broth; chicken stock; commercially produced; consommé,"Condiments, Sauces & Canned Goods",,canned and condiments,7,,60,3,,,,,486
+chutney,,"Condiments, Sauces & Canned Goods",,canned and condiments,,365,,30,,,,,341
+cooking wine,cooking; wine,"Condiments, Sauces & Canned Goods",,canned and condiments,,,,,,,,,636
+"cranberry sauce, canned",canned; cranberry sauce; sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,730,,7,,,,,565
+"cranberry sauce, homemade",cranberry sauce; homemade; sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,7,,,,,,,,566
+"cream sauces, milk solids",cream; cream sauces; milk; milk solids; sauce; sauces; solid; solids,"Condiments, Sauces & Canned Goods",,canned and condiments,,180,,,,,,,342
+dry gravy mixes,dry; gravy; mix; mixes,"Condiments, Sauces & Canned Goods",,canned and condiments,1,730,,,,,,,343
+duck fat,duck,"Condiments, Sauces & Canned Goods",,canned and condiments,30,,,,,,,,524
+"frying oil, re-used",frying oil; oil; re-used oil,"Condiments, Sauces & Canned Goods",,canned and condiments,30,,180,,,,,,526
+"gravy, jars and cans",can; cans; gravy; jar; jars,"Condiments, Sauces & Canned Goods",,canned and condiments,,730,,1,,,,,344
+hoisin sauce,hoisin; sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,540,,90,,,,,435
+honey,,"Condiments, Sauces & Canned Goods",,canned and condiments,,730,,,,,,,345
+"horseradish, in jar",horseradish; jar,"Condiments, Sauces & Canned Goods",,canned and condiments,360,,,90,,,,,346
+hot sauce,sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,180,,,,,,,559
+"jams, jellies, and preserves",jam; jams; jellies; jelly; preserve; preserves,"Condiments, Sauces & Canned Goods",,canned and condiments,,180,,180,,,,,347
+"ketchup, cocktail, or chili sauce",chili; chili sauce; cocktail; ketchup; sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,365,,180,,,,,348
+marinades,marinade,"Condiments, Sauces & Canned Goods",,canned and condiments,,365,,180,,,,,349
+"mayonnaise, commercial",commercial; mayonnaise,"Condiments, Sauces & Canned Goods",,canned and condiments,,90,,60,,,,,350
+mustard,,"Condiments, Sauces & Canned Goods",,canned and condiments,,365,,365,,,,,351
+"olives, black and green",black; green; olive; olives,"Condiments, Sauces & Canned Goods",,canned and condiments,,360,,14,,,,,352
+oyster sauce,oyster; sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,540,,90,,,,,434
+"pesto, jarred",jar; jarred; pesto,"Condiments, Sauces & Canned Goods",,canned and condiments,180,,30,3,,,,,354
+pickles,pickle,"Condiments, Sauces & Canned Goods",,canned and condiments,,365,,30,,,,,353
+relish,,"Condiments, Sauces & Canned Goods",,canned and condiments,270,900,,,,,,,500
+"salad dressing, creamy",creamy; creamy salad dressing; dressing; salad; salad dressing,"Condiments, Sauces & Canned Goods",,canned and condiments,,180,,21,,,,,623
+"salad dressing, dry,packaged",dressing; dry; package; packaged; powder; powdered; salad; salad dressing,"Condiments, Sauces & Canned Goods",,canned and condiments,,,,28,,,,,626
+"salad dressing, homemade",dressing; homemade; homemade salad dressing; salad; salad dressing,"Condiments, Sauces & Canned Goods",,canned and condiments,,,,14,,,,,671
+"salad dressing, vinaigrette",dressing; salad; salad dressing; vinaigrette,"Condiments, Sauces & Canned Goods",,canned and condiments,,180,,28,,,,,625
+"salad dressing, vinaigrette,homemade",dressing; homemade; salad; salad dressing; vinaigrette,"Condiments, Sauces & Canned Goods",,canned and condiments,14,,,,,,,,624
+"salad dressings, commercial, bottled",bottle; bottled; commercial; dressing; dressings; salad; salad dressings,"Condiments, Sauces & Canned Goods",,canned and condiments,,300,,30,,,,,356
+"salsa, homemade, canned",homemade; homemade salsa; salsa,"Condiments, Sauces & Canned Goods",,canned and condiments,,270,,,,,,,646
+"salsa, picante and taco sauces",picante; salsa; sauce; sauces; taco; taco sauces,"Condiments, Sauces & Canned Goods",,canned and condiments,,365,,30,,,,,357
+"sauce mixes, nondairy (spaghetti, taco, etc.)",dairy; mix; mixes; nondairy; sauce; sauce mixes; spaghetti; taco,"Condiments, Sauces & Canned Goods",,canned and condiments,,730,,,,,,,358
+soy sauce or teriyaki sauce,sauce; soy; soy sauce; teriyaki; teriyaki sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,1095,,30,,,,,360
+"spaghetti sauce, in jars",in jars; jar; jars; sauce; spaghetti; spaghetti sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,540,,4,,,,,359
+tahini,,"Condiments, Sauces & Canned Goods",,canned and condiments,,365,,21,,,,,416
+thai red curry paste,curry; curry paste; paste; red curry paste,"Condiments, Sauces & Canned Goods",,canned and condiments,,730,,5,,,,,560
+"tomato sauce, homemade, canned",homemade; homemade sauce; homemade spaghetti sauce; homemade tomato sauce; spaghetti sauce; tomato sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,270,,,,,,,647
+"tomato sauce, spaghetti, pizza",pizza; sauce; spaghetti; tomato sauce,"Condiments, Sauces & Canned Goods",,canned and condiments,,,,3,,,,,599
+"vegetable stock/broth, commercially produced",broth; commercial vegetable broth; commercial vegetable stock; vegetable; vegetable broth; vegetable stock,"Condiments, Sauces & Canned Goods",,canned and condiments,7,,60,3,,,,,487
+vinegar,,"Condiments, Sauces & Canned Goods",,canned and condiments,,730,,,,,,,361
+worcestershire sauce,sauce; worcestershire,"Condiments, Sauces & Canned Goods",,canned and condiments,,365,,,,,,,362
+almond milk,almond; milk,Dairy Products & Eggs,,dairy,,,,7,,,,,427
+butter,,Dairy Products & Eggs,,dairy,30,,180,,,,,,1
+buttermilk,,Dairy Products & Eggs,,dairy,7,,90,,,,,,2
+"cheese curds, fresh, unaged",cheese; cheese curd; cheese curds; curd; curds,Dairy Products & Eggs,,dairy,14,,120,,,,,,628
+"cheese, hard such as cheddar, swiss, block parmesan",cheddar; cheese; parmesan; swiss,Dairy Products & Eggs,,dairy,180,,180,21,,,,,3
+"cheese, parmesan; shredded or grated",cheese; grated; parmesan; shredded,Dairy Products & Eggs,,dairy,360,,,,,,,,4
+"cheese, processed slices",cheese; processed slices; slice; slices,Dairy Products & Eggs,,dairy,21,,,,,,,,6
+"cheese, shredded; cheddar, mozzarella, etc.",cheddar; cheese; mozzarella; shredded,Dairy Products & Eggs,,dairy,30,,90,,,,,,5
+"cheese, soft such as brie, bel paese, goat",bel paese; brie; cheese; goat,Dairy Products & Eggs,,dairy,7,,180,,,,,,7
+coconut milk,coconut; milk,Dairy Products & Eggs,,dairy,,,,7,,,,,429
+"coffee creamer, liquid refrigerated",coffee; coffee creamer; creamer; liquid refrigerated,Dairy Products & Eggs,,dairy,21,,,,,,,,8
+"coffee creamer, powdered",coffee; coffee creamer; cream; creamer; powder; powdered,Dairy Products & Eggs,,dairy,,730,,,,,,,430
+cottage cheese,cheese,Dairy Products & Eggs,,dairy,14,,,7,,,,,9
+cream cheese,,Dairy Products & Eggs,,dairy,14,,,,,,,,10
+"cream, half and half",cream; half,Dairy Products & Eggs,,dairy,3,,120,,,,,,13
+"cream, heavy",cream; heavy,Dairy Products & Eggs,,dairy,10,,90,,,,,,14
+"cream, light",cream; light,Dairy Products & Eggs,,dairy,7,,90,,,,,,15
+"cream, whipped, sweetened",cream; sweetened; whipped,Dairy Products & Eggs,,dairy,1,,30,,,,,,12
+"cream, whipping, ultrapasteurized",cream; ultrapasteurized; whipping,Dairy Products & Eggs,,dairy,30,,,7,,,,,11
+"dips, sour cream based",cream; cream based; dip; dips; sour; sour cream based,Dairy Products & Eggs,,dairy,14,,,,,,,,16
+egg dishes,dishes; egg,Dairy Products & Eggs,,dairy,3,,60,,,,,,24
+"egg substitutes, liquid",egg; egg substitutes; liquid; substitute; substitutes,Dairy Products & Eggs,,dairy,7,,,3,,,,,17
+"eggnog, commercial",commercial; egg; eggnog; nog,Dairy Products & Eggs,,dairy,3,,180,,,,,,20
+"eggs, hard boiled cooked",boiled; egg; eggs; hard boiled; hard boiled cooked,Dairy Products & Eggs,,dairy,7,,,,,,,,23
+"eggs, in shell",egg; eggs; in shell; shell,Dairy Products & Eggs,,dairy,21,,,,,,,,21
+"eggs, raw whites, yolks",egg; eggs; raw whites; whites; yolks,Dairy Products & Eggs,,dairy,2,,360,,,,,,22
+ghee,butter; clarified; clarified butter,Dairy Products & Eggs,,dairy,365,180,,,,,,,649
+"kefir, fermented milk",fermented; fermented milk; kefir; milk,Dairy Products & Eggs,,dairy,7,,,1,,,,,25
+margarine,,Dairy Products & Eggs,,dairy,180,,360,,,,,,26
+"milk, lactose-free",lactose; lactose-free; milk,Dairy Products & Eggs,,dairy,,,,7,,,,,543
+"milk, plain or flavored",flavor; flavored; milk; plain,Dairy Products & Eggs,,dairy,,,90,,,,,,27
+"nacho cheese, store bought",cheese; nacho; nacho cheese; store; store bought,Dairy Products & Eggs,,dairy,,730,90,14,,,,,477
+"pimento cheese, packaged",cheese; pimento; pimento cheese,Dairy Products & Eggs,,dairy,,,,28,,,,,620
+powdered milk,milk; powder; powdered,Dairy Products & Eggs,,dairy,,1095,,,,,,,465
+pudding,,Dairy Products & Eggs,,dairy,,,,2,,,,,28
+"quark, fresh cheese",cheese; fresh cheese; quark,Dairy Products & Eggs,,dairy,7,,,,,,,,546
+rice milk,milk; rice,Dairy Products & Eggs,,dairy,,,,7,,,,,428
+ricotta,,Dairy Products & Eggs,,dairy,14,,,7,,,,,490
+sour cream,cream; sour,Dairy Products & Eggs,,dairy,,,,,,,,,29
+soy milk,milk; soy,Dairy Products & Eggs,,dairy,,,,7,,,,,421
+string cheese,cheese,Dairy Products & Eggs,,dairy,150,,,,,,,,544
+vegan cheddar cheese,cheddar; cheese,Dairy Products & Eggs,,dairy,120,,,3,,,,,545
+"whipped cream, aerosol can",aerosol can; can; cream; whipped cream,Dairy Products & Eggs,,dairy,21,,,,,,,,30
+"whipped topping, aerosol can",aerosol can; can; topping; whipped; whipped topping,Dairy Products & Eggs,,dairy,90,,,,,,,,31
+"whipped topping, tub",topping; tub; whipped; whipped topping,Dairy Products & Eggs,,dairy,14,,420,,,,,,32
+yogurt,,Dairy Products & Eggs,,dairy,7,,30,,,,,,33
+"canadian bacon, sliced",bacon; canadian bacon; sliced,Deli & Prepared Foods,,deli,80,,360,,,,,,519
+"canadian bacon, whole",bacon; canadian bacon; whole,Deli & Prepared Foods,,deli,14,,60,,,,,,518
+casseroles,casserole,Deli & Prepared Foods,,deli,3,,,,,,,,194
+chicken salad,chicken; salad,Deli & Prepared Foods,,deli,3,,,,,,,,418
+"chicken, pre-packaged, luncheon/deli meat",chicken; deli meat; luncheon meat; packaged; pre-packaged,Deli & Prepared Foods,,deli,14,,30,3,,,,,517
+"coleslaw, homemade, prepared",coleslaw; homemade; homemade coleslaw; prepared; prepared coleslaw,Deli & Prepared Foods,,deli,3,,,,,,,,603
+"commercial brand vacuum-packed dinners, with usda seal",brand vacuum packed dinners; commercial brand vacuum-packed dinners; dinner; dinners; packed; packed dinner; seal; usda; usda seal; vacuum packed; vacuum packed dinner,Deli & Prepared Foods,,deli,14,,,,,,,,176
+cooked pasta,pasta,Deli & Prepared Foods,,deli,3,,30,,,,,,177
+cooked rice,rice,Deli & Prepared Foods,,deli,4,,180,,,,,,178
+egg salad,egg; salad,Deli & Prepared Foods,,deli,3,,,,,,,,190
+"fruit, cut",cut; fruit,Deli & Prepared Foods,,deli,,,,4,,,,,179
+guacamole,,Deli & Prepared Foods,,deli,3,,90,,,,,,180
+ham salad,ham; salad,Deli & Prepared Foods,,deli,3,,,,,,,,419
+"ham, pre-packaged, luncheon/deli meat",deli; ham; luncheon; luncheon/deli meat; packaged; pre-packaged,Deli & Prepared Foods,,deli,14,,30,3,,,,,515
+"hummus, commercial (pasteurized, with preservatives)",commercial; hummus; pasteurized; preservative; preservatives,Deli & Prepared Foods,,deli,90,,,7,,,,,181
+"hummus, traditional (no preservatives, not pasteurized)",hummus; no preservative; no preservatives; not pasteurized; pasteurized; preservative; preservatives; traditional,Deli & Prepared Foods,,deli,7,,,,,,,,183
+"kugel, homemade",homemade; homemade kugel; kugel,Deli & Prepared Foods,,deli,3,,30,,,,,,667
+"leftovers, pizza",leftovers; pizza,Deli & Prepared Foods,,deli,3,,30,,,,,,175
+"leftovers, with meat, fish, poultry, or egg",egg; fish; leftover; leftovers; meat; poultry,Deli & Prepared Foods,,deli,3,,60,,,,,,173
+"leftovers, without meat, fish, poultry, or egg (such as cooked vegitables, rice, or potatoes)",cooked vegetables; egg; fish; leftover; leftovers; meat; potato; potatoes; poultry; rice; vegetable; vegetables; without meat,Deli & Prepared Foods,,deli,3,,30,,,,,,174
+"luncheon meat or poultry, pre-packaged",luncheon; luncheon meat; meat; packaged; poultry; pre packaged,Deli & Prepared Foods,,deli,14,,30,3,,,,,192
+"luncheon meat or poultry, store-sliced",luncheon; luncheon meat; meat; poultry; sliced; store; store sliced,Deli & Prepared Foods,,deli,3,,30,,,,,,184
+"main dishes or meals, hot or refrigerated",dish; dishes; hot; main dishes; meal; meals; refrigerated,Deli & Prepared Foods,,deli,3,,60,,,,,,185
+"meats, covered with gravy or broth",broth; gravy; meat; meats,Deli & Prepared Foods,,deli,3,,180,,,,,,186
+"olives, from olive bar",bar; olive; olives,Deli & Prepared Foods,,deli,14,,,,,,,,187
+pasta salad,pasta; salad,Deli & Prepared Foods,,deli,3,,,,,,,,420
+pate,,Deli & Prepared Foods,,deli,1,,30,,,,,,188
+potato salad,potato; salad,Deli & Prepared Foods,,deli,3,,,,,,,,191
+"poultry pieces, covered with gravy or broth",broth; gravy; piece; pieces; poultry; poultry pieces,Deli & Prepared Foods,,deli,3,,30,,,,,,140
+"salami, pre-packaged, luncheon/deli meat",deli meat; luncheon meat; luncheon/deli; packaged; pre; pre-packaged; salami,Deli & Prepared Foods,,deli,14,,30,3,,,,,516
+"salsa, fresh",fresh; salsa,Deli & Prepared Foods,,deli,4,,,,,,,,572
+"salsa, homemade, fresh",homemade; homemade salsa; salsa,Deli & Prepared Foods,,deli,5,,360,,,,,,645
+"seafood salads, (tuna salad, shrimp salad, salmon salad, mixed seafood salad, etc.)",mixed; mixed seafood; mixed seafood salad; salad; salads; salmon; salmon salad; seafood; seafood salad; seafood salads; shrimp; shrimp salad; tuna; tuna salad,Deli & Prepared Foods,,deli,3,,,,,,,,417
+"soup, stews",soup; stew; stews,Deli & Prepared Foods,,deli,3,,60,,,,,,193
+"turkey, pre-packaged, luncheon/deli meat",deli; luncheon; luncheon/deli meat; packaged; pre-packaged; turkey,Deli & Prepared Foods,,deli,14,,30,3,,,,,514
+"vegetable soup, homemade",soup; vegetable; vegetable soup,Deli & Prepared Foods,,deli,3,,90,,,,,,629
+"dough, commercial (bread or cookie)",bread; commercial; cookie; dough,Food Purchased Frozen,,frozen,3,,360,,,,,,309
+"edamame, frozen",edamame; frozen; frozen edamame; soybean; soybeans,Food Purchased Frozen,,frozen,,,730,,,,,,641
+egg substitutes,egg; egg substitute; substitute,Food Purchased Frozen,,frozen,3,,360,,,,,,310
+"fish, breaded",bread; breaded; fish,Food Purchased Frozen,,frozen,,,540,,,,,,311
+"fish, raw but headed and gutted",fish; gutted; headed; raw,Food Purchased Frozen,,frozen,3,,180,,,,,,312
+"frozen entrees, prepared meals",breakfast; dinner; dinners; entrees; entry; tv; tv dinners,Food Purchased Frozen,,frozen,,,360,,,,,,330
+"frozen potato products, fries, hashbrowns, tater tots",fries; frozen potato; frozen potato products; hashbrown; hashbrowns; potato products; product; products; tater tot; tater tots,Food Purchased Frozen,,frozen,,,360,,,,,,313
+frozen pretzels,frozen; pretzel; pretzels,Food Purchased Frozen,,frozen,3,,270,,,,,,314
+"fruits, such as berries, melons",berries; berry; fruits; melon; melons,Food Purchased Frozen,,frozen,,,300,,,,,,315
+ice cream,cream; ice,Food Purchased Frozen,,frozen,,,180,,,,,,317
+ice pops,ice; pop; pops,Food Purchased Frozen,,frozen,,,270,,,,,,318
+juice concentrates,concentrate; juice,Food Purchased Frozen,,frozen,,,730,,,,,,319
+"kugel, commercial",commercial; commercial kugel; kugel,Food Purchased Frozen,,frozen,,,365,,,,,,666
+lobster tails,lobster; lobster tail; tail,Food Purchased Frozen,,frozen,3,,240,,,,,,320
+"pancakes, waffles",pancake; pancakes; waffles,Food Purchased Frozen,,frozen,,,90,,,,,,321
+"pizza, frozen",frozen; pizza,Food Purchased Frozen,,frozen,3,,360,,,,,,571
+"polenta, frozen",frozen; frozen polenta; polenta,Food Purchased Frozen,,frozen,,,360,,,,,,657
+"sausages, precooked",cooked; precooked; sausage; sausages,Food Purchased Frozen,,frozen,3,,30,,,,,,323
+"sausages, uncooked",cooked; sausage; sausages; uncooked,Food Purchased Frozen,,frozen,3,,30,,,,,,322
+"sherbet, sorbet",sherbet; sorbet,Food Purchased Frozen,,frozen,,,270,,,,,,324
+"shrimp, shellfish",fish; shellfish; shrimp,Food Purchased Frozen,,frozen,3,,360,,,,,,325
+soy crumbles and hot dogs,hot dog; hot dogs; soy; soy crumble; soy crumbles,Food Purchased Frozen,,frozen,3,,30,,,,,,326
+soy meat substitutes,meat; meat substitutes; soy; soy meat; substitute; substitutes,Food Purchased Frozen,,frozen,3,,360,,,,,,327
+tempeh,,Food Purchased Frozen,,frozen,3,,180,,,,,,328
+vegetables,vegetable,Food Purchased Frozen,,frozen,3,,300,,,,,,331
+"amaranth, whole grain",amaranth; grain; whole grain,"Grains, Beans & Pasta",,dry goods,,120,240,,,,,,575
+"barley, whole grain",barley; grain; whole grain,"Grains, Beans & Pasta",,dry goods,,180,360,,,,,,577
+"beans, dried",beans; dried,"Grains, Beans & Pasta",,dry goods,,365,,,,,,,333
+"buckwheat, whole grain",buckwheat; grain; whole grain,"Grains, Beans & Pasta",,dry goods,,60,120,,,,,,579
+bulgur,,"Grains, Beans & Pasta",,dry goods,,180,,,,,,,637
+dry egg noodles,dry; egg; egg noodles; noodle; noodles,"Grains, Beans & Pasta",,dry goods,,730,,,,,,,336
+"farro, whole grain",farro; grain; whole grain,"Grains, Beans & Pasta",,dry goods,,180,360,,,,,,581
+fresh pasta,pasta,"Grains, Beans & Pasta",,dry goods,1,,60,,,,,,332
+"lentils, dried",dried; lentils,"Grains, Beans & Pasta",,dry goods,,365,,,,,,,334
+"millet, whole grain",grain; millet; whole grain,"Grains, Beans & Pasta",,dry goods,,60,120,,,,,,583
+"mung bean, dry, food-grade bags",bag; bagged mung beans; bean; dry; dry mung beans; mung; mung bean; mung beans,"Grains, Beans & Pasta",,dry goods,365,365,365,,,,,,680
+"mung bean, dry, vacuum-sealed",bean; dry; dry mung beans; mung; mung bean; mung beans; vacuum sealed; vacuum sealed mung beans,"Grains, Beans & Pasta",,dry goods,,2920,,,,,,,681
+"mung bean, sprouts",bean; mung; mung bean; mung beans; mungbean; sprout; sprouted mung bean; sprouted mung beans; sprouts,"Grains, Beans & Pasta",,dry goods,28,,,,,,,,679
+"oats, whole grain",grain; oat; oats; whole grain,"Grains, Beans & Pasta",,dry goods,,120,240,,,,,,585
+"pasta, dry, without eggs",dry; egg; eggs; pasta; without egg; without eggs,"Grains, Beans & Pasta",,dry goods,,730,,,,,,,335
+"peanuts, boiled, shelled",boiled; peanut; peanuts; shelled,"Grains, Beans & Pasta",,dry goods,,1095,,7,,,,,498
+"peas, dried split",dried split; pea; peas; split,"Grains, Beans & Pasta",,dry goods,,365,,,,,,,337
+"quinoa, cooked",cook; cooked; quinoa,"Grains, Beans & Pasta",,dry goods,6,,180,,,,,,426
+"quinoa, uncooked",cook; cooked; quinoa; uncooked,"Grains, Beans & Pasta",,dry goods,,730,,,,,,,425
+refried beans,refried bean,"Grains, Beans & Pasta",,dry goods,,1095,,2,,,,,499
+"rice, brown",brown; rice,"Grains, Beans & Pasta",,dry goods,,365,,180,,,,,339
+"rice, white or wild",rice; white; wild,"Grains, Beans & Pasta",,dry goods,,730,,180,,,,,338
+"rye, whole grain",grain; rye; whole grain,"Grains, Beans & Pasta",,dry goods,,180,360,,,,,,587
+"sorghum, whole grain",grain; sorghum; whole grain,"Grains, Beans & Pasta",,dry goods,,120,240,,,,,,589
+"spelt, whole grain",grain; spelt; whole grain,"Grains, Beans & Pasta",,dry goods,,180,360,,,,,,591
+"teff, whole grain",grain; teff; whole grain,"Grains, Beans & Pasta",,dry goods,,120,240,,,,,,593
+"tortillas, corn",corn; tortillas,"Grains, Beans & Pasta",,dry goods,60,25,,,,,,,553
+"tortillas, flour",tortilla; tortillas,"Grains, Beans & Pasta",,dry goods,,90,180,90,,,,,196
+"whole wheat bread, commercially baked & pre-sliced",baked; commercial; commercially; commercially baked; flour; pre sliced; slice; sliced; wheat; wheat flour; whole; whole wheat; whole wheat flour,"Grains, Beans & Pasta",,dry goods,,3,90,,,,,,461
+"whole wheat bread, homemade",bread; homemade; wheat; wheat bread; whole; whole wheat; whole wheat bread,"Grains, Beans & Pasta",,dry goods,,3,90,,,,,,460
+bacon,,Meat,Smoked or Processed,meat,7,,30,7,,,,,79
+"bacon, fully cooked",bacon; cooked; fully cooked,Meat,Shelf Stable Foods,meat,,180,,5,,,,,107
+"bacon, uncured",bacon; natural; natural bacon; nitrite; nitrite-free; nitrite-free bacon; uncured; uncured bacon,Meat,Smoked or Processed,meat,4,,21,,,,,,683
+"beef, chuck roast, brisket",beef; brisket; chuck roast; roast,Meat,Fresh,meat,3,,120,,,,,,39
+"beef, ground",beef; ground,Meat,Fresh,meat,1,,90,,,,,,43
+"beef, rib roast, bone-in",beef; bone; bone-in; rib; rib roast; roast,Meat,Fresh,meat,3,,120,,,,,,34
+"beef, rib roast; boneless, rolled",beef; boneless; rib; rib roast; roast; rolled,Meat,Fresh,meat,3,,120,,,,,,35
+"beef, round or rump roast",beef; roast; round; rump roast,Meat,Fresh,meat,3,,120,,,,,,36
+"beef, short ribs",beef; rib; ribs; short ribs,Meat,Fresh,meat,3,,120,,,,,,42
+"beef, steaks",beef; steak; steaks,Meat,Fresh,meat,3,,120,,,,,,40
+"beef, stew, cubes",beef; cube; cubes; stew,Meat,Fresh,meat,3,,120,,,,,,41
+"beef, tenderloin, half",beef; half; tenderloin,Meat,Fresh,meat,3,,120,,,,,,38
+"beef, tenderloin, whole",beef; tenderloin; whole,Meat,Fresh,meat,3,,120,,,,,,37
+"bison, ground",bison; ground; ground bison,Meat,Fresh,meat,1,,90,,,,,,622
+"bison, whole",bison; bison whole; whole,Meat,Fresh,meat,3,,180,,,,,,621
+"bratwurst, fresh",brautwurst; fresh; fresh brautwurst,Meat,Fresh,meat,2,,60,,,,,,638
+"bratwurst, smoked and processed",bratwurst; processed; processed brautwurst; smoked; smoked brautwurst,Meat,Smoked or Processed,meat,5,,60,,,,,,639
+"chorizo, fresh",chorizo; fresh chorizo,Meat,Fresh,meat,1,,30,,,,,,630
+"chorizo, smoked and processed, cooked",chorizo; cooked; cooked processed chorizo; cooked smoked chorizo; processed; processed chorizo; smoked; smoked chorizo,Meat,Smoked or Processed,meat,,365,180,30,,,,,632
+"chorizo, smoked and processed, uncooked",chorizo; processed; processed chorizo; smoked; smoked chorizo; uncooked; uncooked processed chorizo; uncooked smoked chorizo,Meat,Smoked or Processed,meat,7,,30,,,,,,631
+"corned beef, in pouch with pickling juices",corned beef; juice; juices; pickling juices; pouch,Meat,Smoked or Processed,meat,5,,30,,,,,,81
+"goat, ground",goat; ground,Meat,Fresh,meat,1,,90,,,,,,78
+"goat, less tender whole cuts (stew meat, riblets, shanks)",goat; less tender; less tender whole cuts; meat; riblets; shanks; stew; stew meat; tender; whole cuts,Meat,Fresh,meat,3,,120,,,,,,71
+"goat, tender whole cuts (legs, ribs, shoulder, loin)",goat; leg; legs; loin; rib; ribs; shoulder; tender; tender whole cuts; whole cuts,Meat,Fresh,meat,3,,120,,,,,,70
+"ham, canned (“keep refrigerated” label)",canned; ham; keep refrigerated; label; refrigerated,Meat,Smoked or Processed,meat,180,,,,,,,,82
+"ham, country ham (whole or half)",country ham; half; ham; whole,Meat,Smoked or Processed,meat,7,,30,,,,,,97
+"ham, fresh, cook-before-eating, arm picnic shoulder, boneless",arm picnic; arm picnic shoulder; before-eating; boneless; cook-before-eating; fresh; ham; shoulder,Meat,Smoked or Processed,meat,7,,30,,,,,,92
+"ham, fresh, cook-before-eating, bone-in, half",bone; bone-in; cook-before-eating; fresh; half; ham,Meat,Smoked or Processed,meat,7,,30,,,,,,90
+"ham, fresh, cook-before-eating, bone-in, whole",bone; bone-in; cook-before-eating; fresh; ham; whole,Meat,Smoked or Processed,meat,7,,30,,,,,,89
+"ham, fresh, cook-before-eating, shank or butt portion, bone-in",bone; bone-in; butt portion; cook-before-eating; fresh; ham; shank,Meat,Smoked or Processed,meat,7,,30,,,,,,91
+"ham, fresh, cook-before-eating, shoulder roll (butt), boneless",before-eating; boneless; butt; cook-before-eating; fresh; ham; roll; shoulder roll,Meat,Smoked or Processed,meat,7,,30,,,,,,93
+"ham, fresh, uncooked, half leg, bone-in",bone; bone-in; cooked; fresh; half leg; ham; leg; uncooked,Meat,Smoked or Processed,meat,7,,30,,,,,,96
+"ham, fresh, uncooked, whole leg, bone-in",bone; bone-in; cooked; fresh; ham; leg; uncooked; whole leg,Meat,Smoked or Processed,meat,7,,30,,,,,,94
+"ham, fresh, uncooked, whole leg, boneless",bone; boneless; cooked; fresh; ham; leg; uncooked; whole leg,Meat,Smoked or Processed,meat,7,,30,,,,,,95
+"ham, fully cooked, arm picnic shoulder, boneless",arm picnic; arm picnic shoulder; boneless; cooked; fully cooked; ham; shoulder,Meat,Smoked or Processed,meat,7,,30,,,,,,86
+"ham, fully cooked, bone-in, half",bone; bone-in; cooked; fully cooked; half; ham,Meat,Smoked or Processed,meat,7,,30,,,,,,84
+"ham, fully cooked, bone-in, whole",bone; bone-in; cooked; fully cooked; ham; whole,Meat,Smoked or Processed,meat,7,,30,,,,,,83
+"ham, fully cooked, canned, boneless (refrigerated)",boneless; canned; cooked; fully cooked; ham; refrigerated,Meat,Smoked or Processed,meat,180,,30,3,,,,,87
+"ham, fully cooked, slices, half, or spiral cut",cooked; fully cooked; half; ham; slice; slices; spiral cut,Meat,Smoked or Processed,meat,3,,30,,,,,,85
+"ham, fully cooked, vacuum packed, boneless",boneless; cooked; fully cooked; ham; vacuum packed,Meat,Smoked or Processed,meat,14,,30,,,,,,88
+"ham, shelf-stable cans",can; cans; ham; shelf; shelf stable; shelf stable cans; stable,Meat,Shelf Stable Foods,meat,,180,,5,,,,,108
+"ham, uncured, fresh, cooked",cooked; fresh; fully cooked; fully cooked uncured ham; ham; uncured; uncured ham,Meat,Smoked or Processed,meat,3,,90,,,,,,676
+"ham, uncured, fresh, uncooked",fresh; ham; uncooked; uncured; uncured ham; uncured ham uncooked,Meat,Fresh,meat,3,,180,,,,,,677
+hot dogs,hot,Meat,Smoked or Processed,meat,14,,30,7,,,,,98
+"jerky, commercially dried",commercially dried; dried; jerky,Meat,Shelf Stable Foods,meat,,360,,60,,,,,109
+"jerky, homemade",homemade; jerky,Meat,Shelf Stable Foods,meat,30,30,,,,,,,110
+"lamb, breast, rolled",breast; lamb; rolled,Meat,Fresh,meat,3,,120,,,,,,55
+"lamb, chops, ribs, or loin",chops; lamb; loin; rib; ribs,Meat,Fresh,meat,3,,120,,,,,,51
+"lamb, crown roast",crown roast; lamb; roast,Meat,Fresh,meat,3,,120,,,,,,47
+"lamb, cubes for kabobs",cube; cubes; kabob; kabobs; lamb,Meat,Fresh,meat,3,,120,,,,,,49
+"lamb, ground",ground; lamb,Meat,Fresh,meat,1,,90,,,,,,50
+"lamb, leg steaks",lamb; leg; leg steaks; steak; steaks,Meat,Fresh,meat,3,,120,,,,,,52
+"lamb, leg, bone-in - large",bone; bone-in; bone-in - large; lamb; leg,Meat,Fresh,meat,3,,120,,,,,,45
+"lamb, leg, bone-in - small",bone; bone-in; bone-in - small; lamb; leg,Meat,Fresh,meat,3,,120,,,,,,44
+"lamb, leg; boneless, rolled",bone; boneless; lamb; leg; rolled,Meat,Fresh,meat,3,,120,,,,,,46
+"lamb, shanks",lamb; shank; shanks,Meat,Fresh,meat,3,,120,,,,,,54
+"lamb, shoulder roast or shank leg half",half; lamb; leg; roast; shank; shank leg; shank leg half; shoulder; shoulder roast,Meat,Fresh,meat,3,,120,,,,,,48
+"lamb, stew meat, pieces",lamb; meat; piece; pieces; stew; stew meat,Meat,Fresh,meat,3,,120,,,,,,53
+"meat products, canned",canned; meat; meat products; product; products,Meat,Shelf Stable Foods,meat,,1825,,3,,,,,111
+pastrami,,Meat,Smoked or Processed,meat,40,,,,,,,,665
+"pate, meat",meat; pate,Meat,Smoked or Processed,meat,7,,,,,,,,563
+pork roll,pork; roll,Meat,Smoked or Processed,meat,,,,7,,,,,436
+"pork, crown roast - large",crown; crown roast; crown roast - large; large; pork; roast,Meat,Fresh,meat,3,,120,,,,,,66
+"pork, crown roast - small",crown; crown roast; crown roast - small; pork; roast; small,Meat,Fresh,meat,3,,120,,,,,,65
+"pork, ground",ground; pork,Meat,Fresh,meat,1,,90,,,,,,73
+"pork, loin chops, bone-in",bone; bone-in; chops; loin; loin chops; pork,Meat,Fresh,meat,3,,120,,,,,,63
+"pork, loin chops, boneless",boneless; chops; loin; loin chops; pork,Meat,Fresh,meat,3,,120,,,,,,64
+"pork, loin roast, bone-in",bone; bone-in; loin; loin roast; pork; roast,Meat,Fresh,meat,3,,120,,,,,,60
+"pork, loin roast, boneless",boneless; loin; loin roast; pork; roast,Meat,Fresh,meat,3,,120,,,,,,61
+"pork, loin, cubes",cube; cubes; loin; pork,Meat,Fresh,meat,3,,120,,,,,,75
+"pork, ribs",pork; rib; ribs,Meat,Fresh,meat,3,,120,,,,,,72
+"pork, shoulder",pork; shoulder,Meat,Fresh,meat,3,,120,,,,,,74
+"pork, tenderloin",pork; tenderloin,Meat,Fresh,meat,3,,120,,,,,,67
+"pork, tenderloin medallions or loin cubes",cube; cubes; loin; loin cube; loin cubes; medallion; medallions; pork; tenderloin; tenderloin medallions,Meat,Fresh,meat,3,,120,,,,,,69
+prosciutto,,Meat,Smoked or Processed,meat,60,,30,,,,,,675
+"rabbit, whole, fresh",fresh; rabbit; whole,Meat,Fresh,meat,2,,270,,,,,,595
+raw kabobs with vegetables,kabob; kabobs; raw kabobs; vegetables,Meat,Stuffed or Assembled,meat,1,,90,,,,,,106
+retort pouches or boxes,box; boxes; pouch; retort; retort pouches,Meat,Shelf Stable Foods,meat,,,,3,,,,,112
+"sausage, fully cooked smoked links, kielbasa",fully cooked; fully cooked smoked links; kielbasa; link; links; sausage; smoked links,Meat,Smoked or Processed,meat,7,,30,,,,,,103
+"sausage, hard, dry (pepperoni), sliced",dry; dry pepperoni; hard; pepperoni; sausage; slice; sliced,Meat,Smoked or Processed,meat,14,,30,,,,,,104
+"sausage, raw bulk type or patties",patties; patty; raw; raw bulk type; sausage,Meat,Smoked or Processed,meat,1,,30,,,,,,102
+"stuffed, raw pork chops",chops; pork; raw pork; raw pork chops; stuffed,Meat,Stuffed or Assembled,meat,1,,270,,,,,,105
+"variety meats, liver, tongue, chitterlings, etc.",chitterling; chitterlings; liver; meat; meats; tongue; variety meats,Meat,Fresh,meat,1,,90,,,,,,77
+"veal, ground",ground; veal,Meat,Fresh,meat,1,,90,,,,,,59
+"veal, leg rump or round roast, boneless",boneless; leg; leg rump; roast; round; round roast; rump; veal,Meat,Fresh,meat,3,,120,,,,,,57
+"veal, loin roast, bone-in",bone; bone-in; loin; loin roast; roast; veal,Meat,Fresh,meat,3,,120,,,,,,58
+"veal, shoulder roast, boneless",boneless; roast; shoulder; shoulder roast; veal,Meat,Fresh,meat,3,,120,,,,,,56
+"venison, round, rump, loin, or rib roast",loin; rib; rib roast; roast; round; rump; venison,Meat,Fresh,meat,3,,120,,,,,,76
+canned chicken,can; canned; chicken,Poultry,Shelf Stable Foods,meat,,1825,,3,,,,,142
+"capon, whole",capon; whole,Poultry,Fresh,meat,1,,360,,,,,,128
+"chicken nuggets, patties",chicken; chicken nuggets; nugget; nuggets; patties; patty,Poultry,Cooked or Processed,meat,,,30,,,,,,134
+"chicken parts, breast halves, bone-in",bone; bone-in; breast; breast halves; chicken; chicken parts; half; halves,Poultry,Fresh,meat,1,,270,,,,,,116
+"chicken parts, breast halves, boneless",bone; boneless; breast; breast halves; chicken; chicken parts; half; halves,Poultry,Fresh,meat,1,,270,,,,,,117
+"chicken parts, legs or thighs",chicken; chicken parts; leg; legs; thigh; thighs,Poultry,Fresh,meat,1,,270,,,,,,118
+"chicken, whole",chicken; whole,Poultry,Fresh,meat,1,,360,,,,,,113
+cooked poultry dishes,poultry; poultry dishes,Poultry,Cooked or Processed,meat,3,,120,,,,,,135
+"cornish hens, whole",cornish hens; hen; hens; whole,Poultry,Fresh,meat,1,,360,,,,,,129
+"duckling, domestic or wild, whole",domestic; duckling; whole; wild,Poultry,Fresh,meat,1,,180,,,,,,123
+fried chicken,chicken,Poultry,Cooked or Processed,meat,3,,120,,,,,,136
+giblets,giblet,Poultry,Fresh,meat,1,,90,,,,,,130
+"goose, domestic or wild, whole",domestic; goose; whole; wild,Poultry,Fresh,meat,1,,180,,,,,,125
+ground turkey or chicken,chicken; ground turkey; turkey,Poultry,Fresh,meat,1,,90,,,,,,115
+"pate, poultry",pate; poultry,Poultry,Cooked or Processed,meat,7,,,,,,,,564
+"pheasant, young, whole",pheasant; whole; young,Poultry,Fresh,meat,1,,180,,,,,,126
+"quail, whole",quail; whole,Poultry,Fresh,meat,1,,180,,,,,,127
+raw kabobs with vegetables,kabob; kabobs; raw kabobs; vegetable; vegetables,Poultry,Stuffed or Assembled,meat,1,,90,,,,,,132
+retort pouches or boxes,box; boxes; pouch; retort; retort pouches,Poultry,Shelf Stable Foods,meat,,,,3,,,,,143
+rotisserie chicken,chicken; rotisserie,Poultry,Cooked or Processed,meat,3,,120,,,,,,141
+"stuffed, raw chicken breasts",breast; chicken; chicken breasts; raw chicken breasts; stuffed,Poultry,Stuffed or Assembled,meat,1,,270,,,,,,131
+turducken,,Poultry,Stuffed or Assembled,meat,,,270,,,,,,133
+turkey bacon,bacon; turkey,Poultry,Cooked or Processed,meat,14,,60,7,,,,,431
+"turkey parts, breast halves, bone-in",bone; bone-in; breast; breast halves; half; halves; turkey; turkey parts,Poultry,Fresh,meat,1,,270,,,,,,119
+"turkey parts, breast halves, boneless",bone; boneless; breast; turkey; turkey parts,Poultry,Fresh,meat,1,,270,,,,,,120
+"turkey parts, legs or thighs",leg; legs; thigh; thighs; turkey; turkey parts,Poultry,Fresh,meat,1,,270,,,,,,121
+"turkey, whole",turkey; whole,Poultry,Fresh,meat,1,,360,,,,,,114
+apples,apple,Produce,Fresh Fruits,produce,28,21,240,,,,,,248
+"applesauce, homemade",applesauce; homemade,Produce,Fresh Fruits,produce,21,,240,,,,,,562
+apricots,apricot,Produce,Fresh Fruits,produce,2,,,,,,,,249
+"artichokes, whole",artichoke; artichokes; whole,Produce,Fresh Vegetables,produce,7,1,,,,,,,270
+arugula,greens; salad; salad greens,Produce,Fresh Vegetables,produce,3,,,,,,,,678
+asparagus,,Produce,Fresh Vegetables,produce,3,,150,,,,,,271
+avocados,avocado,Produce,Fresh Fruits,produce,3,,,,,,,,250
+baby carrots,baby carrot; carrot,Produce,Fresh Vegetables,produce,28,4,90,,,,,,491
+"bagged greens, leaf, spinach, lettuce, etc.",bagged; bagged greens; green; greens; leaf; lettuce; spinach,Produce,Fresh Vegetables,produce,3,,,2,,,,,415
+bamboo shoots,bamboo; shoot; shoots,Produce,Fresh Vegetables,produce,14,,,5,,,,,272
+bananas,banana,Produce,Fresh Fruits,produce,3,,60,,,,,,251
+"basil, dried",basil; dried,Produce,Fresh Vegetables,produce,,360,,,,,,,508
+"basil, fresh",basil; fresh,Produce,Fresh Vegetables,produce,10,5,,,,,,,509
+bean sprouts,bean; sprouts,Produce,Fresh Vegetables,produce,5,,,,,,,,549
+"beans and peas, green, fava, lima, soybean, wax, snow, sugar snap",beans; fava; green; lima; pea; peas; snow; soya; soybean; sugar; sugar snap; wax,Produce,Fresh Vegetables,produce,3,,240,,,,,,273
+beets,,Produce,Fresh Vegetables,produce,7,1,180,,,,,,274
+"berries, blackberries, boysenberries, currant",berries; berry; blackberries; blackberry; boysenberries; boysenberry; currant,Produce,Fresh Fruits,produce,3,,360,,,,,,253
+"berries, cherries, goose berries, lychee",berries; berry; cherries; cherry; goose berries; goose berry; gooseberries; lychee,Produce,Fresh Fruits,produce,7,,360,,,,,,252
+blueberries,berries; berry; blueberry,Produce,Fresh Fruits,produce,7,,240,,,,,,254
+bok choy,,Produce,Fresh Vegetables,produce,2,,300,,,,,,275
+broccoli and broccoli raab,broccoli; broccoli raab; raab; rapini,Produce,Fresh Vegetables,produce,3,,300,,,,,,276
+brussels sprouts,brussel; brussels; sprout; sprouts,Produce,Fresh Vegetables,produce,3,,300,,,,,,277
+cabbage,,Produce,Fresh Vegetables,produce,7,,300,,,,,,278
+cantaloupe,,Produce,Fresh Fruits,produce,5,2,360,,,,,,496
+"carrots, parsnips",carrot; carrots; parsnip; parsnips,Produce,Fresh Vegetables,produce,14,,300,,,,,,279
+cauliflower,,Produce,Fresh Vegetables,produce,3,,300,,,,,,280
+celery,,Produce,Fresh Vegetables,produce,7,,300,,,,,,281
+celery root,celeriac; celery,Produce,Fresh Vegetables,produce,7,,,,,,,,661
+cherimoya,,Produce,Fresh Fruits,produce,4,,300,,,,,,255
+cherries,cherry,Produce,Fresh Fruits,produce,2,,240,,,,,,483
+cherry tomatoes,cherry; tomato; tomatoes,Produce,Fresh Vegetables,produce,5,10,,,,,,,600
+chives,,Produce,Fresh Vegetables,produce,14,7,,,,,,,512
+cilantro,,Produce,Fresh Vegetables,produce,14,7,,,,,,,506
+"citrus fruit, lemon, lime, orange, grapefruit, tangerines, clementines",citrus; citrus fruit; clementine; clementines; fruit; grape; grapefruit; lemon; lime; orange; tangerine; tangerines,Produce,Fresh Fruits,produce,10,10,,,,,,,256
+"coconut, shredded",coconut; shredded,Produce,Fresh Fruits,produce,,365,365,240,,,,,257
+"coconuts, fresh",coconut; coconuts; fresh,Produce,Fresh Fruits,produce,14,7,,,,,,,258
+corn on the cob,cob; corn,Produce,Fresh Vegetables,produce,1,,240,,,,,,282
+cranberries,cranberry,Produce,Fresh Fruits,produce,60,,360,,,,,,259
+cucumbers,cucumber,Produce,Fresh Vegetables,produce,4,,,,,,,,283
+dates,,Produce,Fresh Fruits,produce,360,60,365,,,,,,260
+"edamame, fresh",edamame; fresh; fresh edamame; soybean; soybeans,Produce,Fresh Vegetables,produce,4,,,,,,,,640
+eggplant,egg,Produce,Fresh Vegetables,produce,4,1,180,,,,,,284
+garlic,,Produce,Fresh Vegetables,produce,3,30,30,,,,,,285
+ginger root,ginger; root,Produce,Fresh Vegetables,produce,14,2,180,,,,,,286
+grapes,grape,Produce,Fresh Fruits,produce,7,1,30,,,,,,261
+greens,green,Produce,Fresh Vegetables,produce,1,,300,,,,,,287
+guava,,Produce,Fresh Fruits,produce,2,,,,,,,,262
+herbs,herb,Produce,Fresh Vegetables,produce,7,,30,,,,,,288
+honeydew,,Produce,Fresh Fruits,produce,3,2,360,,,,,,497
+hot peppers,pepper,Produce,Fresh Vegetables,produce,7,,270,,,,,,548
+"jicama, fresh",fresh; jicama,Produce,Fresh Vegetables,produce,14,120,,,,,,,492
+kale,,Produce,Fresh Vegetables,produce,3,,240,,,,,,423
+kimchi,,Produce,Fresh Vegetables,produce,180,,,,,,,,493
+kiwi fruit,fruit; kiwi,Produce,Fresh Fruits,produce,3,,,,,,,,263
+kohlrabi,,Produce,Fresh Vegetables,produce,7,,240,,,,,,494
+kumquats,,Produce,Fresh Fruits,produce,21,,,,,,,,414
+leeks,leek,Produce,Fresh Vegetables,produce,7,,300,,,,,,289
+lemongrass,,Produce,Fresh Vegetables,produce,7,,180,,,,,,505
+"lettuce, iceberg, romaine",iceberg; lettuce; romaine,Produce,Fresh Vegetables,produce,7,,,,,,,,290
+"lettuce, leaf, spinach",leaf; lettuce; spinach,Produce,Fresh Vegetables,produce,3,,,,,,,,291
+"marinated vegetables, in oil",marinated vegetables; oil; vegetable; vegetables,Produce,Fresh Vegetables,produce,3,,,,,,,,570
+melons,melon,Produce,Fresh Fruits,produce,14,,30,2,,,,,264
+mint,,Produce,Fresh Vegetables,produce,14,7,,,,,,,507
+mushrooms,mushroom,Produce,Fresh Vegetables,produce,3,,300,,,,,,292
+okra,,Produce,Fresh Vegetables,produce,2,1,300,,,,,,293
+"onions, spring or green",green; onion; onions; spring,Produce,Fresh Vegetables,produce,7,30,300,,,,,,295
+"onions, yellow, white, red, etc.",onion; onions; red; white; yellow,Produce,Fresh Vegetables,produce,60,30,300,,,,,,294
+oregano,,Produce,Fresh Vegetables,produce,14,7,,,,,,,510
+"papaya, mango, feijoa, passionfruit, casaha melon",casaha melon; feijoa; fruit; mango; melon; papaya; passion; passionfruit,Produce,Fresh Fruits,produce,7,3,180,,,,,,265
+"parsley, fresh",parsley,Produce,Fresh Vegetables,produce,2,,90,,,,,,611
+"peaches, nectarines, plums, pears, sapote",nectarine; nectarines; peach; peaches; pear; pears; plum; plums; sapote,Produce,Fresh Fruits,produce,3,,60,,,,,,266
+peppers,pepper,Produce,Fresh Vegetables,produce,4,,180,,,,,,296
+pineapple,,Produce,Fresh Fruits,produce,5,,300,,,,,,267
+pitaya/dragon fruit,dragon fruit; fruit; fruits; pitaya,Produce,Fresh Fruits,produce,14,2,300,,,,,,480
+plantains,plantain,Produce,Fresh Fruits,produce,3,,300,,,,,,268
+pomegranate,,Produce,Fresh Fruits,produce,30,2,300,,,,,,269
+potatoes,potato,Produce,Fresh Vegetables,produce,7,30,300,,,,,,297
+prickly pear,pear; pickle,Produce,Fresh Fruits,produce,7,2,300,,,,,,479
+pumpkins,pumpkin,Produce,Fresh Vegetables,produce,90,60,,,,,,,298
+radicchio,,Produce,Fresh Vegetables,produce,14,,,,,,,,674
+radishes,radish,Produce,Fresh Vegetables,produce,10,,,,,,,,299
+raspberries,raspberry,Produce,Fresh Fruits,produce,2,,240,,,,,,482
+rhubarb,,Produce,Fresh Vegetables,produce,3,,,,,,,,300
+rosemary,,Produce,Fresh Vegetables,produce,14,7,,,,,,,511
+rutabagas,,Produce,Fresh Vegetables,produce,14,7,240,,,,,,301
+"spaghetti squash, cut",cut; spaghetti squash; squash,Produce,Fresh Vegetables,produce,4,,,,,,,,597
+"spaghetti squash, whole",spaghetti squash; squash; whole,Produce,Fresh Vegetables,produce,7,60,,,,,,,596
+"squash, summer and zucchini",squash; summer; zucchini,Produce,Fresh Vegetables,produce,4,1,300,,,,,,302
+"squash, winter",squash; winter,Produce,Fresh Vegetables,produce,30,14,300,,,,,,303
+star fruit,fruit; fruits,Produce,Fresh Fruits,produce,7,7,300,,,,,,478
+strawberries,strawberry,Produce,Fresh Fruits,produce,2,,240,,,,,,481
+swiss chard,chard,Produce,Fresh Vegetables,produce,7,,,,,,,,550
+tamarind,,Produce,Fresh Vegetables,produce,180,7,365,,,,,,304
+taro,,Produce,Fresh Vegetables,produce,2,7,,,,,,,305
+thyme,,Produce,Fresh Vegetables,produce,14,7,,,,,,,513
+tomatoes,tomato,Produce,Fresh Vegetables,produce,,,60,,,,,,306
+turnips,turnip,Produce,Fresh Vegetables,produce,14,,240,,,,,,307
+watermelon,,Produce,Fresh Fruits,produce,3,1,360,,,,,,495
+yams/sweet potatoes,potato; potatoes; sweet potatoes; yam; yams,Produce,Fresh Vegetables,produce,,14,,,,,,,422
+yuca/cassava,cassava; yuca,Produce,Fresh Vegetables,produce,3,7,30,,,,,,308
+"zucchini, fresh, whole",fresh; whole; zucchini,Produce,Fresh Vegetables,produce,7,,300,,,,,,547
+"caviar, fresh, in jar",caviar; fresh; jar,Seafood,Fresh,seafood,7,,,2,,,,,147
+"cooked fish, all",all; cooked fish; fish,Seafood,Fresh,seafood,3,,30,,,,,,148
+"cooked shellfish, all",cooked; cooked shellfish; fish; shellfish,Seafood,Shellfish,seafood,3,,30,,,,,,162
+"crab legs, king, dungeness, snow",crab; crab legs; dungeness; king; leg; legs; snow,Seafood,Shellfish,seafood,2,,270,,,,,,156
+"crab meat, fresh",crab; crab meat; fresh; meat,Seafood,Shellfish,seafood,1,,60,,,,,,154
+"crab meat, pasteurized",crab; crab meat; meat; pasteurized,Seafood,Shellfish,seafood,300,,120,3,,,,,155
+"fatty fish, bluefish, catfish, mackerel, mullet, salmon, tuna, etc.",blue; bluefish; cat; catfish; fatty; fatty fish; fish; mackerel; mullet; salmon; tuna,Seafood,Fresh,seafood,1,,60,,,,,,146
+"fish, cold smoked, air pack",air pack; cold; cold smoked; fish; pack; smoked,Seafood,Smoked,seafood,14,,270,,,,,,166
+"fish, cold smoked, vacuum pack",cold; cold smoked; fish; pack; smoked; vacuum; vacuum pack,Seafood,Smoked,seafood,21,,270,,,,,,167
+"fish, hot smoked, air pack",air pack; fish; hot; hot smoked; pack; smoked,Seafood,Smoked,seafood,14,,270,,,,,,164
+"fish, hot smoked, vacuum pack",fish; hot; hot smoked; pack; smoked; vacuum; vacuum pack,Seafood,Smoked,seafood,14,,180,,,,,,165
+"fresh clams, mussels, oysters",clam; clams; fresh clams; mussel; mussels; oyster; oysters,Seafood,Shellfish,seafood,5,,,,,,,,160
+"fresh lobster tails, cooked",cooked; fresh lobster tails; lobster tails; tail; tails,Seafood,Shellfish,seafood,2,,14,,,,,,159
+"fresh whole lobster, frozen",fresh whole lobster; frozen; lobster; whole lobster,Seafood,Shellfish,seafood,1,,14,,,,,,161
+"fresh whole lobster, live",fresh whole lobster; live; lobster; whole lobster,Seafood,Shellfish,seafood,1,,,,,,,,158
+"herring, glass packed, in wine sauce",glass; glass packed; herring; packed; sauce; wine; wine sauce,Seafood,Smoked,seafood,120,,,,,,,,163
+"lean fish, cod, flounder, haddock, halibut, sole, etc.",cod; fish; flounder; haddock; halibut; lean fish; sole,Seafood,Fresh,seafood,1,,180,,,,,,144
+"lean fish, pollock, ocean perch, rockfish, sea trout.",fish; lean fish; ocean; ocean perch; perch; pollock; rock; rockfish; sea; sea trout; trout,Seafood,Fresh,seafood,1,,120,,,,,,145
+"live clams, mussels, crab, and oysters",clam; clams; crab; live clams; mussel; mussels; oyster; oysters,Seafood,Shellfish,seafood,1,,60,,,,,,157
+scallops,scallop,Seafood,Shellfish,seafood,1,,180,,,,,,150
+"shrimp, crayfish",cray; crayfish; fish; shrimp,Seafood,Shellfish,seafood,1,,180,,,,,,151
+"shucked clams, mussels, and oysters",clam; clams; mussel; mussels; oyster; oysters; shucked clams,Seafood,Shellfish,seafood,3,,90,,,,,,153
+squid,,Seafood,Shellfish,seafood,1,,180,,,,,,152
+surimi seafood,food; sea; surimi,Seafood,Fresh,seafood,,,270,,,,,,149
+"""genuine"" maple syrup, unopened, glass",genuine maple syrup; glass; syrup; unopened,Shelf Stable Foods,,dry goods,,1460,,,,,,,533
+"""genuine"" maple syrup, unopened, plastic",genuine maple syrup; plastic; syrup; unopened,Shelf Stable Foods,,dry goods,540,730,,,,,,,534
+almond butter,almond; butter,Shelf Stable Foods,,dry goods,,365,,,,,,,466
+almond oil,almond,Shelf Stable Foods,,dry goods,730,365,,,,,,,521
+"almonds, no shell",almond; almonds; no shell; shell,Shelf Stable Foods,,dry goods,240,120,300,,,,,,438
+"almonds, shell",almond; almonds; shell,Shelf Stable Foods,,dry goods,480,180,600,,,,,,437
+"applesauce, commercial",apple; applesauce; commercial; sauce,Shelf Stable Foods,,dry goods,,360,,7,,,,,370
+avocado oil,avocado; avodaco oil; oil,Shelf Stable Foods,,dry goods,,730,,,,,,,668
+"bacon bits, imitation",bacon; bacon bits; bit; bits; imitation,Shelf Stable Foods,,dry goods,,365,,,,,,,371
+"base, beef, vegetable",base; beef; beef base; vegetable; vegetable base,Shelf Stable Foods,,dry goods,,,,,,,,,672
+"beets, pickled",beets; pickled; pickled beets,Shelf Stable Foods,,dry goods,,365,,30,,,,,633
+"black pepper, cracked, dried, commercially bottled or purchased in bulk",black; black pepper; bottle; bottled; bulk; commercial; commercially; commercially bottled; crack; cracked; dried; pepper; purchase; purchased; purchased in bulk,Shelf Stable Foods,,dry goods,,730,,,,,,,470
+"black pepper, ground, dried, commercially bottled or purchased in bulk",black; black pepper; bottle; bottled; bulk; commercial; commercially; commercially bottled; dried; ground; pepper; purchase; purchased; purchased in bulk,Shelf Stable Foods,,dry goods,,730,,,,,,,469
+"breadcrumbs, commercial",breadcrumb; breadcrumbs,Shelf Stable Foods,,dry goods,,180,,,,,,,643
+"cajun seasoning blend, ground, dried, commercially bottled or purchased in bulk",blend; bottle; bottled; bulk; cajun; cajun seasoning; cajun seasoning blend; commercial; commercially; commercially bottled; dried; ground; purchase; purchased; purchased in bulk; seasoning; seasoning blend,Shelf Stable Foods,,dry goods,,365,,,,,,,471
+"canned goods, high acid (such as juices, fruit, pickles, sauerkraut, tomato soup, and foods in vinegar-based sauce)",can; canned; canned goods; food; foods; foods in vinegar based sauce; fruit; fruits; goods; high; high acid; juice; juices; pickle; pickles; sauce; sauerkraut; soup; tomato; tomato soup; vinegar; vinegar based,Shelf Stable Foods,,dry goods,,360,,5,,,,,373
+"canned goods, low acid (such as meat, poultry, fish, gravy, stew, soups, beans, carrots, corn, pasta, peas, potatoes, spinach)",bean; beans; can; canned; canned goods; carrot; carrots; corn; fish; goods; gravy; low; low acid; meat; pasta; pea; peas; potato; potatoes; poultry; soup; soups; spinach; stew,Shelf Stable Foods,,dry goods,,730,,3,,,,,372
+canola oil,canola,Shelf Stable Foods,,dry goods,,365,,,,,,,520
+"capers, in jar",caper; capers; in jar; jar; jar capers,Shelf Stable Foods,,dry goods,,,,,,,,,614
+cashew butter,butter; cashew,Shelf Stable Foods,,dry goods,,90,,,,,,,467
+"cashews, no shell",cashew; cashews; no shell; shell,Shelf Stable Foods,,dry goods,180,14,360,,,,,,439
+cereal or granola bars,bar; bars; breakfast; breakfast bar; breakfast bars; cereal bar; cereal bars; crunchy bar; crunchy bars; energy bar; energy bars; fruit bar; fruit bars; granola; granola bar; granola bars; health bar; health bars; nut bar; nut bars; nutrition bar; nutrition bars; seed bar; seed bars; snack bars; snack barsnack,Shelf Stable Foods,,dry goods,,180,,,,,,,658
+"cereal, cook before eating (oatmeal, etc.)",cereal; cook before eating; meal; oat; oatmeal; oats,Shelf Stable Foods,,dry goods,,360,,,,,,,375
+"cereal, ready-to-eat",cereal; eat; ready,Shelf Stable Foods,,dry goods,,180,,,,,,,374
+chia seeds,chia; seed; seeds,Shelf Stable Foods,,dry goods,,540,,,,,,,573
+chocolate hazlenut spread,chocolate; chocolate spread; cocoa; cocoa spread; hazelnut; hazelnut spread; nutella; spread,Shelf Stable Foods,,dry goods,,,,,,,,,615
+chocolate syrup,chocolate; syrup,Shelf Stable Foods,,dry goods,,730,,180,,,,,376
+"cinnamon, ground, dried, commercially bottled or purchased in bulk",bottle; bottled; bulk; cinnamon; commercial; commercially; commercially bottled; dried; ground; purchase; purchased; purchased in bulk,Shelf Stable Foods,,dry goods,,1095,,,,,,,472
+"coconut cream, canned",can; canned; coconut; coconut cream; cream,Shelf Stable Foods,,dry goods,,730,90,4,,,,,601
+"coconut milk, canned",can; canned; coconut; coconut milk; milk,Shelf Stable Foods,,dry goods,,730,90,4,,,,,602
+coconut oil,coconut; oil,Shelf Stable Foods,,dry goods,,1095,,,,,,,454
+corn syrup,corn; syrup,Shelf Stable Foods,,dry goods,,1095,,,,,,,650
+crackers,cracker,Shelf Stable Foods,,dry goods,,240,90,90,,,,,377
+croutons,bread; crouton,Shelf Stable Foods,,dry goods,150,150,330,,,,,,682
+"cumin, ground, dried, commercially bottled or purchased in bulk, opened or unopened",bottle; bottled; bulk; commercial; commercially; commercially bottled; cumin; dried; ground; open; opened; purchase; purchased; purchased in bulk; unopen; unopened,Shelf Stable Foods,,dry goods,,1095,,,,,,,473
+"dry stuffing mix, commercially packaged",commercial; commercially; commercially packaged; dry; dry stuffing; dry stuffing mix; mix; pack; packaged; stuffing; stuffing mix,Shelf Stable Foods,,dry goods,,270,,,,,,,464
+"edamame, salted, dry roasted, out of pod",dry roasted; edamame; roasted; salted; soybean; soybeans,Shelf Stable Foods,,dry goods,180,360,,,,,,,642
+"flaxseed, ground",flaxseed; ground,Shelf Stable Foods,,dry goods,360,,360,,,,,,504
+"flaxseed, whole seed",flaxseed; seed; whole seed,Shelf Stable Foods,,dry goods,,730,,,,,,,503
+"fruit cocktail, canned",can; canned; cocktail; fruit; fruit cocktail,Shelf Stable Foods,,dry goods,,,,,,,,,432
+"fruits, dried, raisins, apricots, mangoes, cranberries, etc.",apricot; apricots; cranberries; cranberry; dried; fruit; fruits; mangoe; mangoes; raisin; raisins,Shelf Stable Foods,,dry goods,,180,,180,,,,,379
+"garlic powder, dried, commercially bottled or purchased in bulk",bottle; bottled; bulk; commercial; commercially; commercially bottled; dried; garlic; garlic powder; powder; purchase; purchased; purchased in bulk,Shelf Stable Foods,,dry goods,,1095,,,,,,,474
+graham cracker/animal cracker,animal; animal cracker; cracker; graham; graham cracker,Shelf Stable Foods,,dry goods,,180,,,,,,,378
+granola,,Shelf Stable Foods,,dry goods,,180,,,,,,,555
+grapeseed oil,grapeseed; oil,Shelf Stable Foods,,dry goods,,365,,,,,,,523
+"grits, boxed",box; boxed; boxed grits; grits,Shelf Stable Foods,,dry goods,,360,,,,,,,627
+gummy snacks,fruit; fruit snack; fruit snacks; gummy; gummy snack; snack; snacks,Shelf Stable Foods,,dry goods,,180,,,,,,,380
+"instant breakfast drinks, bottled",bottled breakfast; bottled instant breakfast; bottled instant breakfast drink; breakfast; carnation; drinks; instant; instant breakfast; instant breakfast drinks; instant drink,Shelf Stable Foods,,dry goods,,180,,,,,,,652
+"macadamias, no shell",macadamia; macadamias; no shell; shell,Shelf Stable Foods,,dry goods,360,14,720,,,,,,440
+marshmallow crème,crème; marshmallow,Shelf Stable Foods,,dry goods,,60,,,,,,,382
+marshmallows,marshmallow,Shelf Stable Foods,,dry goods,,365,,,,,,,381
+"milk, canned evaporated or condensed",can; canned; condense; condensed; evaporate; evaporated; milk,Shelf Stable Foods,,dry goods,,360,,4,,,,,383
+"milk, shelf-stable",aseptic packaging; milk; shelf; shelf stable milk; stable; uht; ultrapasteurized,Shelf Stable Foods,,dry goods,,180,,5,,,,,644
+"milk, ultra-pasteurized",milk; pasteurized; ultra; ultra pasteurized milk,Shelf Stable Foods,,dry goods,30,,,7,,,,,659
+molasses,,Shelf Stable Foods,,dry goods,,365,,,,,,,384
+"mushrooms, dried",dried; mushroom; mushrooms,Shelf Stable Foods,,dry goods,,365,,,,,,,385
+"mustard, dried, ground",dried ground mustard; dried mustard; ground mustard; mustard,Shelf Stable Foods,,dry goods,,180,365,,,,,,684
+"nutmeg, ground, dried, commercially bottled or purchased in bulk",bottle; bottled; bulk; commercial; commercially; commercially bottled; dried; ground; nutmeg; purchase; purchased; purchased in bulk,Shelf Stable Foods,,dry goods,,1095,,,,,,,476
+"nutrition supplement drinks, bottled",bottled; drinks; nutrition supplement drinks; supplement,Shelf Stable Foods,,dry goods,,,,,,,,,651
+"nuts, jars or cans",can; cans; jar; jars; nut; nuts,Shelf Stable Foods,,dry goods,,365,180,120,,,,,386
+"onion powder, dried, commercially bottled or purchased in bulk",bottle; bottled; bulk; commercial; commercially; commercially bottled; dried; onion; onion powder; powder; purchase; purchased; purchased in bulk,Shelf Stable Foods,,dry goods,,1095,,,,,,,475
+"peanut butter, commercial",butter; commercial; peanut; peanut butter,Shelf Stable Foods,,dry goods,,180,,,,,,,387
+"peanut butter, commercially produced, containing hydrogenated fat or other stabilizers",butter; commercial peanut butter; fat; hydrogenated fat; peanut butter; stabilizer; stabilizers,Shelf Stable Foods,,dry goods,360,180,,90,,,,,488
+"peanut butter, natural",butter; natural; peanut butter,Shelf Stable Foods,,dry goods,360,,,90,,,,,489
+"peanuts, no shell",no shell; nut; peanut; peanuts; shell,Shelf Stable Foods,,dry goods,360,28,720,,,,,,442
+"peanuts, shell",nut; peanut; peanuts; shell,Shelf Stable Foods,,dry goods,360,120,720,,,,,,441
+"pecans, chopped",chopped; chopped pecans; pecan; pecans,Shelf Stable Foods,,dry goods,360,,730,,,,,,655
+"pecans, no shell",no shell; pecan; pecans; shell,Shelf Stable Foods,,dry goods,270,14,720,,,,,,444
+"pecans, shell",pecan; pecans; shell,Shelf Stable Foods,,dry goods,360,14,720,,,,,,443
+pectin,,Shelf Stable Foods,,dry goods,,,,,,,,,388
+pine nuts,nut; nuts; pine; pine nut,Shelf Stable Foods,,dry goods,90,14,270,,,,,,653
+"pistachios, shell or no shell",no shell; pista; pistachio; pistachios; shell,Shelf Stable Foods,,dry goods,360,21,720,,,,,,445
+"polenta, shelf-stable",polenta; shelf stable; shelf stable polenta,Shelf Stable Foods,,dry goods,,,,5,,,,,656
+"popcorn, commercially popped in bags",bag; bags; commercially; in bags; popcorn; popped in bags,Shelf Stable Foods,,dry goods,,60,,,,,,,390
+"popcorn, dry kernels in jar",chip; chips; dry kernels; dry kernels in jar; in jar; jar; kernel; kernels; popcorn,Shelf Stable Foods,,dry goods,,730,,,,,,,389
+"popcorn, microwave packets",microwave; microwave packets; packet; packets; popcorn,Shelf Stable Foods,,dry goods,,180,,,,,,,391
+pork rinds,pork; rinds,Shelf Stable Foods,,dry goods,,120,,,,,,,556
+potato chips,chip; chips; potato; potatoes,Shelf Stable Foods,,dry goods,,60,,,,,,,392
+"potatoes, instant",instant; potato; potatoes,Shelf Stable Foods,,dry goods,,300,,,,,,,393
+pretzels,pretzel,Shelf Stable Foods,,dry goods,,120,,,,,,,394
+pudding mixes,mix; mixes; pudding,Shelf Stable Foods,,dry goods,,365,,,,,,,395
+"pumpkin seeds, raw, in-shell",pumpkin; pumpkin seed; pumpkin seeds; seed; seeds,Shelf Stable Foods,,dry goods,,180,,,,,,,605
+"pumpkin seeds, raw, no shell",pumpkin; pumpkin seed; pumpkin seeds; seed; seeds,Shelf Stable Foods,,dry goods,180,180,,,,,,,604
+"pumpkin seeds, roasted, in-shell",pumpkin; pumpkin seed; pumpkin seeds; seed; seeds,Shelf Stable Foods,,dry goods,,180,,,,,,,607
+"pumpkin seeds, roasted, no-shell",pumpkin; pumpkin seed; pumpkin seeds; seed; seeds,Shelf Stable Foods,,dry goods,,180,,,,,,,606
+roasted nuts,almonds; cashews; nuts; peanuts; roasted; roasted almonds; roasted cashews; roasted peanuts,Shelf Stable Foods,,dry goods,,,,28,,,,,616
+"roasted red peppers, jar",jar; pepper; peppers; red; red peppers; roasted; roasted red; roasted red peppers,Shelf Stable Foods,,dry goods,120,,,,,,,,458
+"salt, table, plain, or iodized",iodized; plain; salt; table,Shelf Stable Foods,,dry goods,,,,,,,,,468
+"seafood, canned",canned; canned seafood; seafood,Shelf Stable Foods,,dry goods,,365,,1,,,,,619
+sesame oil,oil; sesame,Shelf Stable Foods,,dry goods,,730,,,,,,,612
+sesame seeds,seed; seeds; sesame,Shelf Stable Foods,,dry goods,,1825,,,,,,,613
+"soup mixes, dry bouillon",bouillon; dry bouillon; mix; mixes; soup; soup mixes,Shelf Stable Foods,,dry goods,,365,,,,,,,396
+"sun dried tomatoes, jar",dried; dried tomatoes; sun; sun dried; sun dried tomatoes; tomato; tomatoes,Shelf Stable Foods,,dry goods,,365,,90,,,,,397
+sunflower oil,oil; sunflower,Shelf Stable Foods,,dry goods,,365,,,,,,,522
+"sunflower seeds, raw, unsalted, no shell",seed; seeds; sunflower; sunflower seed; sunflower seeds,Shelf Stable Foods,,dry goods,,360,,,,,,,608
+"sunflower seeds, roasted, no shell",kernal; seed; seeds; shell; sunflower; sunflower seed; sunflower seeds,Shelf Stable Foods,,dry goods,,360,,210,,,,,609
+"sunflower seeds, roasted, salted, in shell",seed; seeds; sunflower; sunflower seed; sunflower seeds,Shelf Stable Foods,,dry goods,,,,,,,,,610
+syrup,,Shelf Stable Foods,,dry goods,,365,,180,,,,,398
+tapenade,,Shelf Stable Foods,,dry goods,270,270,,,,,,,502
+toaster pastries,pastries; pastry; toaster,Shelf Stable Foods,,dry goods,,180,,,,,,,399
+tomato paste,,Shelf Stable Foods,,dry goods,,810,60,5,,,,,501
+"tuna, canned",canned; canned tuna; tuna,Shelf Stable Foods,,dry goods,,1095,,,,,,,618
+"tuna, packet",packet; retort; retort packaging; tuna; tuna packet,Shelf Stable Foods,,dry goods,,540,,3,,,,,617
+"walnuts, shell or no shell",no shell; shell; walnut; walnuts,Shelf Stable Foods,,dry goods,270,14,720,,,,,,446
+miso,,Vegetarian Proteins,,dairy,365,,,,,,,,169
+"re-hydrated textured soy protein, (tsp)",protein; re hydrated; re hydrated textured soy protein; soy; soy protein; textured soy protein; tsp,Vegetarian Proteins,,dairy,3,90,,,,,,,172
+"soy flour, full-fat",fat; flour; full fat; soy; soy flour,Vegetarian Proteins,,dairy,180,60,,,,,,,170
+"textured soy protein, (tsp)",protein; soy; soy protein; textured soy protein; tsp,Vegetarian Proteins,,dairy,,730,,,,,,,171
+tofu,,Vegetarian Proteins,,dairy,7,,150,,,,,,168
