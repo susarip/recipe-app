@@ -1,0 +1,22 @@
+<script lang="ts">
+  import { onMount } from 'svelte';
+  import { base } from '$app/paths';
+  let { children } = $props();
+  onMount(() => {
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register(`${base}/sw.js`);
+  });
+</script>
+
+<main>{@render children()}</main>
+
+<style>
+  :global(body) { margin: 0; font: 16px/1.45 system-ui, sans-serif; background: #f6f4ee; color: #1d1d1b; }
+  main { max-width: 32rem; margin: 0 auto; padding: 1rem 1rem 3rem; }
+  :global(h1) { font-size: 1.4rem; margin: 0.5rem 0 1rem; }
+  :global(button) { font: inherit; padding: 0.7rem 1rem; border-radius: 0.6rem; border: 1px solid #2f6f4e; background: #2f6f4e; color: white; }
+  :global(button:disabled) { opacity: 0.5; }
+  :global(.card) { background: white; border-radius: 0.8rem; padding: 1rem; margin-bottom: 0.9rem; box-shadow: 0 1px 2px rgba(0,0,0,0.06); }
+  :global(.ok) { color: #2f6f4e; font-weight: 600; }
+  :global(.bad) { color: #b4392a; font-weight: 600; }
+  :global(code) { font-size: 0.8rem; word-break: break-all; }
+</style>
