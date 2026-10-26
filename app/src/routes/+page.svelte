@@ -11,7 +11,7 @@
   let notifPerm = $state('');
   let pushJson = $state('');
   let pushMsg = $state('');
-  let results = $state<Record<string, boolean | null>>({ icon: null, wake: null, push: null, offline: null });
+  let results = $state<Record<string, boolean | null>>({ icon: null, wake: null, push: null, offline: null, share: null });
 
   onMount(async () => {
     ua = navigator.userAgent;
@@ -113,6 +113,13 @@
   <p>Service worker: {swReady ? 'ready' : 'not yet'}. Network: {online ? 'online' : 'offline'}.</p>
   <p>Turn on airplane mode, close the app, reopen it from the icon. Did this page load?
     <button onclick={() => save('offline', true)}>Yes</button> <button onclick={() => save('offline', false)}>No</button></p>
+</div>
+
+<div class="card">
+  <h2>5. Share sheet</h2>
+  <p>Open TikTok or Instagram, tap <b>Share</b> on a recipe post, and look for <b>Recipes</b> in the list. Pick it; the link should open here.</p>
+  <p>Did the app appear, and did the link come through?
+    <button onclick={() => save('share', true)}>Yes</button> <button onclick={() => save('share', false)}>No</button></p>
 </div>
 
 <div class="card">
