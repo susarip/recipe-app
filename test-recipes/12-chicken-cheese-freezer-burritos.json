@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from Susmitha's typed notes of a TikTok (stealth_health_life), 2026-10-26, test recipe 12",
+  "recipes": [
+    {
+      "title": "Chicken and Cheese Freezer Burritos",
+      "source": "TikTok @stealth_health_life, typed out by Susmitha",
+      "sourceUrl": "https://www.tiktok.com/@stealth_health_life/video/7068811055845199150",
+      "servings": 4,
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "effort": "medium",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": true,
+      "keepsDays": 4,
+      "tags": ["burrito", "chicken", "freezer", "batch", "meal prep", "lunch"],
+      "ingredients": [
+        { "id": "i1", "original": "1 lb boneless skinless chicken thighs", "quantity": 1, "unit": "lb", "canonical": "chicken thigh", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "chicken breast", "amountRule": "flexible", "floor": 0.75, "prep": "boneless, skinless" },
+        { "id": "i2", "original": "1 packet taco seasoning (about 2 tbsp from a homemade jar)", "quantity": 2, "unit": "tbsp", "canonical": "taco seasoning", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i3", "original": "200 g 2% greek yogurt", "quantity": 200, "unit": "g", "canonical": "greek yogurt", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "sour cream", "amountRule": "flexible" },
+        { "id": "i4", "original": "80 g tomato sauce / crushed tomatoes", "quantity": 80, "unit": "g", "canonical": "crushed tomatoes", "boughtAs": "canned", "servedAs": "cooked", "swapMark": "swappable", "swap": "tomato sauce", "amountRule": "flexible" },
+        { "id": "i5", "original": "2 Laughing Cow wedges", "quantity": 2, "unit": "piece", "canonical": "laughing cow cheese", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "cream cheese", "amountRule": "flexible" },
+        { "id": "i6", "original": "2 tbsp cilantro", "quantity": 2, "unit": "tbsp", "canonical": "cilantro", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i7", "original": "3 tbsp corn", "quantity": 3, "unit": "tbsp", "canonical": "corn", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i8", "original": "2 tbsp black beans", "quantity": 2, "unit": "tbsp", "canonical": "black beans", "boughtAs": "canned", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i9", "original": "3 tbsp pico de gallo", "quantity": 3, "unit": "tbsp", "canonical": "pico de gallo", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i10", "original": "50 g cheese of choice (pepper jack; mozzarella, cheddar work)", "quantity": 50, "unit": "g", "canonical": "pepper jack", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "cheddar", "swapGroup": "melting cheese", "amountRule": "flexible", "prep": "grated" },
+        { "id": "i11", "original": "tortillas", "quantity": 4, "unit": "piece", "canonical": "flour tortilla", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "exact", "prep": "large, burrito size" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Season the chicken with half the taco seasoning and cook through in the oven, a pan or the air fryer. Chop.", "uses": ["i1", "i2"], "timerMinutes": 20, "makeAhead": { "maxDaysAhead": 2, "store": "fridge" } },
+        { "id": "s2", "text": "In a pan over low heat, melt together the yogurt, tomato, Laughing Cow, cilantro, corn, black beans and pico.", "uses": ["i3", "i4", "i5", "i6", "i7", "i8", "i9"] },
+        { "id": "s3", "text": "Stir in the remaining taco seasoning, then the chopped chicken.", "uses": ["i2", "i1"] },
+        { "id": "s4", "text": "Turn off the heat and stir in the grated cheese.", "uses": ["i10"] },
+        { "id": "s5", "text": "Cool the filling in the fridge 30 to 40 minutes.", "uses": ["i1"], "timerMinutes": 30 },
+        { "id": "s6", "text": "Divide between the tortillas, roll tightly, wrap each in foil and freeze.", "uses": ["i11"], "makeAhead": { "maxDaysAhead": 90, "store": "freezer", "note": "wrapped in foil; this is the point of the recipe" } },
+        { "id": "s7", "text": "To eat, heat in a pan, the air fryer or the oven until hot through and crisp outside.", "uses": ["i11"] }
+      ],
+      "reviewNotes": [
+        "Typed from a video; no times given. 20 min prep + 25 min cook estimated, plus the 30 to 40 minute chill.",
+        "Taco seasoning packet converted to 2 tbsp so the pantry jar can be used; a standard packet is about 1 oz.",
+        "Veggies: 8 to 10 tbsp total of anything; corn, beans and pico are what the video used and are all optional.",
+        "Servings set to 4 burritos as noted; tortilla count assumed 4 large.",
+        "Cheese on swapGroup 'melting cheese'; the creator used pepper jack."
+      ]
+    }
+  ]
+}

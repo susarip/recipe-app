@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from Susmitha's typed notes, 2026-10-26, test recipe 13",
+  "recipes": [
+    {
+      "title": "Horchata",
+      "source": "Typed out by Susmitha",
+      "servings": 8,
+      "prepMinutes": 15,
+      "cookMinutes": 0,
+      "effort": "low",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": false,
+      "keepsDays": 4,
+      "tags": ["drink", "make ahead", "vegetarian"],
+      "ingredients": [
+        { "id": "i1", "original": "1 cup white rice", "quantity": 1, "unit": "cup", "canonical": "white rice", "boughtAs": "dried", "servedAs": "raw", "swapMark": "essential", "amountRule": "exact" },
+        { "id": "i2", "original": "6 cups water (4 for soaking, 2 to finish)", "quantity": 6, "unit": "cup", "canonical": "water", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i3", "original": "cinnamon sticks", "quantity": 2, "unit": "piece", "canonical": "cinnamon stick", "boughtAs": "dried", "servedAs": "raw", "swapMark": "swappable", "swap": "ground cinnamon", "amountRule": "flexible" },
+        { "id": "i4", "original": "1 can sweetened condensed milk", "quantity": 1, "unit": "can", "canonical": "sweetened condensed milk", "boughtAs": "canned", "servedAs": "raw", "swapMark": "essential", "amountRule": "exact" },
+        { "id": "i5", "original": "tbsp vanilla", "quantity": 1, "unit": "tbsp", "canonical": "vanilla extract", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i6", "original": "1 cup white sugar", "quantity": 1, "unit": "cup", "canonical": "granulated sugar", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible", "floor": 0.5 },
+        { "id": "i7", "original": "2 cups whole milk", "quantity": 2, "unit": "cup", "canonical": "whole milk", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "oat milk", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Soak the rice and cinnamon sticks in 4 cups of water for a day.", "uses": ["i1", "i2", "i3"], "leadTimeHours": 24, "timerMinutes": 1440 },
+        { "id": "s2", "text": "Pour the rice, cinnamon and soaking water into a blender with the condensed milk, vanilla, sugar and milk. Blend until smooth, then strain through a fine sieve or cloth.", "uses": ["i1", "i3", "i4", "i5", "i6", "i7"] },
+        { "id": "s3", "text": "Stir in the remaining 2 cups water. Serve over ice.", "uses": ["i2"], "makeAhead": { "maxDaysAhead": 4, "store": "fridge", "note": "shake before pouring; it settles" } }
+      ],
+      "reviewNotes": [
+        "No yield given; about 2 litres, so 8 cups.",
+        "Cinnamon stick count not given; 2 assumed. Vanilla read as 1 tbsp.",
+        "Soak is a 24 hour lead time; the plan should prompt the day before.",
+        "A cup of sugar on top of condensed milk is sweet; floor 0.5 so halving still counts as in stock."
+      ]
+    }
+  ]
+}
