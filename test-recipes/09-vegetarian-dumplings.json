@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from tiffycooks.com, 2026-10-26, test recipe 9",
+  "recipes": [
+    {
+      "title": "Vegetarian Dumplings",
+      "source": "Tiffy Cooks",
+      "sourceUrl": "https://tiffycooks.com/vegetarian-dumplings-easy-healthy/",
+      "servings": 5,
+      "prepMinutes": 60,
+      "cookMinutes": 10,
+      "effort": "high",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": true,
+      "keepsDays": 2,
+      "tags": ["component", "dumplings", "vegetarian", "freezer", "batch"],
+      "ingredients": [
+        { "id": "i1", "original": "0.5 large cabbage, chopped", "quantity": 0.5, "unit": "piece", "canonical": "cabbage", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "napa cabbage", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i2", "original": "2 tbsp salt, for the cabbage (squeezed out)", "quantity": 2, "unit": "tbsp", "canonical": "salt", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i3", "original": "0.5 carrot, shredded", "quantity": 0.5, "unit": "piece", "canonical": "carrot", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible", "prep": "shredded" },
+        { "id": "i4", "original": "3 green onions, chopped", "quantity": 3, "unit": "piece", "canonical": "scallion", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "prep": "chopped, whites and greens separate" },
+        { "id": "i5", "original": "10 shiitake mushrooms, chopped", "quantity": 10, "unit": "piece", "canonical": "shiitake mushroom", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "cremini mushroom", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i6", "original": "5 oz vermicelli noodles", "quantity": 5, "unit": "oz", "canonical": "mung bean vermicelli", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i7", "original": "1/4 cup cilantro, chopped", "quantity": 0.25, "unit": "cup", "canonical": "cilantro", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible", "prep": "chopped" },
+        { "id": "i8", "original": "2 tbsp sesame oil (for sauteing) plus 2.5 tbsp (for seasoning)", "quantity": 4.5, "unit": "tbsp", "canonical": "sesame oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i9", "original": "1.5 tbsp soy sauce", "quantity": 1.5, "unit": "tbsp", "canonical": "soy sauce", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i10", "original": "3.5 tbsp vegetarian oyster sauce", "quantity": 3.5, "unit": "tbsp", "canonical": "vegetarian oyster sauce", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "oyster sauce", "amountRule": "flexible" },
+        { "id": "i11", "original": "1 tbsp mushroom powder", "quantity": 1, "unit": "tbsp", "canonical": "mushroom powder", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i12", "original": "1 tsp white pepper", "quantity": 1, "unit": "tsp", "canonical": "white pepper", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "swappable", "swap": "black pepper", "amountRule": "flexible" },
+        { "id": "i13", "original": "50 dumpling wrappers", "quantity": 50, "unit": "piece", "canonical": "dumpling wrapper", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "floor": 0.8 }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Toss the chopped cabbage with 2 tbsp salt, massage, and rest 20 minutes. Squeeze out the water.", "uses": ["i1", "i2"], "timerMinutes": 20 },
+        { "id": "s2", "text": "Saute the shiitake, carrot and the green onion whites in 2 tbsp sesame oil and the soy sauce for 2 to 3 minutes until the carrot softens.", "uses": ["i5", "i3", "i4", "i8", "i9"], "timerMinutes": 3 },
+        { "id": "s3", "text": "Soak the vermicelli in water 5 minutes, drain, and snip into short pieces.", "uses": ["i6"], "timerMinutes": 5 },
+        { "id": "s4", "text": "Combine the cabbage, sauteed vegetables, green onion greens, cilantro and vermicelli. Season with the oyster sauce, mushroom powder, 2.5 tbsp sesame oil and white pepper.", "uses": ["i1", "i4", "i7", "i6", "i10", "i11", "i8", "i12"] },
+        { "id": "s5", "text": "Put 1 tbsp filling in the centre of a wrapper, brush the edge with water, fold in half, press out the air and seal firmly. Repeat.", "uses": ["i13"], "makeAhead": { "maxDaysAhead": 90, "store": "freezer", "note": "freeze spaced on parchment about 2 hours, then bag; boil from frozen" } },
+        { "id": "s6", "text": "Boil in plenty of water until they float, then 2 minutes more. Or pan-fry as potstickers. Serve with chili oil, black vinegar and sesame seeds.", "uses": ["i13"], "timerMinutes": 2 }
+      ],
+      "reviewNotes": [
+        "Yield 50 dumplings; source says 5 servings (10 each). Servings set to 5.",
+        "Header says 25 min cook; the steps add up to about 10. Prep 60 min estimated for folding 50.",
+        "Salt for the cabbage is in the steps but missing from the source's ingredient list; added.",
+        "Sesame oil is listed twice in the source (2 + 2.5 tbsp); merged into one line.",
+        "Shiitake fresh or dried not stated; author used rehydrated dried in a comment.",
+        "Tagged component so soups can reference it; a frozen store-bought dumpling should satisfy the same line."
+      ]
+    }
+  ]
+}

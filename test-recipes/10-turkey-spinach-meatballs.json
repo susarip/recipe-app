@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from mynameisyeh.com, 2026-10-26, test recipe 10",
+  "recipes": [
+    {
+      "title": "Tahini Sauce",
+      "source": "Molly Yeh",
+      "sourceUrl": "https://mynameisyeh.com/blog/2019/4/turkey-spinach-meatballs-with-tahini-and-chimichurri",
+      "servings": 4,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "effort": "low",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": false,
+      "keepsDays": 5,
+      "tags": ["component", "sauce"],
+      "ingredients": [
+        { "id": "i1", "original": "1/4 cup tahini", "quantity": 0.25, "unit": "cup", "canonical": "tahini", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i2", "original": "juice of 1/2 lemon", "quantity": 0.5, "unit": "piece", "canonical": "lemon", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible", "prep": "juiced" },
+        { "id": "i3", "original": "3 tbsp water", "quantity": 3, "unit": "tbsp", "canonical": "water", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i4", "original": "kosher salt and black pepper, to taste", "quantity": null, "unit": "to_taste", "canonical": "salt", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Whisk the tahini, lemon juice and water until smooth and pourable. Thin with water or thicken with tahini as needed. Season.", "uses": ["i1", "i2", "i3", "i4"], "makeAhead": { "maxDaysAhead": 5, "store": "fridge", "note": "don't freeze; quick to make fresh" } }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "title": "Chimichurri",
+      "source": "Molly Yeh",
+      "sourceUrl": "https://mynameisyeh.com/blog/2019/4/turkey-spinach-meatballs-with-tahini-and-chimichurri",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "effort": "low",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": true,
+      "keepsDays": 5,
+      "tags": ["component", "sauce", "herb"],
+      "ingredients": [
+        { "id": "i1", "original": "1/2 bunch flat-leaf parsley, coarsely chopped", "quantity": 0.5, "unit": "bunch", "canonical": "parsley", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible", "prep": "coarsely chopped" },
+        { "id": "i2", "original": "1/2 bunch cilantro, coarsely chopped", "quantity": 0.5, "unit": "bunch", "canonical": "cilantro", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "parsley", "amountRule": "flexible", "prep": "coarsely chopped" },
+        { "id": "i3", "original": "1 garlic clove", "quantity": 1, "unit": "clove", "canonical": "garlic", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i4", "original": "juice of 1/2 lemon", "quantity": 0.5, "unit": "piece", "canonical": "lemon", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "red wine vinegar", "amountRule": "flexible", "prep": "juiced" },
+        { "id": "i5", "original": "1/2 cup (100 g) olive oil", "quantity": 100, "unit": "g", "canonical": "olive oil", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i6", "original": "kosher salt and black pepper, to taste", "quantity": null, "unit": "to_taste", "canonical": "salt", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Blend everything in a food processor until smooth and season to taste. Without a processor, finely chop the herbs and garlic and stir in the lemon juice, oil, salt and pepper.", "uses": ["i1", "i2", "i3", "i4", "i5", "i6"], "makeAhead": { "maxDaysAhead": 5, "store": "fridge", "note": "freezes well; thaw at room temperature" } }
+      ],
+      "reviewNotes": ["Candidate for a house recipe: other recipes that call for chimichurri could attach this one by default (see BACKLOG)."]
+    },
+    {
+      "title": "Turkey Spinach Meatballs with Tahini and Chimichurri",
+      "source": "Molly Yeh",
+      "sourceUrl": "https://mynameisyeh.com/blog/2019/4/turkey-spinach-meatballs-with-tahini-and-chimichurri",
+      "servings": 4,
+      "prepMinutes": 30,
+      "cookMinutes": 30,
+      "effort": "high",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": true,
+      "keepsDays": 4,
+      "tags": ["meatballs", "turkey", "dinner", "freezer", "batch"],
+      "ingredients": [
+        { "id": "i1", "original": "2 tbsp olive oil, plus more for browning", "quantity": 4, "unit": "tbsp", "canonical": "olive oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i2", "original": "1/2 yellow onion, finely chopped", "quantity": 0.5, "unit": "piece", "canonical": "yellow onion", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "prep": "finely chopped" },
+        { "id": "i3", "original": "kosher salt (about 1 tsp plus a pinch)", "quantity": 1, "unit": "tsp", "canonical": "kosher salt", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i4", "original": "2 garlic cloves, minced", "quantity": 2, "unit": "clove", "canonical": "garlic", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "prep": "minced" },
+        { "id": "i5", "original": "1 1/2 tsp fennel seeds", "quantity": 1.5, "unit": "tsp", "canonical": "fennel seed", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i6", "original": "8 oz fresh spinach, chopped", "quantity": 8, "unit": "oz", "canonical": "spinach", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "floor": 0.6, "prep": "chopped" },
+        { "id": "i7", "original": "1 large egg", "quantity": 1, "unit": "piece", "canonical": "egg", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "exact" },
+        { "id": "i8", "original": "1/2 cup (30 g) matzo meal, or panko breadcrumbs", "quantity": 30, "unit": "g", "canonical": "panko", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "swappable", "swap": "matzo meal", "amountRule": "flexible" },
+        { "id": "i9", "original": "black pepper", "quantity": null, "unit": "to_taste", "canonical": "black pepper", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i10", "original": "1/2 tsp onion powder", "quantity": 0.5, "unit": "tsp", "canonical": "onion powder", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i11", "original": "1/2 tsp cayenne", "quantity": 0.5, "unit": "tsp", "canonical": "cayenne", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i12", "original": "1/2 tsp dried thyme", "quantity": 0.5, "unit": "tsp", "canonical": "dried thyme", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i13", "original": "1/2 tsp dried oregano", "quantity": 0.5, "unit": "tsp", "canonical": "dried oregano", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i14", "original": "1/2 tsp sweet paprika", "quantity": 0.5, "unit": "tsp", "canonical": "paprika", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i15", "original": "1/2 bunch flat-leaf parsley, finely chopped", "quantity": 0.5, "unit": "bunch", "canonical": "parsley", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible", "prep": "finely chopped" },
+        { "id": "i16", "original": "1 lb ground turkey (93% lean)", "quantity": 1, "unit": "lb", "canonical": "ground turkey", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "ground chicken", "amountRule": "flexible", "floor": 0.75 },
+        { "id": "i17", "original": "tahini sauce, for serving", "quantity": 1, "unit": "piece", "canonical": "Tahini Sauce", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "swappable", "swap": "garlic yogurt sauce", "amountRule": "flexible", "recipeRef": "Tahini Sauce" },
+        { "id": "i18", "original": "chimichurri, for serving", "quantity": 1, "unit": "piece", "canonical": "Chimichurri", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "recipeRef": "Chimichurri" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Heat the oven to 220C (425F). In a large oven-safe skillet over medium heat, warm 2 tbsp olive oil and cook the onion with a pinch of salt until soft, 5 to 7 minutes.", "uses": ["i1", "i2", "i3"], "timerMinutes": 5 },
+        { "id": "s2", "text": "Add the garlic and fennel seeds for a minute, then the spinach in batches, stirring until wilted. Take off the heat and cool slightly.", "uses": ["i4", "i5", "i6"] },
+        { "id": "s3", "text": "In a large bowl combine the egg, breadcrumbs, 1 tsp salt, pepper, onion powder, cayenne, thyme, oregano, paprika, parsley, turkey and the cooled spinach. Mix by hand.", "uses": ["i7", "i8", "i3", "i9", "i10", "i11", "i12", "i13", "i14", "i15", "i16", "i6"], "makeAhead": { "maxDaysAhead": 1, "store": "fridge", "note": "mixture can rest overnight, covered" } },
+        { "id": "s4", "text": "Wipe out the skillet and add a thin layer of olive oil over medium-high heat. Shape golf-ball-sized meatballs and brown on all sides in 2 to 3 batches. Set aside on a plate.", "uses": ["i1", "i16"], "timerMinutes": 10 },
+        { "id": "s5", "text": "Return all the meatballs to the skillet and bake 7 to 10 minutes until cooked through (165F / 74C inside).", "uses": ["i16"], "timerMinutes": 7, "makeAhead": { "maxDaysAhead": 90, "store": "freezer", "note": "cool, bag, freeze up to 3 months; reheat covered at 175C about 15 to 20 minutes" } },
+        { "id": "s6", "text": "Spread a large spoonful of tahini sauce on each plate, top with meatballs and drizzle with chimichurri.", "uses": ["i17", "i18"] }
+      ],
+      "reviewNotes": [
+        "Yield 22 to 24 meatballs; no servings given, set to 4 (about 6 each). No times given; 30 + 30 estimated.",
+        "Salt appears in the method (1 tsp plus a pinch) but has no amount in the source's list.",
+        "Source says 160F internal; USDA says 165F for ground poultry, so the step uses 165F.",
+        "Tahini sauce and chimichurri split out as their own recipes (recipeRef). Author suggests a garlicky yogurt sauce as an alternative to the tahini."
+      ]
+    }
+  ]
+}

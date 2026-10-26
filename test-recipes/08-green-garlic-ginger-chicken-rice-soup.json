@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from wishbonekitchen.com, 2026-10-26, test recipe 8",
+  "recipes": [
+    {
+      "title": "Green Garlic Ginger Chicken and Rice Soup",
+      "source": "Wishbone Kitchen (Swamp Soup)",
+      "sourceUrl": "https://wishbonekitchen.com/green-garlic-ginger-chicken-and-rice-soup/",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "effort": "medium",
+      "bestFresh": false,
+      "keepsWell": true,
+      "freezesWell": true,
+      "keepsDays": 4,
+      "tags": ["soup", "chicken", "rice", "leftovers", "freezer"],
+      "ingredients": [
+        { "id": "i1", "original": "4 cups chicken stock, broth, or bone broth", "quantity": 4, "unit": "cup", "canonical": "chicken stock", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "stretchable", "stretchWith": "water" },
+        { "id": "i2", "original": "4 cups packed fresh baby spinach", "quantity": 4, "unit": "cup", "canonical": "spinach", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "floor": 0.5 },
+        { "id": "i3", "original": "1 heaping cup cooked short-grain rice", "quantity": 1, "unit": "cup", "canonical": "short-grain rice", "boughtAs": "cooked", "servedAs": "cooked", "swapMark": "swappable", "swap": "any cooked rice", "amountRule": "flexible" },
+        { "id": "i4", "original": "1 cup packed fresh flat-leaf parsley leaves, plus more for garnish", "quantity": 1, "unit": "cup", "canonical": "parsley", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "cilantro", "amountRule": "flexible" },
+        { "id": "i5", "original": "2 stalks green garlic or 2 scallions", "quantity": 2, "unit": "piece", "canonical": "green garlic", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "scallion", "amountRule": "flexible" },
+        { "id": "i6", "original": "2 to 3 medium jalapenos, plus sliced jalapenos for garnish", "quantity": 2, "unit": "piece", "canonical": "jalapeno", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i7", "original": "4 medium garlic cloves, peeled", "quantity": 4, "unit": "clove", "canonical": "garlic", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible", "prep": "peeled" },
+        { "id": "i8", "original": "1 (2-inch) piece fresh ginger, peeled and grated", "quantity": 1, "unit": "piece", "canonical": "ginger", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible", "prep": "peeled and grated" },
+        { "id": "i9", "original": "1 cup cooked, pulled chicken (leftover roast or rotisserie)", "quantity": 1, "unit": "cup", "canonical": "cooked chicken", "boughtAs": "cooked", "servedAs": "cooked", "swapMark": "swappable", "swap": "rotisserie chicken", "amountRule": "flexible" },
+        { "id": "i10", "original": "soy sauce, to taste", "quantity": null, "unit": "to_taste", "canonical": "soy sauce", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i11", "original": "2 lemons or limes, cut into wedges", "quantity": 2, "unit": "piece", "canonical": "lemon", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "lime", "amountRule": "flexible", "prep": "cut into wedges" },
+        { "id": "i12", "original": "kosher salt, to taste, plus 1 teaspoon for the puree", "quantity": 1, "unit": "tsp", "canonical": "kosher salt", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i13", "original": "1/4 cup water, for the puree", "quantity": 0.25, "unit": "cup", "canonical": "water", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "essential", "amountRule": "flexible" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Bring the stock to a boil. Add the spinach and cook about 1 minute until wilted. Lift it out with a slotted spoon into a blender and let it cool (never blend hot).", "uses": ["i1", "i2"], "timerMinutes": 1 },
+        { "id": "s2", "text": "Return the broth to a boil, add the rice, lower the heat and simmer uncovered 10 to 15 minutes until the broth thickens and the rice starts to break apart.", "uses": ["i1", "i3"], "timerMinutes": 10 },
+        { "id": "s3", "text": "Add the parsley, green garlic, whole jalapenos, garlic, ginger, 1 teaspoon salt and 1/4 cup water to the cooled spinach. Blend about 60 seconds until smooth, adding a splash of water if it sticks.", "uses": ["i2", "i4", "i5", "i6", "i7", "i8", "i12", "i13"], "makeAhead": { "maxDaysAhead": 2, "store": "fridge", "note": "green puree keeps covered in the fridge" } },
+        { "id": "s4", "text": "Stir the chicken into the broth with about half the puree. Add more puree to taste, then season with salt and soy sauce.", "uses": ["i9", "i10", "i12"] },
+        { "id": "s5", "text": "Ladle into bowls, top with parsley and jalapeno slices, and serve with a lemon or lime wedge.", "uses": ["i4", "i6", "i11"] }
+      ],
+      "reviewNotes": [
+        "Source lists no servings or times; 4 bowls, 15 min prep, 20 min cook estimated.",
+        "Ingredients say cooked rice but the method simmers it 10 to 15 minutes until it breaks apart, which reads like raw rice. Converted as cooked (the source's list); check on first cook.",
+        "Author freezes a double batch; source says fridge 4 days, freezer 6 months.",
+        "Good candidate for a leftover-chicken suggestion: cooked chicken and cooked rice in stock should surface this."
+      ]
+    }
+  ]
+}
