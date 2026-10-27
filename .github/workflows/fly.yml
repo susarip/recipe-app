@@ -30,6 +30,7 @@ jobs:
           echo "token length after cleanup: ${#TOKEN} (raw: ${#RAW_TOKEN}), starts with: ${TOKEN:0:4}"
           echo "::add-mask::$TOKEN"
           echo "FLY_API_TOKEN=$TOKEN" >> "$GITHUB_ENV"
+          export FLY_API_TOKEN="$TOKEN"
           OUT="$(flyctl status -a recipe-app-susarip 2>&1)" || { echo "$OUT" | tail -n 5 | sed 's/^/::error::fly status: /'; exit 1; }
           echo "token works: $(echo "$OUT" | head -n 3 | tr '\n' ' ')"
       - name: Deploy
