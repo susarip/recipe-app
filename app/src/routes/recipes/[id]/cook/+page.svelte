@@ -2,12 +2,12 @@
   import { onMount } from 'svelte';
   import { fmtLine, fmtMinutes } from '$lib/format';
   let { data } = $props();
-  const r = data.recipe;
-  const factor = data.servings / r.servings;
+  const r = $derived(data.recipe);
+  const factor = $derived(data.servings / r.servings);
 
   // Cook order: each sub-recipe's steps first (they're what the main steps use), then the main steps.
-  type CookStep = { key: string; heading: string; text: string; uses: string[]; timerMinutes?: number; lines: typeof r.ingredients };
-  const steps: CookStep[] = [
+  type CookStep = { key: string; heading: string; text: string; uses: string[]; timerMinutes?: number; lines: typeof data.recipe.ingredients };
+  const steps: CookStep[] = $derived([
     ...data.components.flatMap((c) => c.recipe!.steps.map((s, n) => ({
       key: `${c.title}-${s.id}`, heading: `${c.title} · step ${n + 1} of ${c.recipe!.steps.length}`, text: s.text, uses: s.uses, timerMinutes: s.timerMinutes,
       lines: c.recipe!.ingredients.filter((i) => s.uses.includes(i.id))
@@ -16,7 +16,7 @@
       key: s.id, heading: `${r.title} · step ${n + 1} of ${r.steps.length}`, text: s.text, uses: s.uses, timerMinutes: s.timerMinutes,
       lines: r.ingredients.filter((i) => s.uses.includes(i.id))
     }))
-  ];
+  ]);
 
   let n = $state(0);
   const step = $derived(steps[n]);
