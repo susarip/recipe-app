@@ -1,0 +1,25 @@
+# Fly.io config. Set ORIGIN to the public URL once the app name is known:
+#   fly secrets set ORIGIN=https://<app-name>.fly.dev
+app = "recipe-app"
+primary_region = "ewr"
+
+[build]
+
+[env]
+  PORT = "3000"
+  DATABASE_FILE = "/data/recipes.db"
+
+[[mounts]]
+  source = "recipes_data"
+  destination = "/data"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"

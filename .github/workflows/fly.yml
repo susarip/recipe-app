@@ -1,0 +1,25 @@
+name: Deploy to Fly.io
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'app/**'
+      - 'recipe-schema.ts'
+      - 'data/canonical-ingredients.csv'
+      - 'data/swap-groups.csv'
+      - 'Dockerfile'
+      - 'fly.toml'
+      - '.github/workflows/fly.yml'
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: ${{ vars.FLY_ENABLED == 'true' }}
+    concurrency:
+      group: fly
+    steps:
+      - uses: actions/checkout@v4
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
