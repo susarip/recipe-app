@@ -20,6 +20,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: superfly/flyctl-actions/setup-flyctl@master
-      - run: flyctl deploy --remote-only
+      - name: Check the Fly token
         env:
-          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+          RAW_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        run: |
+          # Strip stray line breaks, spaces and quotes that sneak in when a token is pasted.
+          TOKEN="$(printf '%s' "$RAW_TOKEN" | tr -d '\r\n\t "' | sed 's/^FlyV1 //')"
+          if [ -z "$TOKEN" ]; then echo "::error::FLY_API_TOKEN secret is empty or missing"; exit 1; fi
+          echo "token length after cleanup: ${#TOKEN} (raw: ${#RAW_TOKEN}), starts with: ${TOKEN:0:4}"
+          echo "::add-mask::$TOKEN"
+          echo "FLY_API_TOKEN=$TOKEN" >> "$GITHUB_ENV"
+          flyctl auth whoami || { echo "::error::Fly rejected the token. Create a new one in the Fly dashboard (Tokens > Create deploy token) and re-save the FLY_API_TOKEN secret."; exit 1; }
+      - run: flyctl deploy --remote-only
