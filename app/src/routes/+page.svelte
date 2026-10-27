@@ -7,17 +7,13 @@
 <h1>Library</h1>
 <form method="GET" class="search">
   <input type="search" name="q" value={data.q} placeholder="Search title, ingredient or tag" aria-label="Search" />
-  {#if data.tag}<input type="hidden" name="tag" value={data.tag} />{/if}
-  {#if data.components}<input type="hidden" name="all" value="1" />{/if}
+  <select name="tag" aria-label="Tag" onchange={(e) => (e.currentTarget.form as HTMLFormElement).requestSubmit()}>
+    <option value="">Any tag</option>
+    {#each data.tags as t}<option value={t.tag} selected={data.tag === t.tag}>{t.tag} ({t.n})</option>{/each}
+  </select>
+  <label class="components"><input type="checkbox" name="all" value="1" checked={data.components} onchange={(e) => (e.currentTarget.form as HTMLFormElement).requestSubmit()} /> include sub-recipes</label>
   <button type="submit">Search</button>
 </form>
-
-<p>
-  {#each data.tags.slice(0, 14) as t}
-    <a class="chip" class:on={data.tag === t.tag} href="/?q={encodeURIComponent(data.q)}&tag={data.tag === t.tag ? '' : encodeURIComponent(t.tag)}{data.components ? '&all=1' : ''}">{t.tag} <span class="muted">{t.n}</span></a>
-  {/each}
-  <a class="chip" class:on={data.components} href="/?q={encodeURIComponent(data.q)}&tag={encodeURIComponent(data.tag)}{data.components ? '' : '&all=1'}">show components</a>
-</p>
 
 {#if !data.recipes.length}
   <div class="card">
@@ -40,8 +36,12 @@
 {/each}
 
 <style>
-  .search { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; }
-  .search input { flex: 1; }
+  .search { display: grid; grid-template-columns: 1fr auto; gap: 0.5rem; margin-bottom: 0.75rem; align-items: center; }
+  .search input[type=search] { grid-column: 1; }
+  .search button { grid-column: 2; grid-row: 1; }
+  .search select { grid-column: 1; width: auto; max-width: 100%; }
+  .components { grid-column: 2; display: flex; gap: 0.4rem; align-items: center; font-size: 0.9rem; white-space: nowrap; }
+  .components input { width: auto; }
   .recipe { display: block; text-decoration: none; color: inherit; }
   .recipe strong { display: block; font-size: 1.05rem; }
   .recipe .muted { display: block; font-size: 0.9rem; margin: 0.15rem 0 0.4rem; }
