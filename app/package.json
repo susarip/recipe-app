@@ -15,7 +15,6 @@
     "@sveltejs/adapter-node": "^5.5.7",
     "@sveltejs/kit": "^2.20.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
-    "@types/better-sqlite3": "^9.6.0",
     "drizzle-kit": "^0.30.6",
     "svelte": "^5.20.0",
     "svelte-check": "^4.1.0",
@@ -23,9 +22,11 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
-    "better-sqlite3": "^11.10.0",
     "drizzle-orm": "^0.41.0",
     "ulid": "^2.4.0",
     "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=22.13"
   }
 }

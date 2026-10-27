@@ -1,5 +1,5 @@
 import { ulid } from 'ulid';
-import { db } from './db';
+import { db, transaction } from './db';
 import { resolveIngredient } from './seed';
 import type { Recipe } from '$schema';
 
@@ -12,7 +12,7 @@ export type RecipeRow = {
 export const titleKey = (t: string) => t.trim().toLowerCase().replace(/\s+/g, ' ');
 
 export function listRecipes(opts: { q?: string; tag?: string; components?: boolean } = {}) {
-  const params: unknown[] = [];
+  const params: string[] = [];
   let sql = 'SELECT r.* FROM recipe r';
   const where: string[] = [];
   if (opts.q) {
@@ -46,7 +46,7 @@ export function saveRecipe(r: Recipe): string {
   const existing = getRecipeByTitle(r.title);
   const id = existing?.id ?? ulid();
   const isComponent = r.tags.includes('component') ? 1 : 0;
-  db.transaction(() => {
+  transaction(() => {
     db.prepare(`INSERT OR REPLACE INTO recipe
       (id, title, title_key, source, source_url, servings, prep_minutes, cook_minutes, effort, best_fresh, keeps_well, freezes_well, keeps_days, is_component, tags, data, created_at, updated_at)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, strftime('%Y-%m-%dT%H:%M:%fZ','now'))`)
@@ -59,7 +59,7 @@ export function saveRecipe(r: Recipe): string {
     db.prepare('DELETE FROM recipe_fts WHERE id = ?').run(id);
     db.prepare('INSERT INTO recipe_fts (id, title, tags, ingredients) VALUES (?, ?, ?, ?)')
       .run(id, r.title, r.tags.join(' '), r.ingredients.map((i) => `${i.canonical} ${i.original}`).join(' '));
-  })();
+  });
   return id;
 }
 

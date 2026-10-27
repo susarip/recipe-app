@@ -1,6 +1,6 @@
-// SQLite via better-sqlite3. One file, created on first run. Tables are created idempotently here;
-// Drizzle migrations come when the schema stops moving (slice 1b).
-import Database from 'better-sqlite3';
+// SQLite via Node's built-in node:sqlite (Node 22.13+ / 24): nothing native to compile on any machine.
+// One file, created on first run. Tables are created idempotently here; migrations come when the schema stops moving.
+import { DatabaseSync } from 'node:sqlite';
 import { env } from '$env/dynamic/private';
 import path from 'node:path';
 import fs from 'node:fs';
@@ -8,9 +8,16 @@ import fs from 'node:fs';
 const file = env.DATABASE_FILE ?? path.resolve('data/recipes.db');
 fs.mkdirSync(path.dirname(file), { recursive: true });
 
-export const db = new Database(file);
-db.pragma('journal_mode = WAL');
-db.pragma('foreign_keys = ON');
+export const db = new DatabaseSync(file);
+db.exec('PRAGMA journal_mode = WAL');
+db.exec('PRAGMA foreign_keys = ON');
+
+/** Run fn inside a transaction; rolls back on throw. */
+export function transaction<T>(fn: () => T): T {
+  db.exec('BEGIN');
+  try { const r = fn(); db.exec('COMMIT'); return r; }
+  catch (e) { db.exec('ROLLBACK'); throw e; }
+}
 
 db.exec(`
 CREATE TABLE IF NOT EXISTS ingredient (

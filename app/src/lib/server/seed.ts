@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { env } from '$env/dynamic/private';
-import { db } from './db';
+import { db, transaction } from './db';
 import { parseCsv } from './csv';
 
 const dataDir = env.DATA_DIR ?? path.resolve('../data');
@@ -19,7 +19,7 @@ export function seedIngredients(force = false) {
     VALUES (@canonical, @aliases, @category, @store_section, @groups, @grams_per_piece, @pantry_days, @fridge_days, @fridge_after_opening_days, @freezer_days)`);
   const insAlias = db.prepare('INSERT OR REPLACE INTO ingredient_alias (alias, canonical) VALUES (?, ?)');
   const insGroup = db.prepare('INSERT OR REPLACE INTO ingredient_group (grp, canonical) VALUES (?, ?)');
-  db.transaction(() => {
+  transaction(() => {
     db.exec('DELETE FROM ingredient_alias; DELETE FROM ingredient_group;');
     for (const r of rows) {
       ins.run({
@@ -31,7 +31,7 @@ export function seedIngredients(force = false) {
       for (const a of r.aliases.split(';').map((s) => s.trim().toLowerCase()).filter(Boolean)) insAlias.run(a, r.canonical);
       for (const g of r.groups.split(';').map((s) => s.trim()).filter(Boolean)) insGroup.run(g, r.canonical);
     }
-  })();
+  });
   console.log(`seed: ${rows.length} ingredients loaded`);
   return rows.length;
 }
