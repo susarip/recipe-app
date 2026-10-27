@@ -30,5 +30,9 @@ jobs:
           echo "token length after cleanup: ${#TOKEN} (raw: ${#RAW_TOKEN}), starts with: ${TOKEN:0:4}"
           echo "::add-mask::$TOKEN"
           echo "FLY_API_TOKEN=$TOKEN" >> "$GITHUB_ENV"
-          flyctl auth whoami || { echo "::error::Fly rejected the token. Create a new one in the Fly dashboard (Tokens > Create deploy token) and re-save the FLY_API_TOKEN secret."; exit 1; }
-      - run: flyctl deploy --remote-only
+          OUT="$(flyctl status -a recipe-app-susarip 2>&1)" || { echo "$OUT" | tail -n 5 | sed 's/^/::error::fly status: /'; exit 1; }
+          echo "token works: $(echo "$OUT" | head -n 3 | tr '\n' ' ')"
+      - name: Deploy
+        run: |
+          set -o pipefail
+          flyctl deploy --remote-only 2>&1 | tee deploy.log || { tail -n 15 deploy.log | sed 's/^/::error::deploy: /'; exit 1; }
