@@ -41,7 +41,7 @@
   <form method="POST" action="?/preview" enctype="multipart/form-data" use:enhance>
     {#if form?.error}<pre class="warn">{form.error}</pre>{/if}
     <div class="card">
-      <label>JSON file<br /><input type="file" name="file" accept=".json,application/json" /></label>
+      <label>JSON files (you can select several)<br /><input type="file" name="file" accept=".json,application/json" multiple /></label>
       <p class="muted">or paste</p>
       <textarea name="text" rows="10" placeholder={'{ "schemaVersion": 1, "recipes": [ ... ] }'}>{form?.text ?? ''}</textarea>
     </div>

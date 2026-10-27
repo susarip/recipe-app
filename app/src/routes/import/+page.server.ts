@@ -1,5 +1,5 @@
 import { fail } from '@sveltejs/kit';
-import { ImportFile } from '$schema';
+import { ImportFile, type Recipe } from '$schema';
 import { saveRecipe, unknownIngredients, getRecipeByTitle } from '$lib/server/recipes';
 import type { Actions, PageServerLoad } from './$types';
 
@@ -21,18 +21,21 @@ function parse(text: string) {
 export const actions: Actions = {
   preview: async ({ request }) => {
     const form = await request.formData();
-    const upload = form.get('file');
-    const text = upload instanceof File && upload.size ? await upload.text() : String(form.get('text') ?? '');
-    if (!text.trim()) return fail(400, { error: 'Paste JSON or choose a file.' });
-    const p = parse(text);
-    if ('error' in p) return fail(400, { error: p.error, text });
+    const uploads = form.getAll('file').filter((f): f is File => f instanceof File && f.size > 0);
+    const texts = uploads.length ? await Promise.all(uploads.map((f) => f.text())) : [String(form.get('text') ?? '')];
+    if (!texts.some((t) => t.trim())) return fail(400, { error: 'Paste JSON or choose one or more files.' });
+    // Several files become one import; each must validate on its own.
+    const parsed = texts.map((t, n) => ({ name: uploads[n]?.name ?? 'pasted text', ...parse(t) }));
+    const errors = parsed.filter((x) => 'error' in x).map((x) => `${x.name}:\n${(x as { error: string }).error}`);
+    if (errors.length) return fail(400, { error: errors.join('\n\n'), text: uploads.length ? '' : texts[0] });
+    const file = { schemaVersion: 1 as const, recipes: parsed.flatMap((x) => (x as { file: { recipes: Recipe[] } }).file.recipes) };
     return {
-      text: JSON.stringify(p.file),
-      preview: p.file.recipes.map((r) => ({
+      text: JSON.stringify(file),
+      preview: file.recipes.map((r) => ({
         title: r.title, servings: r.servings, lines: r.ingredients.length, steps: r.steps.length,
         tags: r.tags, reviewNotes: r.reviewNotes, unknown: unknownIngredients(r),
         replaces: !!getRecipeByTitle(r.title),
-        missingRefs: r.ingredients.filter((i) => i.recipeRef && !p.file.recipes.some((x) => x.title === i.recipeRef) && !getRecipeByTitle(i.recipeRef!)).map((i) => i.recipeRef!)
+        missingRefs: r.ingredients.filter((i) => i.recipeRef && !file.recipes.some((x) => x.title === i.recipeRef) && !getRecipeByTitle(i.recipeRef!)).map((i) => i.recipeRef!)
       }))
     };
   },
