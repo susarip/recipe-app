@@ -1,0 +1,14 @@
+{
+  "name": "recipe-app-tools",
+  "private": true,
+  "type": "module",
+  "description": "Repo-level tooling: the recipe import schema and the validator for test-recipes/. The app lives in app/.",
+  "scripts": {
+    "check-recipes": "tsx tools/check-recipes.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.0",
+    "zod": "^3.23.8"
+  }
+}

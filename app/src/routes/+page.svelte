@@ -1,133 +1,48 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import { VAPID_PUBLIC_KEY } from '$lib/vapid-public';
-
-  let standalone = $state(false);
-  let ua = $state('');
-  let online = $state(true);
-  let swReady = $state(false);
-  let wake: WakeLockSentinel | null = $state(null);
-  let wakeMsg = $state('');
-  let notifPerm = $state('');
-  let pushJson = $state('');
-  let pushMsg = $state('');
-  let results = $state<Record<string, boolean | null>>({ icon: null, wake: null, push: null, offline: null, share: null });
-
-  onMount(async () => {
-    ua = navigator.userAgent;
-    standalone = matchMedia('(display-mode: standalone)').matches;
-    results.icon = standalone ? true : null;
-    online = navigator.onLine;
-    addEventListener('online', () => (online = true));
-    addEventListener('offline', () => (online = false));
-    notifPerm = 'Notification' in window ? Notification.permission : 'unsupported';
-    const reg = await navigator.serviceWorker?.ready;
-    swReady = !!reg;
-    results.offline = !!reg && (await caches.keys()).length > 0 ? true : null;
-    const sub = await reg?.pushManager.getSubscription();
-    if (sub) pushJson = JSON.stringify(sub.toJSON());
-    try { results = { ...results, ...JSON.parse(localStorage.getItem('phone-test') ?? '{}') }; } catch {}
-  });
-
-  function save(k: string, v: boolean) {
-    results[k] = v;
-    try { localStorage.setItem('phone-test', JSON.stringify(results)); } catch {}
-  }
-
-  async function toggleWake() {
-    try {
-      if (wake) { await wake.release(); wake = null; wakeMsg = 'released'; return; }
-      if (!navigator.wakeLock) { wakeMsg = 'wakeLock not supported'; save('wake', false); return; }
-      wake = await navigator.wakeLock.request('screen');
-      wake.addEventListener('release', () => { wake = null; wakeMsg = 'released (tab hidden?)'; });
-      wakeMsg = 'screen will stay on while this page is visible';
-      save('wake', true);
-    } catch (e) { wakeMsg = String(e); save('wake', false); }
-  }
-
-  async function localNotification() {
-    const perm = await Notification.requestPermission();
-    notifPerm = perm;
-    if (perm !== 'granted') return;
-    const reg = await navigator.serviceWorker.ready;
-    await reg.showNotification('Recipe app', { body: 'Local notification works.', icon: 'icons/icon-192.png' });
-  }
-
-  function b64ToU8(s: string) {
-    const pad = '='.repeat((4 - (s.length % 4)) % 4);
-    const raw = atob((s + pad).replace(/-/g, '+').replace(/_/g, '/'));
-    return Uint8Array.from(raw, (c) => c.charCodeAt(0));
-  }
-
-  async function subscribePush() {
-    try {
-      const perm = await Notification.requestPermission();
-      notifPerm = perm;
-      if (perm !== 'granted') { pushMsg = 'permission ' + perm; return; }
-      const reg = await navigator.serviceWorker.ready;
-      const sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64ToU8(VAPID_PUBLIC_KEY) });
-      pushJson = JSON.stringify(sub.toJSON());
-      pushMsg = 'subscribed; copy the block below and send it to me, then I send a test push';
-    } catch (e) { pushMsg = String(e); save('push', false); }
-  }
-
-  async function copyPush() { await navigator.clipboard.writeText(pushJson); pushMsg = 'copied'; }
+  import { fmtMinutes } from '$lib/format';
+  let { data } = $props();
+  const effortLabel: Record<string, string> = { low: 'low effort', medium: 'medium effort', high: 'high effort' };
 </script>
 
-<h1>Phone test (viability test 7)</h1>
-<p>Four checks. Tap each, then mark it. Results stay on this phone.</p>
+<h1>Library</h1>
+<form method="GET" class="search">
+  <input type="search" name="q" value={data.q} placeholder="Search title, ingredient or tag" aria-label="Search" />
+  {#if data.tag}<input type="hidden" name="tag" value={data.tag} />{/if}
+  {#if data.components}<input type="hidden" name="all" value="1" />{/if}
+  <button type="submit">Search</button>
+</form>
 
-<div class="card">
-  <h2>1. Home-screen icon</h2>
-  {#if standalone}
-    <p class="ok">Running as an installed app.</p>
-  {:else}
-    <p>Open Chrome's menu and choose <b>Add to Home screen</b> (or <b>Install app</b>), then open it from the icon.</p>
-  {/if}
-</div>
+<p>
+  {#each data.tags.slice(0, 14) as t}
+    <a class="chip" class:on={data.tag === t.tag} href="/?q={encodeURIComponent(data.q)}&tag={data.tag === t.tag ? '' : encodeURIComponent(t.tag)}{data.components ? '&all=1' : ''}">{t.tag} <span class="muted">{t.n}</span></a>
+  {/each}
+  <a class="chip" class:on={data.components} href="/?q={encodeURIComponent(data.q)}&tag={encodeURIComponent(data.tag)}{data.components ? '' : '&all=1'}">show components</a>
+</p>
 
-<div class="card">
-  <h2>2. Screen stays on</h2>
-  <button onclick={toggleWake}>{wake ? 'Release wake lock' : 'Keep screen on'}</button>
-  <p>{wakeMsg}</p>
-  <p>With the lock on, leave the phone alone past its usual sleep time. Did it stay on?
-    <button onclick={() => save('wake', true)}>Yes</button> <button onclick={() => save('wake', false)}>No</button></p>
-</div>
+{#if !data.recipes.length}
+  <div class="card">
+    <p>No recipes {data.q || data.tag ? 'match' : 'yet'}.</p>
+    {#if !data.q && !data.tag}<p><a class="btn" href="/import">Import a JSON file</a></p>{/if}
+  </div>
+{/if}
 
-<div class="card">
-  <h2>3. Notifications</h2>
-  <p>Permission: {notifPerm}</p>
-  <button onclick={localNotification}>Local notification</button>
-  <button onclick={subscribePush}>Subscribe to push</button>
-  <p>{pushMsg}</p>
-  {#if pushJson}
-    <button onclick={copyPush}>Copy subscription</button>
-    <p><code>{pushJson}</code></p>
-  {/if}
-  <p>Did the test push arrive with the app closed?
-    <button onclick={() => save('push', true)}>Yes</button> <button onclick={() => save('push', false)}>No</button></p>
-</div>
+{#each data.recipes as r}
+  <a class="card recipe" href="/recipes/{r.id}">
+    <strong>{r.title}</strong>
+    <span class="muted">
+      {r.servings} {r.servings === 1 ? 'serving' : 'servings'}
+      {#if r.minutes} · {fmtMinutes(r.minutes)}{/if}
+      · {effortLabel[r.effort]}
+      {#if r.isComponent} · component{/if}
+    </span>
+    {#if r.tags.length}<span class="tags">{#each r.tags.filter((t) => t !== 'component') as t}<span class="chip">{t}</span>{/each}</span>{/if}
+  </a>
+{/each}
 
-<div class="card">
-  <h2>4. Offline</h2>
-  <p>Service worker: {swReady ? 'ready' : 'not yet'}. Network: {online ? 'online' : 'offline'}.</p>
-  <p>Turn on airplane mode, close the app, reopen it from the icon. Did this page load?
-    <button onclick={() => save('offline', true)}>Yes</button> <button onclick={() => save('offline', false)}>No</button></p>
-</div>
-
-<div class="card">
-  <h2>5. Share sheet</h2>
-  <p>Open TikTok or Instagram, tap <b>Share</b> on a recipe post, and look for <b>Recipes</b> in the list. Pick it; the link should open here.</p>
-  <p>Did the app appear, and did the link come through?
-    <button onclick={() => save('share', true)}>Yes</button> <button onclick={() => save('share', false)}>No</button></p>
-</div>
-
-<div class="card">
-  <h2>Results</h2>
-  <ul>
-    {#each Object.entries(results) as [k, v]}
-      <li>{k}: {#if v === true}<span class="ok">pass</span>{:else if v === false}<span class="bad">fail</span>{:else}not yet{/if}</li>
-    {/each}
-  </ul>
-  <p>Phone: <code>{ua}</code></p>
-</div>
+<style>
+  .search { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; }
+  .search input { flex: 1; }
+  .recipe { display: block; text-decoration: none; color: inherit; }
+  .recipe strong { display: block; font-size: 1.05rem; }
+  .recipe .muted { display: block; font-size: 0.9rem; margin: 0.15rem 0 0.4rem; }
+</style>
