@@ -10,7 +10,7 @@ primary_region = "ewr"
   DATABASE_FILE = "/data/recipes.db"
 
 [[mounts]]
-  source = "recipes_data"
+  source = "data"
   destination = "/data"
 
 [http_service]

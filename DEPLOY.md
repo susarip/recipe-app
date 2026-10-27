@@ -8,7 +8,7 @@ One-time, on your PC with [flyctl](https://fly.io/docs/flyctl/install/) installe
 
 ```
 fly launch --copy-config --no-deploy      # accept the app name it offers, or pick one
-fly volumes create recipes_data --size 1  # 1 GB is plenty
+fly volumes create data --size 1  # 1 GB is plenty (the volume on the live app is named "data")
 fly secrets set ORIGIN=https://<app-name>.fly.dev
 fly deploy
 ```
