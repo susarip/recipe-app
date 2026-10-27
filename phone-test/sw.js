@@ -1,5 +1,5 @@
 // Phone-test service worker: cache the app shell on install, serve it offline, show pushes.
-const CACHE = 'recipe-app-test-v2';
+const CACHE = 'recipe-app-test-v3';
 const SHELL = ['./', './index.html', './share.html', './style.css', './manifest.webmanifest', './icons/icon-192.png'];
 
 self.addEventListener('install', (e) => {
