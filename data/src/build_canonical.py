@@ -53,10 +53,10 @@ for n in canonicals:
 if errors:
     sys.exit("\n".join(errors))
 with open(root / "data/canonical-ingredients.csv", "w", newline="", encoding="utf-8") as out:
-    w = csv.DictWriter(out, fieldnames=list(rows[0].keys()))
+    w = csv.DictWriter(out, fieldnames=list(rows[0].keys()), lineterminator="\n")
     w.writeheader(); w.writerows(rows)
 with open(root / "data/swap-groups.csv", "w", newline="", encoding="utf-8") as out:
-    w = csv.writer(out); w.writerow(["group", "member"])
+    w = csv.writer(out, lineterminator="\n"); w.writerow(["group", "member"])
     for g in sorted(groups):
         for m in groups[g]:
             w.writerow([g, m])
