@@ -36,4 +36,4 @@ jobs:
       - name: Deploy
         run: |
           set -o pipefail
-          flyctl deploy --remote-only 2>&1 | tee deploy.log || { tail -n 15 deploy.log | sed 's/^/::error::deploy: /'; exit 1; }
+          flyctl deploy --remote-only 2>&1 | tee deploy.log || { tr '\r' '\n' < deploy.log | sed 's/\x1b\[[0-9;]*m//g' | grep -v '^#[0-9]' | grep -v '^[[:space:]]*$' | tail -n 30 | sed 's/^/::error::deploy: /'; exit 1; }
