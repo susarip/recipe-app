@@ -25,7 +25,7 @@ jobs:
           RAW_TOKEN: ${{ secrets.FLY_API_TOKEN }}
         run: |
           # Strip stray line breaks, spaces and quotes that sneak in when a token is pasted.
-          TOKEN="$(printf '%s' "$RAW_TOKEN" | tr -d '\r\n\t "' | sed 's/^FlyV1 //')"
+          TOKEN="$(printf '%s' "$RAW_TOKEN" | tr -d '\r\n\t "' | sed 's/^FlyV1//')"
           if [ -z "$TOKEN" ]; then echo "::error::FLY_API_TOKEN secret is empty or missing"; exit 1; fi
           echo "token length after cleanup: ${#TOKEN} (raw: ${#RAW_TOKEN}), starts with: ${TOKEN:0:4}"
           echo "::add-mask::$TOKEN"
