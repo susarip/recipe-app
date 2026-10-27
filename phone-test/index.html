@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2f6f4e">
+<title>Recipe app phone test</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Phone test (viability test 7)</h1>
+<p>Five checks. Tap each, then mark it. Results stay on this phone.</p>
+
+<div class="card"><h2>1. Home-screen icon</h2><p id="icon-msg">Open Chrome's menu and choose <b>Add to Home screen</b> (or <b>Install app</b>), then open it from the icon.</p></div>
+
+<div class="card"><h2>2. Screen stays on</h2>
+<button id="wake-btn">Keep screen on</button><p id="wake-msg"></p>
+<p>With the lock on, leave the phone alone past its usual sleep time. Did it stay on?
+<button data-mark="wake" data-v="1">Yes</button> <button data-mark="wake" data-v="0">No</button></p></div>
+
+<div class="card"><h2>3. Notifications</h2><p>Permission: <span id="perm"></span></p>
+<button id="local-btn">Local notification</button> <button id="push-btn">Subscribe to push</button>
+<p id="push-msg"></p><div id="push-box" hidden><button id="copy-btn">Copy subscription</button><p><code id="push-json"></code></p></div>
+<p>Did the test push arrive with the app closed?
+<button data-mark="push" data-v="1">Yes</button> <button data-mark="push" data-v="0">No</button></p></div>
+
+<div class="card"><h2>4. Offline</h2><p>Service worker: <span id="sw">not yet</span>. Network: <span id="net"></span>.</p>
+<p>Turn on airplane mode, close the app, reopen it from the icon. Did this page load?
+<button data-mark="offline" data-v="1">Yes</button> <button data-mark="offline" data-v="0">No</button></p></div>
+
+<div class="card"><h2>5. Share sheet</h2>
+<p>Open TikTok or Instagram, tap <b>Share</b> on a recipe post, and look for <b>Recipes</b> in the list. Pick it; the link should open here.</p>
+<p>Did the app appear, and did the link come through?
+<button data-mark="share" data-v="1">Yes</button> <button data-mark="share" data-v="0">No</button></p></div>
+
+<div class="card"><h2>Results</h2><ul id="results"></ul><p>Phone: <code id="ua"></code></p></div>
+</main>
+<script>
+const VAPID = 'BJpLNcxnNRAnmyNni51mIcN3zKn_mCNT0t2XUwB_mO6pQ0Kgxo5t1JLwKAha3V0KiB6DiQ0QnQvVT7ueT0e-GW0';
+const results = { icon: null, wake: null, push: null, offline: null, share: null };
+try { Object.assign(results, JSON.parse(localStorage.getItem('phone-test') || '{}')); } catch {}
+const $ = (id) => document.getElementById(id);
+function render() {
+  $('results').innerHTML = Object.entries(results).map(([k, v]) =>
+    `<li>${k}: ${v === true ? '<span class="ok">pass</span>' : v === false ? '<span class="bad">fail</span>' : 'not yet'}</li>`).join('');
+}
+function save(k, v) { results[k] = v; try { localStorage.setItem('phone-test', JSON.stringify(results)); } catch {} render(); }
+document.querySelectorAll('[data-mark]').forEach((b) => b.onclick = () => save(b.dataset.mark, b.dataset.v === '1'));
+$('ua').textContent = navigator.userAgent;
+if (matchMedia('(display-mode: standalone)').matches) { $('icon-msg').innerHTML = '<span class="ok">Running as an installed app.</span>'; save('icon', true); }
+const net = () => $('net').textContent = navigator.onLine ? 'online' : 'offline';
+net(); addEventListener('online', net); addEventListener('offline', net);
+$('perm').textContent = 'Notification' in window ? Notification.permission : 'unsupported';
+let wake = null;
+$('wake-btn').onclick = async () => {
+  try {
+    if (wake) { await wake.release(); wake = null; $('wake-msg').textContent = 'released'; $('wake-btn').textContent = 'Keep screen on'; return; }
+    if (!navigator.wakeLock) { $('wake-msg').textContent = 'wakeLock not supported'; save('wake', false); return; }
+    wake = await navigator.wakeLock.request('screen');
+    wake.addEventListener('release', () => { wake = null; $('wake-msg').textContent = 'released (tab hidden?)'; $('wake-btn').textContent = 'Keep screen on'; });
+    $('wake-msg').textContent = 'screen will stay on while this page is visible'; $('wake-btn').textContent = 'Release wake lock';
+  } catch (e) { $('wake-msg').textContent = String(e); save('wake', false); }
+};
+let reg;
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').then(async (r) => {
+  reg = await navigator.serviceWorker.ready; $('sw').textContent = 'ready';
+  const sub = await reg.pushManager.getSubscription(); if (sub) showSub(sub);
+});
+function showSub(sub) { $('push-json').textContent = JSON.stringify(sub.toJSON()); $('push-box').hidden = false; }
+$('local-btn').onclick = async () => {
+  const p = await Notification.requestPermission(); $('perm').textContent = p;
+  if (p === 'granted') reg.showNotification('Recipe app', { body: 'Local notification works.', icon: 'icons/icon-192.png' });
+};
+const b64 = (s) => Uint8Array.from(atob((s + '='.repeat((4 - s.length % 4) % 4)).replace(/-/g, '+').replace(/_/g, '/')), (c) => c.charCodeAt(0));
+$('push-btn').onclick = async () => {
+  try {
+    const p = await Notification.requestPermission(); $('perm').textContent = p;
+    if (p !== 'granted') { $('push-msg').textContent = 'permission ' + p; return; }
+    const sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64(VAPID) });
+    showSub(sub); $('push-msg').textContent = 'subscribed; copy the block below and send it to me, then I send a test push';
+  } catch (e) { $('push-msg').textContent = String(e); save('push', false); }
+};
+$('copy-btn').onclick = async () => { await navigator.clipboard.writeText($('push-json').textContent); $('push-msg').textContent = 'copied'; };
+render();
+</script>
+</body>
+</html>

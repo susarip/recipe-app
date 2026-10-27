@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#2f6f4e">
+<title>Shared to the recipe app</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+<h1>Shared to the recipe app</h1>
+<div class="card" id="out"></div>
+<p>In slice 1a this is where "Convert this recipe" starts. For now, mark check 5 on the <a href="./">test page</a>.</p>
+<script>
+const q = new URLSearchParams(location.search);
+const title = q.get('title') || '', text = q.get('text') || '', url = q.get('url') || '';
+const link = url || (text.match(/https?:\/\/\S+/) || [''])[0];
+document.getElementById('out').innerHTML =
+  (link ? `<p class="ok">Link received.</p><p><code>${link}</code></p>` : '<p class="bad">No link found in the share.</p>') +
+  (title ? `<p>Title: ${title}</p>` : '') + (text ? `<p>Text: <code>${text}</code></p>` : '');
+</script>
+</main></body>
+</html>
