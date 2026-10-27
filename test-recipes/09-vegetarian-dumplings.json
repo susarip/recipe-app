@@ -14,7 +14,7 @@
       "keepsWell": true,
       "freezesWell": true,
       "keepsDays": 2,
-      "tags": ["component", "dumplings", "vegetarian", "freezer", "batch"],
+      "tags": ["dumplings", "vegetarian", "freezer", "batch"],
       "ingredients": [
         { "id": "i1", "original": "0.5 large cabbage, chopped", "quantity": 0.5, "unit": "piece", "canonical": "cabbage", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "napa cabbage", "amountRule": "flexible", "prep": "chopped" },
         { "id": "i2", "original": "2 tbsp salt, for the cabbage (squeezed out)", "quantity": 2, "unit": "tbsp", "canonical": "salt", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
@@ -44,7 +44,7 @@
         "Salt for the cabbage is in the steps but missing from the source's ingredient list; added.",
         "Sesame oil is listed twice in the source (2 + 2.5 tbsp); merged into one line.",
         "Shiitake fresh or dried not stated; author used rehydrated dried in a comment.",
-        "Tagged component so soups can reference it; a frozen store-bought dumpling should satisfy the same line."
+        "Not a component: dumplings are a meal on their own, and soups can still reference them by title; a frozen store-bought dumpling satisfies the same line."
       ]
     }
   ]

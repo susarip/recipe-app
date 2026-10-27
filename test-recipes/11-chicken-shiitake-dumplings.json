@@ -37,7 +37,7 @@
       "keepsWell": true,
       "freezesWell": true,
       "keepsDays": 2,
-      "tags": ["component", "dumplings", "chicken", "freezer", "batch"],
+      "tags": ["dumplings", "chicken", "freezer", "batch"],
       "ingredients": [
         { "id": "i1", "original": "48 homemade dumpling wrappers (or store-bought)", "quantity": 48, "unit": "piece", "canonical": "Homemade Dumpling Wrappers", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "dumpling wrapper", "amountRule": "flexible", "floor": 0.8, "recipeRef": "Homemade Dumpling Wrappers" },
         { "id": "i2", "original": "1 small onion, finely chopped", "quantity": 1, "unit": "piece", "canonical": "onion", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "prep": "finely chopped" },
@@ -65,7 +65,7 @@
         "Filling per dumpling: article says 1 heaping tbsp, card says 2 tbsp. Used 1 heaping.",
         "Pan-frying oil was in the steps but not the list; merged into the oil line.",
         "No freezer shelf life given; 3 months per the FoodKeeper default for frozen dumplings.",
-        "Tagged component so a dumpling soup can reference it; store-bought frozen dumplings satisfy the same line."
+        "Not a component: a meal on its own that a dumpling soup can still reference by title; store-bought frozen dumplings satisfy the same line."
       ]
     }
   ]
