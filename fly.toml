@@ -1,6 +1,6 @@
 # Fly.io config. Set ORIGIN to the public URL once the app name is known:
 #   fly secrets set ORIGIN=https://<app-name>.fly.dev
-app = "recipe-app"
+app = "recipe-app-susarip"
 primary_region = "ewr"
 
 [build]
