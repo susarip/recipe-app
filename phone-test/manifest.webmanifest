@@ -1,6 +1,6 @@
 {
-  "name": "Recipe app",
-  "short_name": "Recipes",
+  "name": "Recipe app (phone test)",
+  "short_name": "Recipes test",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
