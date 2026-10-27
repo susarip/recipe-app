@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from a TikTok caption (@cookingwzainab), 2026-10-26, test recipe 16",
+  "recipes": [
+    {
+      "title": "Thai Red Curry Dumpling Soup",
+      "source": "TikTok @cookingwzainab (caption)",
+      "sourceUrl": "https://www.tiktok.com/@cookingwzainab/video/7393414936019488033",
+      "servings": 1,
+      "prepMinutes": 5,
+      "cookMinutes": 12,
+      "effort": "low",
+      "bestFresh": true,
+      "keepsWell": false,
+      "freezesWell": false,
+      "keepsDays": 1,
+      "tags": ["soup", "dumplings", "thai", "quick", "from stock", "dinner"],
+      "ingredients": [
+        { "id": "i1", "original": "2 tbsp vegetable oil", "quantity": 2, "unit": "tbsp", "canonical": "vegetable oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i2", "original": "1 tbsp Thai red curry paste", "quantity": 1, "unit": "tbsp", "canonical": "curry paste", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "prep": "thai red" },
+        { "id": "i3", "original": "1.5 cups of water", "quantity": 1.5, "unit": "cup", "canonical": "water", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "chicken stock", "amountRule": "flexible" },
+        { "id": "i4", "original": "0.5 cup of coconut milk", "quantity": 0.5, "unit": "cup", "canonical": "coconut milk", "boughtAs": "canned", "servedAs": "cooked", "swapMark": "essential", "amountRule": "stretchable", "stretchWith": "water" },
+        { "id": "i5", "original": "1 pak choi, cut in half", "quantity": 1, "unit": "piece", "canonical": "bok choy", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "spinach", "amountRule": "flexible", "prep": "halved" },
+        { "id": "i6", "original": "10-12 frozen dumplings", "quantity": 10, "unit": "piece", "canonical": "Vegetarian Dumplings", "boughtAs": "frozen", "servedAs": "cooked", "swapMark": "swappable", "swap": "frozen dumplings", "swapGroup": "dumplings", "amountRule": "flexible", "floor": 0.6, "recipeRef": "Vegetarian Dumplings" },
+        { "id": "i7", "original": "chilli oil, to top", "quantity": null, "unit": "to_taste", "canonical": "chili crisp", "boughtAs": "unspecified", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i8", "original": "coriander, to top", "quantity": null, "unit": "handful", "canonical": "cilantro", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i9", "original": "spring onions, to top", "quantity": 1, "unit": "piece", "canonical": "scallion", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "sliced" },
+        { "id": "i10", "original": "lime juice, to top", "quantity": 0.5, "unit": "piece", "canonical": "lime", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "juiced" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Heat the oil in a small pot and fry the curry paste 1 minute until fragrant.", "uses": ["i1", "i2"], "timerMinutes": 1 },
+        { "id": "s2", "text": "Add the water and coconut milk and bring to a simmer.", "uses": ["i3", "i4"] },
+        { "id": "s3", "text": "Add the frozen dumplings and the pak choi. Simmer 6 to 8 minutes until the dumplings are cooked through.", "uses": ["i6", "i5"], "timerMinutes": 7 },
+        { "id": "s4", "text": "Top with chilli oil, coriander, spring onion and lime.", "uses": ["i7", "i8", "i9", "i10"] }
+      ],
+      "reviewNotes": [
+        "Caption gives ingredients and no steps; the method is the obvious one for a curry broth and was inferred.",
+        "This is the dumpling combo case: the dumpling line points at the homemade Vegetarian Dumplings but any bag in the 'dumplings' group (frozen store-bought) satisfies it, so with frozen dumplings in stock this is an easy meal.",
+        "Single serving as written; scales linearly."
+      ]
+    }
+  ]
+}

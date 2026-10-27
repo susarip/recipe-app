@@ -42,7 +42,8 @@ brussels sprout | brussels sprouts | produce | produce | 276 | 15 | brassica
 cabbage | green cabbage | produce | produce | 278 | 900 | cabbage; brassica
 napa cabbage | chinese cabbage; wombok | produce | produce | 278 | 1000 | cabbage; brassica
 red cabbage | purple cabbage | produce | produce | 278 | 900 | cabbage; brassica
-bok choy | pak choi | produce | produce | 278 | 150 | brassica; leafy green
+bok choy | pak choi; pak choy; baby bok choy | produce | produce | 278 | 150 | brassica; leafy green
+chinese broccoli | gai lan; kai lan | produce | international | 276 | 100 | brassica; leafy green
 kale | tuscan kale; lacinato kale; curly kale | produce | produce | 291 | 200 | leafy green
 spinach | baby spinach; fresh spinach | produce | produce | 415 | 30 | leafy green
 arugula | rocket; baby arugula | produce | produce | 415 | 20 | salad green; leafy green
@@ -305,6 +306,7 @@ fresh pasta | | pasta | fridge | 332 | | pasta
 egg noodles | | pasta | pantry | 336 | | noodle
 ramen noodles | instant ramen; dried ramen | pasta | international | 335 | 85 | noodle
 rice noodles | pad thai noodles; rice sticks; rice vermicelli | pasta | international | 335 | | noodle
+fresh rice noodles | wide rice noodles; ho fun; chow fun noodles | pasta | international | 332 | | noodle
 mung bean vermicelli | glass noodles; bean thread noodles; cellophane noodles; vermicelli noodles | pasta | international | 335 | | noodle
 soba | soba noodles; buckwheat noodles | pasta | international | 335 | | noodle
 udon | udon noodles | pasta | international | 335 | | noodle
@@ -349,6 +351,7 @@ brown sugar | light brown sugar; dark brown sugar | sweetener | baking | 239 | |
 powdered sugar | confectioners sugar; icing sugar | sweetener | baking | 241 | | sugar
 coconut sugar | | sweetener | baking | 239 | | sugar
 jaggery | gur | sweetener | international | 239 | | sugar
+palm sugar | coconut palm sugar | sweetener | international | 239 | | sugar
 honey | | sweetener | pantry | 345 | | liquid sweetener
 maple syrup | pure maple syrup | sweetener | pantry | 398 | | liquid sweetener
 agave | agave nectar; agave syrup | sweetener | pantry | 398 | | liquid sweetener

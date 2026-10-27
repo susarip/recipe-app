@@ -39,7 +39,8 @@ brussels sprout,brussels sprouts,produce,produce,brassica,15,,5,,360,276,Broccol
 cabbage,green cabbage,produce,produce,cabbage; brassica,900,,14,,360,278,Cabbage
 napa cabbage,chinese cabbage; wombok,produce,produce,cabbage; brassica,1000,,14,,360,278,Cabbage
 red cabbage,purple cabbage,produce,produce,cabbage; brassica,900,,14,,360,278,Cabbage
-bok choy,pak choi,produce,produce,brassica; leafy green,150,,14,,360,278,Cabbage
+bok choy,pak choi; pak choy; baby bok choy,produce,produce,brassica; leafy green,150,,14,,360,278,Cabbage
+chinese broccoli,gai lan; kai lan,produce,international,brassica; leafy green,100,,5,,360,276,Broccoli and broccoli raab (rapini)
 kale,tuscan kale; lacinato kale; curly kale,produce,produce,leafy green,200,,7,,,291,"Lettuce - leaf, spinach"
 spinach,baby spinach; fresh spinach,produce,produce,leafy green,30,,5,2,,415,"Bagged greens - leaf, spinach, lettuce, etc."
 arugula,rocket; baby arugula,produce,produce,salad green; leafy green,20,,5,2,,415,"Bagged greens - leaf, spinach, lettuce, etc."
@@ -284,6 +285,7 @@ fresh pasta,,pasta,fridge,pasta,,,2,,60,332,Fresh pasta
 egg noodles,,pasta,pantry,noodle,,730,,,,336,Dry egg noodles
 ramen noodles,instant ramen; dried ramen,pasta,international,noodle,85,730,,,,335,"Pasta - dry, without eggs"
 rice noodles,pad thai noodles; rice sticks; rice vermicelli,pasta,international,noodle,,730,,,,335,"Pasta - dry, without eggs"
+fresh rice noodles,wide rice noodles; ho fun; chow fun noodles,pasta,international,noodle,,,2,,60,332,Fresh pasta
 mung bean vermicelli,glass noodles; bean thread noodles; cellophane noodles; vermicelli noodles,pasta,international,noodle,,730,,,,335,"Pasta - dry, without eggs"
 soba,soba noodles; buckwheat noodles,pasta,international,noodle,,730,,,,335,"Pasta - dry, without eggs"
 udon,udon noodles,pasta,international,noodle,,730,,,,335,"Pasta - dry, without eggs"
@@ -324,6 +326,7 @@ brown sugar,light brown sugar; dark brown sugar,sweetener,baking,sugar,,,,,,239,
 powdered sugar,confectioners sugar; icing sugar,sweetener,baking,sugar,,,,,,241,Sugar - confectioners
 coconut sugar,,sweetener,baking,sugar,,,,,,239,Sugar - brown
 jaggery,gur,sweetener,international,sugar,,,,,,239,Sugar - brown
+palm sugar,coconut palm sugar,sweetener,international,sugar,,,,,,239,Sugar - brown
 honey,,sweetener,pantry,liquid sweetener,,730,,,,345,Honey
 maple syrup,pure maple syrup,sweetener,pantry,liquid sweetener,,365,,180,,398,Syrup
 agave,agave nectar; agave syrup,sweetener,pantry,liquid sweetener,,365,,180,,398,Syrup

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from a TikTok caption (@crystellepereira), 2026-10-26, test recipe 15",
+  "recipes": [
+    {
+      "title": "Spicy Garlic Butter Spaghetti",
+      "source": "TikTok @crystellepereira (caption; steps only in the video)",
+      "sourceUrl": "https://www.tiktok.com/@crystellepereira/video/7077250769900064005",
+      "servings": 3,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "effort": "medium",
+      "bestFresh": true,
+      "keepsWell": true,
+      "freezesWell": false,
+      "keepsDays": 2,
+      "tags": ["pasta", "vegetarian", "spicy", "dinner"],
+      "ingredients": [
+        { "id": "i1", "original": "2 whole bulbs of garlic", "quantity": 2, "unit": "piece", "canonical": "garlic", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "floor": 0.5, "prep": "whole heads, for roasting" },
+        { "id": "i2", "original": "4 tbsp olive oil", "quantity": 4, "unit": "tbsp", "canonical": "olive oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i3", "original": "50g parmesan cheese", "quantity": 50, "unit": "g", "canonical": "parmesan", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "pecorino", "amountRule": "flexible", "prep": "grated" },
+        { "id": "i4", "original": "1 cup of breadcrumbs (equivalent of 2 slices of bread)", "quantity": 1, "unit": "cup", "canonical": "breadcrumbs", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "swappable", "swap": "panko", "swapGroup": "breadcrumb", "amountRule": "flexible" },
+        { "id": "i5", "original": "100g softened butter", "quantity": 100, "unit": "g", "canonical": "butter", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "floor": 0.75, "prep": "softened" },
+        { "id": "i6", "original": "handful of basil, finely chopped", "quantity": 1, "unit": "handful", "canonical": "basil", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "parsley", "amountRule": "flexible", "prep": "finely chopped" },
+        { "id": "i7", "original": "salt and pepper to taste", "quantity": null, "unit": "to_taste", "canonical": "salt", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i8", "original": "1 tsp chilli flakes", "quantity": 1, "unit": "tsp", "canonical": "red pepper flakes", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i9", "original": "1 heaped tbsp gochujang", "quantity": 1, "unit": "tbsp", "canonical": "gochujang", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "harissa", "amountRule": "flexible" },
+        { "id": "i10", "original": "300g spaghetti", "quantity": 300, "unit": "g", "canonical": "pasta", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "floor": 0.75, "prep": "spaghetti" },
+        { "id": "i11", "original": "juice of half a lime", "quantity": 0.5, "unit": "piece", "canonical": "lime", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "swappable", "swap": "lemon", "amountRule": "flexible", "prep": "juiced" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Roast the garlic: cut the tops off both heads, drizzle with 2 tbsp olive oil, wrap in foil and roast at 200C (400F) about 30 minutes until soft. Squeeze out the cloves.", "uses": ["i1", "i2"], "timerMinutes": 30, "makeAhead": { "maxDaysAhead": 3, "store": "fridge" } },
+        { "id": "s2", "text": "Toast the breadcrumbs in 2 tbsp olive oil with a pinch of salt until golden. Cool, then mix with half the parmesan.", "uses": ["i4", "i2", "i7", "i3"], "timerMinutes": 5, "makeAhead": { "maxDaysAhead": 3, "store": "pantry", "note": "airtight" } },
+        { "id": "s3", "text": "Mash the roasted garlic into the softened butter with the basil, chilli flakes, gochujang, salt and pepper.", "uses": ["i1", "i5", "i6", "i8", "i9", "i7"], "makeAhead": { "maxDaysAhead": 5, "store": "fridge", "note": "the garlic butter keeps; also freezes" } },
+        { "id": "s4", "text": "Cook the spaghetti in salted water until just shy of done. Keep a cup of pasta water.", "uses": ["i10", "i7"], "timerMinutes": 9 },
+        { "id": "s5", "text": "Toss the drained spaghetti with the garlic butter, the remaining parmesan and splashes of pasta water until glossy. Finish with lime juice.", "uses": ["i10", "i3", "i11"] },
+        { "id": "s6", "text": "Top with the parmesan breadcrumbs.", "uses": ["i4"] }
+      ],
+      "reviewNotes": [
+        "The caption lists ingredients only; the steps above are inferred from the ingredients (roasted garlic butter, toasted crumbs). Check against the video before trusting the method.",
+        "No servings or times; 300 g spaghetti is about 3 servings.",
+        "Breadcrumbs use swapGroup 'breadcrumb'."
+      ]
+    }
+  ]
+}

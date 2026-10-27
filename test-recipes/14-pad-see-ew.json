@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "convertedBy": "Claude from a TikTok caption (@derekkchen), 2026-10-26, test recipe 14",
+  "recipes": [
+    {
+      "title": "Pad See Ew",
+      "source": "TikTok @derekkchen (caption)",
+      "sourceUrl": "https://www.tiktok.com/@derekkchen/video/7383002445821087018",
+      "servings": 2,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "medium",
+      "bestFresh": true,
+      "keepsWell": false,
+      "freezesWell": false,
+      "keepsDays": 2,
+      "tags": ["thai", "noodles", "chicken", "stir fry", "quick", "dinner"],
+      "ingredients": [
+        { "id": "i1", "original": "0.5 lbs chicken thigh (sliced)", "quantity": 0.5, "unit": "lb", "canonical": "chicken thigh", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "tofu", "amountRule": "flexible", "prep": "bite-sized pieces" },
+        { "id": "i2", "original": "1 tsp light soy sauce (marinade) + 2 tbsp (sauce)", "quantity": 2.33, "unit": "tbsp", "canonical": "soy sauce", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i3", "original": "1 tsp oyster sauce (marinade) + 2 tbsp (sauce)", "quantity": 2.33, "unit": "tbsp", "canonical": "oyster sauce", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "vegetarian oyster sauce", "amountRule": "flexible" },
+        { "id": "i4", "original": "1 tsp cornstarch", "quantity": 1, "unit": "tsp", "canonical": "cornstarch", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i5", "original": "1 lbs fresh rice noodles", "quantity": 1, "unit": "lb", "canonical": "fresh rice noodles", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "rice noodles", "amountRule": "flexible", "floor": 0.75 },
+        { "id": "i6", "original": "4 cloves garlic (minced)", "quantity": 4, "unit": "clove", "canonical": "garlic", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "prep": "minced" },
+        { "id": "i7", "original": "2 to 3 Chinese broccoli (sliced)", "quantity": 2, "unit": "piece", "canonical": "chinese broccoli", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "swappable", "swap": "bok choy", "amountRule": "flexible", "prep": "stems and leaves separated, sliced" },
+        { "id": "i8", "original": "2 eggs", "quantity": 2, "unit": "piece", "canonical": "egg", "boughtAs": "fresh", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible", "floor": 0.5 },
+        { "id": "i9", "original": "neutral oil (about 6 tbsp across the steps)", "quantity": 6, "unit": "tbsp", "canonical": "vegetable oil", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "essential", "amountRule": "flexible" },
+        { "id": "i10", "original": "1.5 tbsp dark soy sauce", "quantity": 1.5, "unit": "tbsp", "canonical": "dark soy sauce", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "soy sauce", "amountRule": "flexible" },
+        { "id": "i11", "original": "2 tbsp palm sugar (or brown sugar)", "quantity": 2, "unit": "tbsp", "canonical": "palm sugar", "boughtAs": "unspecified", "servedAs": "cooked", "swapMark": "swappable", "swap": "brown sugar", "amountRule": "flexible" },
+        { "id": "i12", "original": "1/2 tsp white pepper", "quantity": 0.5, "unit": "tsp", "canonical": "white pepper", "boughtAs": "dried", "servedAs": "cooked", "swapMark": "optional", "amountRule": "flexible" },
+        { "id": "i13", "original": "sliced Thai chillies + vinegar, to serve", "quantity": null, "unit": "to_taste", "canonical": "thai chili", "boughtAs": "fresh", "servedAs": "raw", "swapMark": "optional", "amountRule": "flexible", "prep": "sliced, in vinegar" }
+      ],
+      "steps": [
+        { "id": "s1", "text": "Cut the chicken into bite-sized pieces and marinate with 1 tsp soy sauce, 1 tsp oyster sauce, the cornstarch and 1 tsp oil.", "uses": ["i1", "i2", "i3", "i4", "i9"], "makeAhead": { "maxDaysAhead": 1, "store": "fridge" } },
+        { "id": "s2", "text": "Mix the sauce: 2 tbsp soy sauce, 1.5 tbsp dark soy sauce, 2 tbsp oyster sauce, palm sugar and white pepper.", "uses": ["i2", "i10", "i3", "i11", "i12"], "makeAhead": { "maxDaysAhead": 3, "store": "fridge" } },
+        { "id": "s3", "text": "Mince the garlic. Separate the Chinese broccoli stems from the leaves and slice both.", "uses": ["i6", "i7"] },
+        { "id": "s4", "text": "Heat 2 tbsp oil in a wok until smoking and sear the chicken 4 to 5 minutes until about 80 percent cooked. Remove.", "uses": ["i9", "i1"], "timerMinutes": 4 },
+        { "id": "s5", "text": "Add 1 tbsp oil, stir-fry the garlic and broccoli stems 1 to 2 minutes, then the leaves until wilted.", "uses": ["i9", "i6", "i7"], "timerMinutes": 2 },
+        { "id": "s6", "text": "Push everything to the side, add 1 tbsp oil and fry the eggs, scrambling them. Set aside.", "uses": ["i9", "i8"] },
+        { "id": "s7", "text": "Add 2 tbsp oil, then the rice noodles and the sauce. Once coated, return the chicken, broccoli and egg and stir gently 1 to 2 minutes.", "uses": ["i9", "i5", "i1", "i7", "i8"], "timerMinutes": 2 },
+        { "id": "s8", "text": "Serve with sliced Thai chillies in vinegar.", "uses": ["i13"] }
+      ],
+      "reviewNotes": [
+        "Caption-only source; no servings or times. 2 servings from 1 lb noodles; 15 + 15 minutes estimated.",
+        "Soy and oyster sauce appear in both marinade and sauce; merged into one line each with the split noted in the original text.",
+        "Oil total (about 6 tbsp) summed from the steps.",
+        "Best eaten fresh; rice noodles stiffen in the fridge."
+      ]
+    }
+  ]
+}

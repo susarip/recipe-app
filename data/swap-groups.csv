@@ -45,6 +45,7 @@ brassica,cabbage
 brassica,napa cabbage
 brassica,red cabbage
 brassica,bok choy
+brassica,chinese broccoli
 breadcrumb,panko
 breadcrumb,breadcrumbs
 breadcrumb,matzo meal
@@ -174,6 +175,7 @@ hot sauce,hot sauce
 hot sauce,sambal oelek
 hot sauce,buffalo sauce
 leafy green,bok choy
+leafy green,chinese broccoli
 leafy green,kale
 leafy green,spinach
 leafy green,arugula
@@ -217,6 +219,7 @@ neutral oil,avocado oil
 noodle,egg noodles
 noodle,ramen noodles
 noodle,rice noodles
+noodle,fresh rice noodles
 noodle,mung bean vermicelli
 noodle,soba
 noodle,udon
@@ -319,6 +322,7 @@ sugar,brown sugar
 sugar,powdered sugar
 sugar,coconut sugar
 sugar,jaggery
+sugar,palm sugar
 tortilla,flour tortilla
 tortilla,whole-wheat tortilla
 tortilla,corn tortilla
